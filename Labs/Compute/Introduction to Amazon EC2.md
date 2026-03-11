@@ -1,6 +1,7 @@
 <b>Introduction to Amazon EC2</b>
 
 <img width="1114" height="904" alt="image" src="https://github.com/user-attachments/assets/5686f271-39b6-48f5-b63c-6556541f8ecc" />
+
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers, allowing organizations to deploy virtual machines within minutes and scale infrastructure according to demand. Through this lab I practiced the essential tasks required to operate and maintain cloud-based servers.
 
 ## Objectives
@@ -20,13 +21,14 @@ By completing this lab, I practiced how to:
 </ul>
 
 ## Lab Part 1
+
 Sample tasks & solutions:
 
 <img width="957" height="498" alt="image" src="https://github.com/user-attachments/assets/f2ba2bb0-e97a-4a7b-9d70-381c284b8df2" />
 
 <img width="957" height="499" alt="image" src="https://github.com/user-attachments/assets/11600ed4-fae9-402d-869e-01da5f9ad238" />
 
-## Lab Summary 1 – EC2 Instance Deployment
+## Lab Part 1 Summary – EC2 Instance Deployment
 
 Completed the deployment and initial configuration of a web server using **Amazon EC2**.
 
@@ -44,9 +46,11 @@ Completed the deployment and initial configuration of a web server using **Amazo
 
 ## Lab Part 2
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c7e7a46-d66e-4621-87d4-61166a666566" />
+
 <img width="956" height="503" alt="image" src="https://github.com/user-attachments/assets/b78c8b42-394d-4fcd-9004-16d4ba247bd8" />
 
-## Lab Summary – Monitoring and Web Server Access
+## Lab Part 2 Summary – Monitoring and Web Server Access
 
 Completed monitoring and network configuration tasks for the deployed EC2 instance.
 
@@ -59,4 +63,29 @@ Completed monitoring and network configuration tasks for the deployed EC2 instan
 <li>Updated the <b>security group inbound rules</b> to allow HTTP traffic (port 80)</li>
 <li>Successfully accessed the deployed web server through a browser</li>
 <li>Verified the web server response message: <b>"Hello From Your Web Server!"</b></li>
+</ul>
+
+## Lab Part 3
+
+<img width="957" height="503" alt="image" src="https://github.com/user-attachments/assets/b12b29e9-81cc-49ad-8c88-cf1e3fb2acba" />
+
+<img width="957" height="501" alt="image" src="https://github.com/user-attachments/assets/42e1e7da-1bf0-4759-860b-c259788d2d5e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4de563c-53cd-4a7d-93d3-ac206c6d5511" />
+
+<img width="954" height="502" alt="image" src="https://github.com/user-attachments/assets/6907f277-7a84-4808-ae80-92d68998456e" />
+
+<img width="957" height="501" alt="image" src="https://github.com/user-attachments/assets/9ae3ceb7-81e3-4115-af26-315cdef89279" />
+
+## Lab Part 3 Summary – Instance Scaling and Lifecycle Management
+
+Completed scaling and lifecycle management tasks for the EC2 web server instance.
+
+<ul>
+<li>Stopped the EC2 instance to perform configuration changes</li>
+<li>Resized the instance type from <b>t3.micro</b> to <b>t3.small</b> to increase compute capacity</li>
+<li>Expanded the <b>Amazon EBS</b> root volume from <b>8 GiB to 10 GiB</b></li>
+<li>Restarted the instance to apply updated compute and storage resources</li>
+<li>Tested <b>termination protection</b> to prevent accidental deletion</li>
+<li>Disabled termination protection and successfully terminated the instance</li>
 </ul>
