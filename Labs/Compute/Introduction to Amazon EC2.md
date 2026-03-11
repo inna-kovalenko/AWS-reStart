@@ -18,3 +18,25 @@ By completing this lab, I practiced how to:
 <li>Test termination protection controls</li>
 <li>Safely terminate the instance after testing</li>
 </ul>
+
+Sample tasks & solutions:
+
+<img width="957" height="498" alt="image" src="https://github.com/user-attachments/assets/f2ba2bb0-e97a-4a7b-9d70-381c284b8df2" />
+
+<img width="957" height="499" alt="image" src="https://github.com/user-attachments/assets/11600ed4-fae9-402d-869e-01da5f9ad238" />
+
+## Lab Summary – EC2 Instance Deployment
+
+Completed the deployment and initial configuration of a web server using **Amazon EC2**.
+
+<ul>
+<li>Launched an EC2 instance named <b>Web Server</b></li>
+<li>Selected <b>Amazon Linux 2023 AMI</b> and <b>t3.micro</b> instance type</li>
+<li>Configured networking within a dedicated <b>VPC</b> and created a custom <b>security group</b></li>
+<li>Improved security by removing SSH inbound access</li>
+<li>Configured default <b>Amazon EBS</b> storage (8 GiB root volume)</li>
+<li>Enabled <b>termination protection</b> to prevent accidental deletion</li>
+<li>Deployed a web server automatically using a <b>User Data startup script</b></li>
+<li>Installed and started an <b>Apache HTTP server</b> on instance launch</li>
+<li>Verified instance status and system health checks in the EC2 console</li>
+</ul>
