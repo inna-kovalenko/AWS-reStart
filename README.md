@@ -1,114 +1,127 @@
-# AWS-reStart
-AWS re/Start Cloud Computing Program
+## Technologies and Tools
 
-This repository documents my learning journey in the AWS re/Start 12-week cloud computing program. The program provides intensive hands-on training designed to prepare participants for entry-level roles in cloud computing and IT support.
+AWS • EC2 • S3 • VPC • IAM • CloudWatch • Linux • Bash • Networking • Cloud Security
 
-Throughout the program I work daily with cloud infrastructure, Linux systems, networking concepts, and security practices. The training focuses on practical labs and real-world scenarios that simulate tasks performed by cloud engineers and cloud support professionals.
+# AWS re/Start – Cloud Computing Training Portfolio
 
-The goal of this repository is to demonstrate the skills I am developing and the practical exercises I complete during the program.
+<b>AWS re/Start Cloud Computing Program</b>
 
-Daily Learning and Practice
+This repository documents my learning journey in the <b>AWS re/Start 12-week cloud computing program</b>. The program provides intensive hands-on training designed to prepare participants for entry-level roles in cloud computing, cloud support, and IT operations.
 
-Each day in the program combines theory with hands-on technical practice. My typical learning activities include:
+During the program I work daily with cloud infrastructure, Linux systems, networking concepts, and security practices. The training combines technical theory with hands-on labs that simulate real tasks performed by cloud engineers and cloud support specialists.
 
-Cloud infrastructure deployment
+The purpose of this repository is to demonstrate the practical skills I am developing and to document the labs, exercises, and cloud environments I build during the program.
 
-Launching and configuring virtual servers using Amazon EC2
+---
 
-Creating and managing cloud storage with Amazon S3
+## Daily Learning and Practice
 
-Understanding how cloud resources are scaled and managed
+Each day combines theory, guided labs, and independent practice. My typical activities include working with cloud infrastructure, configuring services, troubleshooting systems, and documenting solutions.
 
-Cloud networking
+### Cloud Infrastructure Deployment
+<ul>
+<li>Launching and configuring virtual servers using Amazon EC2</li>
+<li>Creating and managing cloud storage with Amazon S3</li>
+<li>Understanding how compute and storage resources are provisioned and scaled</li>
+<li>Learning how different AWS services interact in a cloud architecture</li>
+</ul>
 
-Configuring private networks using Amazon Virtual Private Cloud
+### Cloud Networking
+<ul>
+<li>Configuring private cloud networks using Amazon Virtual Private Cloud (VPC)</li>
+<li>Working with subnets, routing tables, and internet gateways</li>
+<li>Understanding IP addressing and network communication</li>
+<li>Practicing secure and structured cloud network design</li>
+</ul>
 
-Learning about subnets, routing tables, and internet gateways
+### Identity and Security Management
+<ul>
+<li>Managing permissions and access control using AWS Identity and Access Management (IAM)</li>
+<li>Applying security best practices for cloud environments</li>
+<li>Understanding the AWS Shared Responsibility Model</li>
+<li>Practicing secure user and role management</li>
+</ul>
 
-Practicing secure network design
+### System Monitoring and Troubleshooting
+<ul>
+<li>Monitoring system performance using Amazon CloudWatch</li>
+<li>Investigating configuration issues and service failures</li>
+<li>Practicing troubleshooting methods used in cloud operations</li>
+<li>Learning how to identify and resolve performance issues</li>
+</ul>
 
-Identity and security management
+### Linux System Administration
+<ul>
+<li>Working with Linux command line tools</li>
+<li>Managing files, users, permissions, and processes</li>
+<li>Understanding how cloud instances operate and are maintained</li>
+<li>Practicing basic system administration tasks</li>
+</ul>
 
-Managing permissions and access control with AWS Identity and Access Management
+### Automation and Scripting Basics
+<ul>
+<li>Writing simple scripts to automate operational tasks</li>
+<li>Learning infrastructure management concepts</li>
+<li>Understanding the importance of automation in cloud environments</li>
+</ul>
 
-Learning security best practices for cloud environments
+### Technical Documentation
+<ul>
+<li>Documenting labs, configurations, and deployment steps</li>
+<li>Writing clear explanations of cloud architectures and solutions</li>
+<li>Maintaining structured notes for future reference and knowledge sharing</li>
+</ul>
 
-Understanding shared responsibility in cloud security
+---
 
-System monitoring and troubleshooting
+## Technical Skills Developed
 
-Monitoring system performance using Amazon CloudWatch
+### Cloud Computing
+<ul>
+<li>AWS core services and cloud architecture concepts</li>
+<li>Cloud deployment and infrastructure management</li>
+<li>Cloud monitoring and operational troubleshooting</li>
+</ul>
 
-Diagnosing configuration issues and service failures
+### Systems Administration
+<ul>
+<li>Linux command line operations</li>
+<li>Server configuration and maintenance</li>
+<li>Instance management in cloud environments</li>
+</ul>
 
-Practicing troubleshooting methods used in cloud operations
+### Networking
+<ul>
+<li>IP addressing and subnetting</li>
+<li>Cloud network architecture</li>
+<li>Basic network troubleshooting</li>
+</ul>
 
-Linux system administration
+### Security
+<ul>
+<li>Access control and permission management</li>
+<li>Identity and role-based access policies</li>
+<li>Cloud security best practices</li>
+</ul>
 
-Working with Linux command line tools
+### Professional Skills
+<ul>
+<li>Technical documentation</li>
+<li>Problem solving and analytical thinking</li>
+<li>Collaboration in technical teams</li>
+</ul>
 
-Managing files, users, and system processes
+---
 
-Understanding how cloud instances run and are maintained
+## Purpose of This Repository
 
-Automation and scripting basics
+This repository serves as a <b>portfolio of my cloud learning journey</b>. It contains examples of the practical work completed during the AWS re/Start program, including:
 
-Writing simple scripts to automate tasks
+<ul>
+<li>Hands-on lab exercises</li>
+<li>Cloud architecture examples</li>
+<li>Technical notes and documentation</li>
+<li>Practical demonstrations of AWS services</li>
+</ul>
 
-Learning infrastructure management concepts
-
-Technical documentation
-
-Documenting labs, configurations, and solutions
-
-Writing clear technical explanations of cloud deployments
-
-Technical Skills Developed
-
-Cloud Computing
-
-AWS core services and architecture
-
-Cloud deployment and management
-
-Cloud monitoring and troubleshooting
-
-Systems Administration
-
-Linux command line operations
-
-Server configuration and maintenance
-
-Networking
-
-IP addressing and subnetting
-
-Cloud networking architecture
-
-Security
-
-Access management and security best practices
-
-Identity and permission control
-
-Professional Skills
-
-Technical documentation
-
-Problem solving and troubleshooting
-
-Team collaboration
-
-Purpose of This Repository
-
-This repository serves as a portfolio of my cloud learning journey. It includes:
-
-Hands-on lab exercises
-
-Cloud architecture examples
-
-Notes and documentation from training
-
-Practical demonstrations of AWS services
-
-The goal is to showcase my ability to deploy, manage, and troubleshoot cloud infrastructure in AWS environments.
+The goal is to demonstrate my ability to <b>deploy, manage, and troubleshoot cloud infrastructure in AWS environments</b> while building a strong foundation for a career in cloud computing.
