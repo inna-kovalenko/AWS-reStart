@@ -5,6 +5,8 @@ Amazon Elastic File System (Amazon EFS) provides serverless, fully elastic file 
 <img width="1920" height="1080" alt="Screenshot 2026-03-19 113334" src="https://github.com/user-attachments/assets/8de90653-b0cc-42fe-8ea9-8c4d4da4456c" />
 
 
+<img width="1179" height="178" alt="image" src="https://github.com/user-attachments/assets/d07b21ab-f793-4792-b1d9-72293f635322" />
+
 
 ## File Systems in the Cloud: AWS SimuLearn Lab
 
