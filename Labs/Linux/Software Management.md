@@ -23,3 +23,5 @@ Sample Screenshots of Work in Progress:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d8f9c4b-e2c0-4827-bd7f-f8797b1d280d" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/52471750-8f6d-43ed-ae6e-cc68203db874" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/96cb4465-449f-47b3-b370-48c97d5cd7a8" />
