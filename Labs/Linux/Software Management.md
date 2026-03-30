@@ -10,3 +10,4 @@ Sample Screenshots of Work in Progress:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ddba8ca-662e-4239-8be4-e7fe0378d085" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bc8a7cae-a939-484d-a4ff-196624eff028" />
