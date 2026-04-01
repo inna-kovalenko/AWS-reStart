@@ -67,6 +67,10 @@ Yes, there still is a network ACL rule blocking SSH.
 
 <img width="1861" height="947" alt="image" src="https://github.com/user-attachments/assets/461dae5c-0646-4603-8aea-527e2fd6497b" />
 
+Downloading and extracting flow logs:
+
+<img width="1852" height="897" alt="image" src="https://github.com/user-attachments/assets/b25377ff-94e6-41c5-9e72-5917d0263456" />
+
 
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
