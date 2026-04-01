@@ -71,6 +71,8 @@ Downloading and extracting flow logs:
 
 <img width="1852" height="897" alt="image" src="https://github.com/user-attachments/assets/b25377ff-94e6-41c5-9e72-5917d0263456" />
 
+<img width="1856" height="915" alt="image" src="https://github.com/user-attachments/assets/f31f3fa1-7cc8-404b-a3c6-9a4492b92262" />
+
 
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
