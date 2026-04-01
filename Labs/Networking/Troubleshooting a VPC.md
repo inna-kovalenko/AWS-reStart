@@ -49,6 +49,9 @@ Yes, the security group attached to the web server allows inbound SSH (port 22) 
 
 Yes, there is an issue with the route table. The subnet is labeled as public, but its associated route table does not include a route to 0.0.0.0/0 via an Internet Gateway. Without this route, the subnet does not have internet access and therefore is not truly public.
 
+<img width="1855" height="863" alt="image" src="https://github.com/user-attachments/assets/4e383a5f-97f7-4a44-9685-8ca00bd15e1f" />
+
+
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
 - Troubleshooting connectivity issues
