@@ -41,6 +41,8 @@ In this lab, I built a structured and secure cloud network and configured access
 
 <img width="1845" height="887" alt="image" src="https://github.com/user-attachments/assets/6833640e-3ebd-4c16-9d72-a50230b8ecd2" />
 
+<img width="1832" height="821" alt="image" src="https://github.com/user-attachments/assets/ff25a43b-86e3-4aa9-94f3-c568e412e9f3" />
+
 ---
 
 ## Skills Demonstrated
