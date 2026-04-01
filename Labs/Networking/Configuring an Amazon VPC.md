@@ -49,6 +49,7 @@ In this lab, I built a structured and secure cloud network and configured access
 
 <img width="1840" height="825" alt="image" src="https://github.com/user-attachments/assets/40f0b570-8ea2-4f5c-9a8e-1e75459726b7" />
 
+<img width="1847" height="835" alt="Screenshot 2026-04-01 170401" src="https://github.com/user-attachments/assets/c25efb6e-aadc-4e08-ba5b-bd3e71a6c622" />
 
 <img width="1847" height="848" alt="image" src="https://github.com/user-attachments/assets/11754f19-2e28-4a0a-b318-682ff30668c7" />
 
