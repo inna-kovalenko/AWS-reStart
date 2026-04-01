@@ -51,6 +51,11 @@ Yes, there is an issue with the route table. The subnet is labeled as public, bu
 
 <img width="1855" height="863" alt="image" src="https://github.com/user-attachments/assets/4e383a5f-97f7-4a44-9685-8ca00bd15e1f" />
 
+### What got fixed:
+Before: No route to internet; Instance unreachable
+After: Route to IGW added; Subnet becomes truly public (not just name); SSH / HTTP can work
+
+<img width="1853" height="999" alt="image" src="https://github.com/user-attachments/assets/3c06cbd5-9377-483e-a721-f0e1567d726d" />
 
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
