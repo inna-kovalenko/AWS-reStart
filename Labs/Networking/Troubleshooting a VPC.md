@@ -65,7 +65,7 @@ Yes, there still is a network ACL rule blocking SSH.
 
 <img width="1852" height="858" alt="image" src="https://github.com/user-attachments/assets/d81bf968-f0aa-45bd-8a74-d184d3287b6f" />
 
-<img width="1910" height="1006" alt="image" src="https://github.com/user-attachments/assets/7e38f059-45d2-4c99-9aa2-1ee790a1e2a9" />
+<img width="1861" height="947" alt="image" src="https://github.com/user-attachments/assets/461dae5c-0646-4603-8aea-527e2fd6497b" />
 
 
 ## Key Skills
