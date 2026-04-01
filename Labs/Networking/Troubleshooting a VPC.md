@@ -22,10 +22,14 @@ The lab follows a structured troubleshooting workflow, using VPC Flow Logs and A
 4. Download and analyze flow log data to identify root causes  
 
 ## Objectives
-By completing this lab, you will be able to:
+By completing this lab, I was able to:
 - Configure and enable VPC Flow Logs  
 - Identify and resolve VPC networking issues  
-- Interpret and analyze flow log data for troubleshooting  
+- Interpret and analyze flow log data for troubleshooting
+
+## Sample Steps
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e00a6089-7e13-4fbc-afc0-0bf62a610ba5" />
 
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
