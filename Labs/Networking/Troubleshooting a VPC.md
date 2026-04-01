@@ -67,7 +67,7 @@ Yes, there still is a network ACL rule blocking SSH.
 
 <img width="1861" height="947" alt="image" src="https://github.com/user-attachments/assets/461dae5c-0646-4603-8aea-527e2fd6497b" />
 
-Downloading and extracting flow logs:
+### Downloading and extracting flow logs:
 
 <img width="1852" height="897" alt="image" src="https://github.com/user-attachments/assets/b25377ff-94e6-41c5-9e72-5917d0263456" />
 
@@ -76,6 +76,8 @@ Downloading and extracting flow logs:
 <img width="1863" height="899" alt="image" src="https://github.com/user-attachments/assets/36133958-1b5f-4b7e-bbb8-f971a58fa4d6" />
 
 <img width="1855" height="655" alt="image" src="https://github.com/user-attachments/assets/23f5f20c-2768-4fcf-8db6-4de631674682" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d6ea836-04ad-40f6-8e08-99b161557143" />
 
 
 ## Key Skills
