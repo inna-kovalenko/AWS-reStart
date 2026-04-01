@@ -59,6 +59,15 @@ Yes, there is an issue with the route table. The subnet is labeled as public, bu
 
 <img width="1853" height="999" alt="image" src="https://github.com/user-attachments/assets/3c06cbd5-9377-483e-a721-f0e1567d726d" />
 
+Yes, there still is a network ACL rule blocking SSH.
+
+<img width="1852" height="989" alt="image" src="https://github.com/user-attachments/assets/4af77550-2022-4728-ba6d-9a68e12611ad" />
+
+<img width="1852" height="858" alt="image" src="https://github.com/user-attachments/assets/d81bf968-f0aa-45bd-8a74-d184d3287b6f" />
+
+<img width="1910" height="1006" alt="image" src="https://github.com/user-attachments/assets/7e38f059-45d2-4c99-9aa2-1ee790a1e2a9" />
+
+
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
 - Troubleshooting connectivity issues
