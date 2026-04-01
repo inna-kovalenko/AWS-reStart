@@ -21,6 +21,8 @@ In this lab, I built a structured and secure cloud network and configured access
 <li>Used the bastion host to securely connect to an instance in the private subnet</li>
 </ul>
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f01ff984-1626-4aea-9f68-5338d76b5208" />
+
 ---
 
 ## Skills Demonstrated
