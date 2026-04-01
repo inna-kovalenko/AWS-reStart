@@ -6,6 +6,8 @@ Amazon VPC allows you to create an isolated network within AWS where you can con
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53031def-4777-4a7e-8c72-83b5b5144048" />
 
+<img width="1844" height="948" alt="image" src="https://github.com/user-attachments/assets/e09debdb-fa01-41f9-8098-edc9c0b0c08d" />
+
 ---
 
 ## What I Did
