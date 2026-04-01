@@ -33,6 +33,9 @@ By completing this lab, I was able to:
 
 <img width="1756" height="892" alt="image" src="https://github.com/user-attachments/assets/b7b33730-6c3d-412c-9d07-7db4e2d469f0" />
 
+<img width="1859" height="894" alt="image" src="https://github.com/user-attachments/assets/ddf30526-7b7d-4d99-9c54-5e6a8833dc42" />
+
+
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
 - Troubleshooting connectivity issues
