@@ -43,18 +43,6 @@ In this lab, I built a structured and secure cloud network and configured access
 
 <img width="1832" height="821" alt="image" src="https://github.com/user-attachments/assets/ff25a43b-86e3-4aa9-94f3-c568e412e9f3" />
 
-<img width="1842" height="786" alt="image" src="https://github.com/user-attachments/assets/d034039f-5119-439c-bcb9-f213ef517bc6" />
-
-<img width="1859" height="916" alt="image" src="https://github.com/user-attachments/assets/e32a99aa-8495-44cb-bf6e-39e22ded06ed" />
-
-<img width="1840" height="825" alt="image" src="https://github.com/user-attachments/assets/40f0b570-8ea2-4f5c-9a8e-1e75459726b7" />
-
-<img width="1847" height="835" alt="Screenshot 2026-04-01 170401" src="https://github.com/user-attachments/assets/c25efb6e-aadc-4e08-ba5b-bd3e71a6c622" />
-
-<img width="1847" height="848" alt="image" src="https://github.com/user-attachments/assets/11754f19-2e28-4a0a-b318-682ff30668c7" />
-
-<img width="1847" height="840" alt="image" src="https://github.com/user-attachments/assets/a8844bc6-4792-4f4a-8ba0-df95040ea1ae" />
-
 ---
 
 ## Skills Demonstrated
