@@ -43,7 +43,11 @@ By completing this lab, I was able to:
 
 <img width="1852" height="740" alt="image" src="https://github.com/user-attachments/assets/3e87a9d9-c983-426c-8a7c-158a55f8b6cc" />
 
+Yes, the security group attached to the web server allows inbound SSH (port 22) access from any IP address (0.0.0.0/0). Therefore, the lack of connectivity is not caused by the security group configuration and must be due to another networking issue (e.g., routing, NACLs, instance state, or public accessibility).
+
 <img width="1856" height="676" alt="image" src="https://github.com/user-attachments/assets/c750314f-b05d-46ff-ab24-456bd7a1f22b" />
+
+Yes, there is an issue with the route table. The subnet is labeled as public, but its associated route table does not include a route to 0.0.0.0/0 via an Internet Gateway. Without this route, the subnet does not have internet access and therefore is not truly public.
 
 ## Key Skills
 - AWS networking fundamentals (VPC, subnets, routing)
