@@ -94,10 +94,10 @@ The architecture is organized into clearly defined layers and boundaries to impr
 ## 5. Networking & Traffic Flow
 
 1. User request → Route 53  
-2. Route 53 → CloudFront  
+2. Route 53 → + WAF + CloudFront  
 3. CloudFront + WAF → request inspection  
 4. Request enters VPC via Internet Gateway  
-5. ALB routes traffic to EC2 (private subnet)  
+5. ELB (ALB) routes traffic to EC2 (private subnet)  
 6. EC2 retrieves:
    - Product data → DynamoDB  
    - User/order data → Aurora  
