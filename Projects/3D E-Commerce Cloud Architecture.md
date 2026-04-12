@@ -37,7 +37,7 @@ The architecture is organized into clearly defined layers and boundaries to impr
 | AWS Lambda | Serverless | Handles event-driven background tasks |
 | Amazon Aurora | Relational DB | High availability and failover support |
 | DynamoDB | NoSQL DB | Fast product catalog access |
-| VPC Endpoints | Private Access | Enables secure internal data transfer |
+| VPC Endpoints | Private Access | Enables secure internal data transfer (bypassing public internet) |
 
 ---
 
