@@ -32,7 +32,7 @@ The architecture is organized into clearly defined layers and boundaries to impr
 | AWS WAF | Security | Filters malicious traffic at the edge |
 | CloudFront | CDN | Caches 3D assets close to users |
 | Amazon S3 | Storage | Durable storage for large 3D files |
-| ALB | Load Balancing | Distributes traffic across compute resources |
+| ELB (ALB) | Load Balancing (Application LB) | Distributes traffic across compute resources |
 | EC2 (Auto Scaling) | Compute | Dynamically scales backend capacity |
 | AWS Lambda | Serverless | Handles event-driven background tasks |
 | Amazon Aurora | Relational DB | High availability and failover support |
