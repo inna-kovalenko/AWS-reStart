@@ -49,15 +49,17 @@ The architecture is organized into clearly defined layers and boundaries to impr
 - Compute and databases are placed in **private subnets**, not exposed to the internet
 - External access is controlled through defined entry points
 
+### Secure Internal Communication
+- Internal traffic uses **VPC Endpoints** to connect to S3 and DynamoDB
+- This keeps data transfers inside the AWS network
+- Avoids unnecessary exposure to the public internet
+
 ### Standardized and Readable Design
 - Services are clearly labeled with their **full AWS names**
 - Components are grouped by function (Compute, Database, Networking)
 - The layout follows a **simple top-down flow**, making it easy to explain and present
 
-### Secure Internal Communication
-- Internal traffic uses **VPC Endpoints** to connect to S3 and DynamoDB
-- This keeps data transfers inside the AWS network
-- Avoids unnecessary exposure to the public internet
+  <img width="762" height="771" alt="AWS Project Architecture-Diagram-Final1-12 4 drawio" src="https://github.com/user-attachments/assets/a876fd1f-02dd-476e-ac2f-bb3b3fce4080" />
 
 ---
 
