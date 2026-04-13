@@ -55,7 +55,7 @@ The architecture is organized into clearly defined layers and boundaries to impr
 - Avoids unnecessary exposure to the public internet
 
 ### Standardized and Readable Design
-- Services are clearly labeled with their **full AWS names**
+- Services are clearly labeled with their **respective AWS serices logos**
 - Components are grouped by function (Compute, Database, Networking)
 - The layout follows a **simple top-down flow**, making it easy to explain and present
 
