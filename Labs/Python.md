@@ -221,4 +221,31 @@ This lab involved configuring a development environment within **AWS Cloud9** to
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8862e36f-c68e-4379-8af8-9dfbc2098cd7" />
 
+---
+
+Lab 5
+
+# AWS Lab: Python Mixed-Type Lists and Dynamic Typing
+
+## Overview
+This lab demonstrated a key advantage of Python: the ability to store multiple data types within a single collection (**List**) and programmatically identify them. This flexibility is essential for processing diverse datasets often found in cloud automation and API integrations.
+
+## Technical Skills Demonstrated
+* **Mixed-Type Collections:** Built a Python list containing a variety of data types, including:
+    * **Integers** (e.g., `45`)
+    * **Floats** (e.g., `1.02`)
+    * **Booleans** (e.g., `True`)
+    * **Strings** (e.g., `"My dog is on the bed."`)
+* **Iteration Logic:** Implemented a `for` loop to traverse the list, demonstrating efficient data processing.
+* **Dynamic Type Checking:** Utilized the `type()` function and string formatting (`.format()`) to programmatically identify and display the class of each object during runtime.
+
+## Key Learning Outcomes
+* **Python vs. Strongly-Typed Languages:** Explored how Python's dynamic nature allows for more flexible data structures compared to languages that require uniform data types in arrays.
+* **Programmatic Introspection:** Gained experience in using loops to audit and validate data types, a critical skill for debugging automated workflows and ensuring data quality in HCM or CRM migrations.
+
+## Environment
+* **AWS Cloud9:** Developed and executed the script within a cloud-based IDE.
+* **Python 3:** Leveraged standard libraries to interpret and print data object classifications.
+
+<img width="1841" height="774" alt="image" src="https://github.com/user-attachments/assets/488ace99-d340-400c-b9de-b2c9ecde0ee8" />
 
