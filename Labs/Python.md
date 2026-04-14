@@ -76,10 +76,7 @@ print(type(myValue))
 
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/d5b933a4-6c49-4fc7-a847-aba3d9ed2247" />
 
-
-
 <img width="1850" height="737" alt="image" src="https://github.com/user-attachments/assets/3999667f-d37d-4d48-a0a7-b674d3d8b0e9" />
-
 
 <img width="1689" height="721" alt="image" src="https://github.com/user-attachments/assets/982e3c67-4b67-435a-a846-31bd0657f6d8" />
 
@@ -144,7 +141,8 @@ The final script:
 
 **Example Output:**
 
-image
+<img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/2588128c-7710-40ed-a6c5-ac3c9c29bd99" />
+
 ---
 
 ## Skills Demonstrated
