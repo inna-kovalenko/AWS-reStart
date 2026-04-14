@@ -225,27 +225,29 @@ This lab involved configuring a development environment within **AWS Cloud9** to
 
 Lab 5
 
-# AWS Lab: Python Mixed-Type Lists and Dynamic Typing
+# Working with Mixed-Type Lists in Python
 
-## Overview
-This lab demonstrated a key advantage of Python: the ability to store multiple data types within a single collection (**List**) and programmatically identify them. This flexibility is essential for processing diverse datasets often found in cloud automation and API integrations.
+## Lab Overview
+Python offers unique flexibility by allowing multiple data types to coexist within a single collection. In this lab, I developed a script to create, traverse, and analyze a mixed-type list within the **AWS Cloud9** environment.
 
-## Technical Skills Demonstrated
-* **Mixed-Type Collections:** Built a Python list containing a variety of data types, including:
-    * **Integers** (e.g., `45`)
-    * **Floats** (e.g., `1.02`)
-    * **Booleans** (e.g., `True`)
-    * **Strings** (e.g., `"My dog is on the bed."`)
-* **Iteration Logic:** Implemented a `for` loop to traverse the list, demonstrating efficient data processing.
-* **Dynamic Type Checking:** Utilized the `type()` function and string formatting (`.format()`) to programmatically identify and display the class of each object during runtime.
+## Objectives
+* **Numeric Data Types:** Integrated both Integers (`int`) and Floating-point numbers (`float`).
+* **String Data Types:** Handled text data and numeric strings.
+* **List Data Type:** Built and managed a collection containing diverse data objects.
+* **Control Flow:** Utilized a `for` loop to automate the traversal of the collection.
+* **Output & Introspection:** Used the `print()` and `type()` functions to audit data at runtime.
 
-## Key Learning Outcomes
-* **Python vs. Strongly-Typed Languages:** Explored how Python's dynamic nature allows for more flexible data structures compared to languages that require uniform data types in arrays.
-* **Programmatic Introspection:** Gained experience in using loops to audit and validate data types, a critical skill for debugging automated workflows and ensuring data quality in HCM or CRM migrations.
+## Technical Execution
+* **Multi-Type Integration:** Created a list containing `int`, `float`, `bool`, and `str`. 
+* **Dynamic Analysis:** Implemented a loop that programmatically identified the data type of each element. This mimics real-world scenarios where an application must validate incoming data from different sources (like a CRM or HCM database).
+* **String Formatting:** Used the `.format()` method to create clean, readable logs of the data processing.
+
+## Results
+The script successfully identified and printed the type for every item, proving that Python can handle complex, non-uniform datasets efficiently. This is a foundational skill for building robust automation scripts in cloud environments.
 
 ## Environment
-* **AWS Cloud9:** Developed and executed the script within a cloud-based IDE.
-* **Python 3:** Leveraged standard libraries to interpret and print data object classifications.
+* **Platform:** AWS Cloud9 (Linux-based IDE)
+* **Language:** Python 3
 
 <img width="1841" height="774" alt="image" src="https://github.com/user-attachments/assets/488ace99-d340-400c-b9de-b2c9ecde0ee8" />
 
