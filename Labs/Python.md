@@ -111,7 +111,10 @@ Completed a hands-on Python lab in AWS Cloud9 focused on **string data handling*
 ### String Handling
 - Defined and printed string variables  
 - Verified data types using `type()`  
-- Converted data types using `str()` for safe string operations  
+- Converted data types using `str()` for safe string operations
+
+<img width="925" height="368" alt="image" src="https://github.com/user-attachments/assets/9a5f9631-b29a-4bd4-a733-d963742f0f12" />
+
 
 ### String Concatenation
 - Combined multiple string variables using the `+` operator  
