@@ -1,3 +1,15 @@
+Labs shown from the intro level to the most advanced
+
+## Environment & Tools
+* **AWS Cloud9 IDE:** Used as the primary cloud-based code editor.
+* **AWS Terminal:** Used for executing Python scripts and debugging output.
+* **Python 3:** The core language used for all exercises.
+
+## Conclusion
+Successful completion of this lab confirms a solid understanding of how Python organizes data. These skills are directly applicable to handling JSON payloads, managing user records, and scripting automation tasks in enterprise
+
+---
+
 Lab 1
 
 ## AWS Cloud9 (Hello World)
@@ -178,7 +190,7 @@ Applicable to:
 
 Lab 4
 
-# AWS Lab: Python Data Collections (Lists, Tuples, and Dictionaries)
+# Python Data Collections (Lists, Tuples, Dictionaries)
 
 ## Overview
 This lab involved configuring a development environment within **AWS Cloud9** to practice the foundational "building blocks" of Python programming. Mastering these collections is essential for managing data structures in cloud-based applications and automated workflows.
@@ -200,14 +212,6 @@ This lab involved configuring a development environment within **AWS Cloud9** to
 ### 3. Working with Dictionaries (Key-Value Pairs)
 * Built a dictionary to map specific names to values.
 * Practiced accessing data by **name (key)** rather than number, which mimics how modern APIs and databases (like CRM/HCM systems) retrieve information.
-
-## Environment & Tools
-* **AWS Cloud9 IDE:** Used as the primary cloud-based code editor.
-* **AWS Terminal:** Used for executing Python scripts and debugging output.
-* **Python 3:** The core language used for all exercises.
-
-## Conclusion
-Successful completion of this lab confirms a solid understanding of how Python organizes data. These skills are directly applicable to handling JSON payloads, managing user records, and scripting automation tasks in enterprise
 
 <img width="917" height="234" alt="image" src="https://github.com/user-attachments/assets/2b9e6e34-73c0-49f8-9b49-d042a401b07d" />
 
