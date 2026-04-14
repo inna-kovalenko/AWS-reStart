@@ -255,7 +255,7 @@ The script successfully identified and printed the type for every item, proving 
 
 Lab 6
 
-# AWS Lab: Processing Composite Data Types from CSV
+# Processing Composite Data Types from CSV
 
 ## Lab Overview
 In modern data engineering, information is rarely simple. This lab focused on managing **composite data types**—complex structures where strings are nested in dictionaries, which are then nested within lists. Using **AWS Cloud9**, I developed a Python script to import an external CSV inventory file and transform it into a highly structured, in-memory data collection.
