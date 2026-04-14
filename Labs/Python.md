@@ -77,3 +77,6 @@ print(type(myValue))
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/d5b933a4-6c49-4fc7-a847-aba3d9ed2247" />
 
 <img width="1689" height="721" alt="image" src="https://github.com/user-attachments/assets/982e3c67-4b67-435a-a846-31bd0657f6d8" />
+
+<img width="1865" height="953" alt="image" src="https://github.com/user-attachments/assets/2b4411b9-258e-4bd3-a90c-53ad79527b24" />
+
