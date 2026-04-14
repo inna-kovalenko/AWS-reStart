@@ -251,3 +251,35 @@ The script successfully identified and printed the type for every item, proving 
 
 <img width="1841" height="774" alt="image" src="https://github.com/user-attachments/assets/488ace99-d340-400c-b9de-b2c9ecde0ee8" />
 
+---
+
+Lab 6
+
+# AWS Lab: Processing Composite Data Types from CSV
+
+## Lab Overview
+In modern data engineering, information is rarely simple. This lab focused on managing **composite data types**—complex structures where strings are nested in dictionaries, which are then nested within lists. Using **AWS Cloud9**, I developed a Python script to import an external CSV inventory file and transform it into a highly structured, in-memory data collection.
+
+## Objectives
+* **File I/O:** Used the `import csv` module to read and parse external tabular data.
+* **Complex Data Nesting:** Implemented a "list of dictionaries" structure to manage a vehicle inventory.
+* **Memory Management:** Utilized `copy.deepcopy` to ensure data integrity when creating new object instances in RAM.
+* **Control Flow:** Applied `if/else` statements and nested `for` loops to handle headers and item properties.
+* **Modern String Formatting:** Leveraged **f-strings** for cleaner, more efficient console output.
+
+## Technical Execution
+* **Schema Definition:** Created a `myVehicle` dictionary to act as a blueprint for car data (VIN, make, model, etc.).
+* **Data Transformation:** * Opened `car_fleet.csv` using the `with open` context manager (best practice for resource management).
+    * Iterated through the file rows, skipping the header and mapping each column to the blueprint.
+    * Dynamically appended each vehicle "object" to a master `myInventoryList`.
+* **Deep Copy Logic:** Addressed a critical programming concept by using `copy.deepcopy()`. This ensured that each vehicle in the list occupied its own unique memory space rather than just pointing to a shared reference.
+
+## Key Learning Outcomes
+* **Data Pipelines:** Successfully built a mini-pipeline that moves data from a "Storage" state (CSV) to an "Active" state (Python Objects).
+* **Code Reusability:** Designed a process that can handle any number of rows from a source file, a core requirement for automation in CRM and HCM systems.
+
+## Environment & Tools
+* **AWS Cloud9:** Cloud-based IDE and Linux terminal.
+* **Python 3:** Using `csv` and `copy` standard libraries.
+
+
