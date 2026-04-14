@@ -120,6 +120,9 @@ Completed a hands-on Python lab in AWS Cloud9 focused on **string data handling*
 - Combined multiple string variables using the `+` operator  
 - Demonstrated practical differences between numeric and string operations  
 
+<img width="1856" height="579" alt="image" src="https://github.com/user-attachments/assets/4b108d96-8109-445d-a6dd-c49878f39855" />
+
+
 ### User Input Processing
 - Captured dynamic user input using `input()`  
 - Stored and reused user-provided values within the program  
