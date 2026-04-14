@@ -282,4 +282,9 @@ In modern data engineering, information is rarely simple. This lab focused on ma
 * **AWS Cloud9:** Cloud-based IDE and Linux terminal.
 * **Python 3:** Using `csv` and `copy` standard libraries.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42626dc7-5f39-49b8-856f-e47094742773" />
+
+---
+
+
 
