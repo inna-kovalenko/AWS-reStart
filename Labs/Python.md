@@ -125,7 +125,10 @@ Completed a hands-on Python lab in AWS Cloud9 focused on **string data handling*
 
 ### User Input Processing
 - Captured dynamic user input using `input()`  
-- Stored and reused user-provided values within the program  
+- Stored and reused user-provided values within the program
+
+<img width="1794" height="627" alt="image" src="https://github.com/user-attachments/assets/18897cb2-5325-4e7b-a250-694eb5b3c53f" />
+
 
 ### Output Formatting
 - Built structured output using `print()`  
