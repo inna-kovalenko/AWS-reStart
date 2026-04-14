@@ -172,4 +172,49 @@ This work demonstrates practical ability to:
 Applicable to:
 - Automation scripts  
 - Backend logic development  
-- CRM/HCM customization scenarios  
+- CRM/HCM customization scenarios
+
+---
+
+Lab 4
+
+# AWS Lab: Python Data Collections (Lists, Tuples, and Dictionaries)
+
+## Overview
+This lab involved configuring a development environment within **AWS Cloud9** to practice the foundational "building blocks" of Python programming. Mastering these collections is essential for managing data structures in cloud-based applications and automated workflows.
+
+## Objectives
+* Use the **List** data type for mutable collections.
+* Use the **Tuple** data type for immutable (unchangeable) data.
+* Use the **Dictionary** data type for organized key-value mapping.
+
+## Technical Tasks
+### 1. Working with Lists (Mutable)
+* Created a fruit list and practiced accessing items via **index positions** (starting at 0).
+* Demonstrated the **mutability** of lists by updating specific entries (e.g., changing "cherry" to "orange").
+
+### 2. Working with Tuples (Immutable)
+* Defined a tuple using parentheses `()` to store data that must remain constant throughout a program's lifecycle.
+* Verified that while data can be accessed by position, it cannot be modified, ensuring **data integrity**.
+
+### 3. Working with Dictionaries (Key-Value Pairs)
+* Built a dictionary to map specific names to values.
+* Practiced accessing data by **name (key)** rather than number, which mimics how modern APIs and databases (like CRM/HCM systems) retrieve information.
+
+## Environment & Tools
+* **AWS Cloud9 IDE:** Used as the primary cloud-based code editor.
+* **AWS Terminal:** Used for executing Python scripts and debugging output.
+* **Python 3:** The core language used for all exercises.
+
+## Conclusion
+Successful completion of this lab confirms a solid understanding of how Python organizes data. These skills are directly applicable to handling JSON payloads, managing user records, and scripting automation tasks in enterprise
+
+<img width="917" height="234" alt="image" src="https://github.com/user-attachments/assets/2b9e6e34-73c0-49f8-9b49-d042a401b07d" />
+
+<img width="1745" height="528" alt="image" src="https://github.com/user-attachments/assets/be898ba4-857f-4b38-88b4-793a3fa03656" />
+
+<img width="1837" height="865" alt="image" src="https://github.com/user-attachments/assets/f139c83e-6240-4a3a-82e5-122d5152acfb" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8862e36f-c68e-4379-8af8-9dfbc2098cd7" />
+
+
