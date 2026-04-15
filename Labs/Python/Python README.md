@@ -362,7 +362,7 @@ This lab introduced the core concepts of iteration in Python, specifically focus
 
 Lab 9
 
-# AWS Lab: Version Control and Project Management with GitHub
+# Version Control and Project Management with GitHub
 
 ## Lab Overview
 In modern software development and cloud operations, version control is the backbone of collaboration. This lab focused on initializing a professional development workflow by migrating local AWS Cloud9 projects to a remote repository on **GitHub**. This process ensures code durability, version tracking, and accessibility for global teams.
