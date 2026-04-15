@@ -286,5 +286,34 @@ In modern data engineering, information is rarely simple. This lab focused on ma
 
 ---
 
+Lab 7
+
+# Implementing Logic with Python Conditionals
+
+## Lab Overview
+This lab focused on creating dynamic "decision-making" paths within a program using conditional statements. By using comparative operators and proper Python indentation, I developed a script that simulates a customer service interaction for a shipping center.
+
+## Objectives
+* **`if` Statement:** Executed code blocks based on specific user input (e.g., shipping a package).
+* **`else` Statement:** Provided fallback responses when the primary condition was not met, ensuring a complete user experience.
+* **`elif` (Else-If) Statement:** Handled multiple branching paths to offer additional services like stamps, envelopes, or copies.
+* **`input()` Function:** Captured real-time user data to drive program logic.
+* **Comparative Operators:** Utilized `==` to evaluate equality between user responses and defined triggers.
+
+## Technical Execution
+* **Logic Branching:** Developed a multi-layered conditional structure where the program evaluates conditions sequentially until a match is found.
+* **Input Handling:** Integrated nested inputs within specific branches (e.g., asking for the number of copies only if the "copy" path is selected).
+* **Indentation Mastery:** Applied Python’s strict spacing rules to define logic blocks, replacing the brackets used in other programming languages.
+
+## Key Learning Outcomes
+* **Mutually Exclusive Paths:** Understood that once a condition is met (`True`), the program skips the remaining `elif` and `else` blocks, optimizing execution speed.
+* **Predictable UX:** Learned how to account for "negative" or unexpected inputs using the `else` statement to prevent the program from exiting silently.
+* **Project Relevance:** This logic is the foundation for building automated workflows in **Salesforce** or **Workday**, such as triggering specific email alerts only when certain criteria (like a high-priority case or a specific region) are met.
+
+## Environment & Tools
+* **Platform:** AWS Cloud9
+* **Language:** Python 3
+
+
 
 
