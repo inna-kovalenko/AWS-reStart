@@ -314,6 +314,9 @@ This lab focused on creating dynamic "decision-making" paths within a program us
 * **Platform:** AWS Cloud9
 * **Language:** Python 3
 
+<img width="1852" height="944" alt="image" src="https://github.com/user-attachments/assets/e5e48190-d3f6-4c6f-87ae-a6f75fd1cd13" />
+
+
 
 
 
