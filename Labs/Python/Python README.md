@@ -362,6 +362,32 @@ This lab introduced the core concepts of iteration in Python, specifically focus
 
 Lab 9
 
+# AWS Lab: Version Control and Project Management with GitHub
+
+## Lab Overview
+In modern software development and cloud operations, version control is the backbone of collaboration. This lab focused on initializing a professional development workflow by migrating local AWS Cloud9 projects to a remote repository on **GitHub**. This process ensures code durability, version tracking, and accessibility for global teams.
+
+## Objectives
+* **Version Control Integration:** Transitioned local Python development projects to a centralized Git-based platform.
+* **Repository Architecture:** Created and configured a remote repository, including the initialization of a `README.md` for project documentation.
+* **Asset Migration:** Managed the extraction and bulk upload of Python scripts, ensuring directory integrity was maintained during the move.
+* **Cloning & Distribution:** Mastered the process of "cloning" and downloading repositories to synchronize work between cloud IDEs and local machines.
+
+## Technical Skills Demonstrated
+* **Git Workflow:** Familiarity with the lifecycle of a code project, from local creation in **AWS Cloud9** to remote hosting on **GitHub**.
+* **Documentation (IaC Mindset):** Utilized Markdown to provide context for technical assets, mirroring the "Infrastructure as Code" approach where documentation lives alongside the code.
+* **File Management:** Efficiently handled compressed project files and directory structures to avoid data loss during migration.
+
+## Key Learning Outcomes
+* **Collaborative Readiness:** Gained the ability to work within a modern DevOps environment where GitHub acts as the "Single Source of Truth."
+* **Project Portability:** Developed a workflow that allows for seamless switching between different development environments without losing progress.
+* **Professional Portfolio:** Successfully established a public presence to showcase technical growth in **Python** and **Cloud Infrastructure**, a critical step for consultancy roles in **Salesforce** and **Workday**.
+
+## Environment & Tools
+* **AWS Cloud9:** Primary development environment.
+* **GitHub:** Cloud-based Git hosting service.
+* **Git:** Version control software for tracking changes in source code.
+
 
 
 
