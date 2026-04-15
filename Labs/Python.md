@@ -318,6 +318,9 @@ This lab focused on creating dynamic "decision-making" paths within a program us
 
 <img width="1760" height="645" alt="image" src="https://github.com/user-attachments/assets/aa91e1b8-cc1e-4d47-850b-438a748150e1" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/588f70d1-fd51-454c-b7c1-92abeb1b263f" />
+
+
 
 
 
