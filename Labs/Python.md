@@ -355,6 +355,9 @@ This lab introduced the core concepts of iteration in Python, specifically focus
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb1446ac-618e-4606-aada-96f57fe4d22d" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a2d272a-3f83-4478-8c51-bb2e59642eed" />
+
+
 ---
 
 Lab 9
