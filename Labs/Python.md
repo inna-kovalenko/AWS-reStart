@@ -320,6 +320,39 @@ This lab focused on creating dynamic "decision-making" paths within a program us
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/588f70d1-fd51-454c-b7c1-92abeb1b263f" />
 
+---
+
+Lab 8
+
+# Automating Tasks with Python Loops
+
+## Lab Overview
+This lab introduced the core concepts of iteration in Python, specifically focusing on how to repeat segments of code to automate tasks. By developing a "Guess the Number" game and a counting script, I mastered the practical application of both condition-based and sequence-based loops.
+
+## Objectives
+* **`while` Loop:** Implemented a loop that continues executing as long as a specific condition remains true (ideal for unpredictable user interactions).
+* **`for` Loop:** Utilized a loop to iterate over a fixed range of numbers (ideal for processing known sequences).
+* **`import` Statement:** Integrated the `random` module to add dynamic, non-deterministic behavior to a program.
+* **Range Function:** Mastered the `range()` function, including its non-inclusive nature at the stop parameter.
+* **Pseudocoding:** Applied the technique of writing program logic in plain language to plan code structure before implementation.
+
+## Technical Execution
+* **Game Logic:** Developed a loop driven by a boolean flag (`isGuessRight`), which handles user input, type conversion (`int()`), and comparative logic to determine the win state.
+* **Iteration Control:** Configured a `for` loop to automate counting from 0 to 10 by defining a specific numerical range.
+* **In-Memory Logic:** Practiced "indented logic blocks," ensuring Python understands which commands belong inside the loop's execution path.
+
+
+
+## Key Learning Outcomes
+* **Condition vs. Sequence:** Learned when to use a `while` loop for tasks with unknown duration (like waiting for a correct guess) versus a `for` loop for predictable sequences.
+* **External Modules:** Gained experience using the `random.randint()` function, a skill directly transferable to generating unique IDs or tokens in CRM systems.
+* **Documentation Habits:** Implemented code comments using `#` to ensure maintainability and team collaboration—a critical skill for professional project management in IT.
+
+## Environment & Tools
+* **Platform:** AWS Cloud9
+* **Language:** Python 3
+* **Libraries:** `random`
+
 
 
 
