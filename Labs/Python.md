@@ -353,6 +353,11 @@ This lab introduced the core concepts of iteration in Python, specifically focus
 * **Language:** Python 3
 * **Libraries:** `random`
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb1446ac-618e-4606-aada-96f57fe4d22d" />
+
+---
+
+Lab 9
 
 
 
