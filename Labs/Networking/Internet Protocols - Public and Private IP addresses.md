@@ -24,6 +24,13 @@ In this technical simulation, I acted as a **Cloud Support Engineer** for a Fort
 ## Key Findings & Solutions
 * **The Root Cause:** 
 Instance A lacked a **Public IP address**. While secure, it cannot be reached from the public internet without a NAT gateway or a Public IP assignment.
+
+Visible here when selecting Instance A
+<img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/0155deed-4077-4aa0-8251-99913bbabf54" />
+
+Also here when selecting instance B and also on top where both instances are described without selection - see the public IP of Instance B highlighted in blue
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9027bb9c-ec29-4bce-9717-98623a8f29cc" />
+
 * **Connectivity Solution:** 
 Instance B succeeded because it possessed a Public IP, allowing the Internet Gateway to route traffic to and from the external web.
 * **Risk Mitigation:** 
