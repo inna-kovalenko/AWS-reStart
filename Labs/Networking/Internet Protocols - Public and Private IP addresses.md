@@ -1,6 +1,6 @@
-# AWS Lab Synopsis: Resolving Global Connectivity Issues
+# Resolving Global Connectivity Issues
 
-## Executive Summary
+## Synopsis
 In this technical simulation, I acted as a **Cloud Support Engineer** for a Fortune 500 client. I resolved a critical networking disparity between two identical EC2 instances. By applying the **OSI Model** and investigating **IPv4 addressing**, I identified why one instance could access the internet while the other remained isolated, eventually providing a strategic solution to ensure consistent connectivity.
 
 ---
