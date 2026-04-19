@@ -26,12 +26,16 @@ The image shows that while the Private IP remained static, the standard Public I
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f018a6a1-7dbc-487e-9625-acce662c8008" />
 
 * **Static IP Allocation:** Provisioned an Elastic IP (EIP) from the Amazon pool to create a persistent network identity.
-
+* **Resource Association:** Successfully linked the EIP to the running EC2 instance to override the default dynamic behavior.
+  
 This screenshot shows the EIP was allocated & associated with the test instance:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8b2c733b-f655-4a1f-867d-6cbef634490c" />
 
-* **Resource Association:** Successfully linked the EIP to the running EC2 instance to override the default dynamic behavior.
 * **Validation:** Confirmed that the IP address remained unchanged across multiple power cycles, resolving the client's connectivity breakage.
+
+Here it is clear that by associating an Elastic IP, I converted the instance's public identity to a static address that persists through stop/start cycles, successfully resolving the customer's connectivity issues:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe792822-5b8b-4b11-9249-f22f3c843cdf" />
+
 
 ---
 
