@@ -14,21 +14,27 @@ In this technical simulation, I acted as a **Cloud Support Engineer** for a Fort
 ---
 
 ## Technical Skills Demonstrated
-* **Remote Server Management:** Proficient in **SSH** and **PPK key management** using PuTTY for Windows.
-* **Layer 3 Networking:** Expert understanding of **IPv4 stacks**, CIDR blocks, and the distinction between internal and external routing.
-* **The OSI Troubleshooting Framework:** Applied a "Bottom-Up" troubleshooting methodology to isolate issues at the Network (Layer 3) and Session (Layer 5) levels.
-* **Cloud Governance:** Validated adherence to **RFC 1918** standards to prevent IP overlap and routing conflicts.
+* **Remote Server Management:** **SSH** and **PPK key management** using PuTTY for Windows.
+* **Layer 3 Networking:** **IPv4 stacks**, CIDR blocks, internal and external routing (distinction).
+* **The OSI Troubleshooting Framework:** applied a "Bottom-Up" troubleshooting methodology to isolate issues at the Network (Layer 3) and Session (Layer 5) levels.
+* **Cloud Governance:** validated adherence to **RFC 1918** standards to prevent IP overlap and routing conflicts.
 
 ---
 
 ## Key Findings & Solutions
-* **The Root Cause:** Instance A lacked a **Public IP address**. While secure, it cannot be reached from the public internet without a NAT gateway or a Public IP assignment.
-* **Connectivity Solution:** Instance B succeeded because it possessed a Public IP, allowing the Internet Gateway to route traffic to and from the external web.
-* **Risk Mitigation:** I advised against using a Public CIDR (like 12.0.0.0/16) for internal VPCs. Doing so would lead to "IP Overlap," causing the internal network to accidentally block legitimate websites that own those public addresses.
+* **The Root Cause:** 
+Instance A lacked a **Public IP address**. While secure, it cannot be reached from the public internet without a NAT gateway or a Public IP assignment.
+* **Connectivity Solution:** 
+Instance B succeeded because it possessed a Public IP, allowing the Internet Gateway to route traffic to and from the external web.
+* **Risk Mitigation:** 
+I advised against using a Public CIDR (like 12.0.0.0/16) for internal VPCs. Doing so would lead to "IP Overlap," causing the internal network to accidentally block legitimate websites that own those public addresses.
 
 ---
 
 ## Business & Career Impact
-* **Strategic Problem Solving:** Successfully translated complex network logs into actionable business advice for a stakeholder.
-* **CRM/HCM Security Applications:** This troubleshooting logic is vital for managing **Salesforce** or **Workday** integrations, ensuring that employee data (Health/HR records) remains private while necessary cloud services stay connected.
-* **Technical Communication:** Demonstrated the ability to guide non-technical administrators through high-stakes infrastructure changes.
+* **Strategic Problem Solving:** 
+Successfully translated complex network logs into actionable business advice for a stakeholder.
+* **CRM/HCM Security Applications:** 
+This troubleshooting logic is vital for managing, for example, **Salesforce** or **Workday** integrations, ensuring that employee data (Health/HR records) remains private while necessary cloud services stay connected.
+* **Technical Communication:** 
+Demonstrated the ability to guide non-technical administrators through high-stakes infrastructure changes.
