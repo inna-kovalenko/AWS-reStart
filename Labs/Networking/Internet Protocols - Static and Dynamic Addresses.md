@@ -15,6 +15,10 @@ Here it is visible the instance is running & has the following public & private 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b673e751-61eb-4418-bea3-bcde0285f475" />
 
 * **Behavioral Analysis:** Monitored the lifecycle of Dynamic Public IPs by performing "Stop/Start" cycles and documenting the resulting IP changes.
+
+This step demonstrates the instance was stopped & has no public IPv4 address with the private IPv4 address remaining the same:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4f2021b-0f18-4a75-9549-a2f35ce3102f" />
+
 * **Static IP Allocation:** Provisioned an Elastic IP (EIP) from the Amazon pool to create a persistent network identity.
 * **Resource Association:** Successfully linked the EIP to the running EC2 instance to override the default dynamic behavior.
 * **Validation:** Confirmed that the IP address remained unchanged across multiple power cycles, resolving the client's connectivity breakage.
