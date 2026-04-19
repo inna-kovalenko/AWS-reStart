@@ -7,6 +7,10 @@ In this technical engagement, I served as an AWS Cloud Support Engineer for a Fo
 
 ## Objectives & Key Tasks
 * **Scenario Replication:** Launched a t3.micro Amazon Linux 2 instance to simulate the customer's "Public Instance" environment.
+
+This step shows the Instance (test instance) was successfully created with all the necessary configurations 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b7d1bd0-961f-4b12-8f8c-3ccfa7243e8f" />
+  
 * **Behavioral Analysis:** Monitored the lifecycle of Dynamic Public IPs by performing "Stop/Start" cycles and documenting the resulting IP changes.
 * **Static IP Allocation:** Provisioned an Elastic IP (EIP) from the Amazon pool to create a persistent network identity.
 * **Resource Association:** Successfully linked the EIP to the running EC2 instance to override the default dynamic behavior.
