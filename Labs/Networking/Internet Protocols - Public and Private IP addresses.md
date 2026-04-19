@@ -33,6 +33,10 @@ Also here when selecting instance B and also on top where both instances are des
 
 * **Connectivity Solution:** 
 Instance B succeeded because it possessed a Public IP, allowing the Internet Gateway to route traffic to and from the external web.
+
+Here visible is how no connection is possible to the Private IP (of Instance A)
+<img width="957" height="500" alt="image" src="https://github.com/user-attachments/assets/6ec98f9e-d513-4d46-b44d-d8d5879dd781" />
+
 * **Risk Mitigation:** 
 I advised against using a Public CIDR (like 12.0.0.0/16) for internal VPCs. Doing so would lead to "IP Overlap," causing the internal network to accidentally block legitimate websites that own those public addresses.
 
