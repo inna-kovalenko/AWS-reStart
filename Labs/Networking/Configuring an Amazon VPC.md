@@ -1,8 +1,8 @@
-## Lab Overview – Configuring a VPC
+## Configuring a VPC
 
-This lab focuses on designing and configuring a secure virtual network using **Amazon Virtual Private Cloud (VPC)**.
+This lab focused on designing and configuring a secure virtual network using **Amazon Virtual Private Cloud (VPC)**.
 
-Amazon VPC allows you to create an isolated network within AWS where you can control IP addressing, subnets, routing, and secure access to resources. 
+Amazon VPC allows creating an isolated network within AWS where IP addressing, subnets, routing, secure access to resources can be controlled. 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53031def-4777-4a7e-8c72-83b5b5144048" />
 
