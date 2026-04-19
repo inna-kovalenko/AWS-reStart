@@ -37,6 +37,8 @@ Instance B succeeded because it possessed a Public IP, allowing the Internet Gat
 Here visible is how no connection is possible to the Private IP (of Instance A)
 <img width="957" height="500" alt="image" src="https://github.com/user-attachments/assets/6ec98f9e-d513-4d46-b44d-d8d5879dd781" />
 
+This was tested by using an SSH utility to connect to the instance. Private IP addresses are used within the VPC and cannot establish a connection to the internet.
+
 * **Risk Mitigation:** 
 I advised against using a Public CIDR (like 12.0.0.0/16) for internal VPCs. Doing so would lead to "IP Overlap," causing the internal network to accidentally block legitimate websites that own those public addresses.
 
