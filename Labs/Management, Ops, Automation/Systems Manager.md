@@ -17,6 +17,10 @@ This documents completion of the step above:
 
 ## Tools & Technologies
 * **AWS Systems Manager Capabilities**: Fleet Manager, Run Command, Parameter Store, Session Manager.
+
+This example shows the CLI command that can be reused outside the Management Console:
+<img width="1856" height="995" alt="image" src="https://github.com/user-attachments/assets/de6b53ac-f39e-4d67-8b8f-2cb7fb9a289f" />
+
 * **Cloud Compute**: Amazon EC2 (Amazon Linux 2023).
 * **Security & Compliance**: IAM (Identity and Access Management), AWS CloudTrail.
 * **Web Technologies**: Apache Web Server, PHP.
