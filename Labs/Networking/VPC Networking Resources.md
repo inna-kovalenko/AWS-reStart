@@ -5,6 +5,11 @@ I served as a **Cloud Support Engineer** to resolve a critical connectivity issu
 
 ## Technical Accomplishments
 * **VPC & Subnet Design**: Provisioned a custom **VPC** using the `192.168.0.0/18` range and engineered a **Public Subnet** (`192.168.1.0/26`) to ensure precise IP address allocation.
+
+Here this creation step is shown with the requirement from the customer (on the left) and the general recommendation from AWS to follow the flow of their menu items as the best practice, though the order could be different:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/049745c6-6af1-4a11-9f62-fb2106b85e09" />
+
+
 * **Internet Gateways & Routing**: Deployed an **Internet Gateway (IGW)** and configured **Custom Route Tables** with a default route (`0.0.0.0/0`) to enable external traffic egress.
 * **Layered Security Implementation**:
     * **Stateless Security**: Developed **Network Access Control Lists (NACLs)** at the subnet level to filter traffic using prioritized inbound and outbound rules.
