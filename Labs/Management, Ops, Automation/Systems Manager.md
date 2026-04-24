@@ -15,6 +15,11 @@ This documents completion of the step above:
 
 
 * **Automated Application Deployment**: Utilized **SSM Run Command** to remotely deploy a full web stack (Apache, PHP, and the AWS SDK) across instances simultaneously, eliminating the need for manual, error-prone local script execution.
+
+Here I tested the successful installation of the custom app using SSM Run Command:
+<img width="1855" height="1003" alt="image" src="https://github.com/user-attachments/assets/a260a218-a0b3-43fb-b2f2-c62a44fa6c5c" />
+
+
 * **Dynamic Configuration Management**: Implemented **Parameter Store** to manage application-level settings. By storing a hierarchical parameter (`/dashboard/show-beta-features`), I successfully enabled "beta" features on a live application in real-time without code deployments or server restarts.
 * **Secure Remote Administration**: Replaced traditional SSH/Bastion host access with **Session Manager**, establishing an encrypted, browser-based shell for instance management. This significantly reduced the attack surface by allowing the closure of inbound SSH ports while maintaining full administrative control.
 * **Programmatic Infrastructure Access**: Executed AWS CLI commands within the Session Manager environment to retrieve instance metadata in JSON format, demonstrating a secure and fully auditable administrative workflow.
