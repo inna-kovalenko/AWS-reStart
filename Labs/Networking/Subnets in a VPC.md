@@ -24,6 +24,9 @@ Here is the confirmation of the steps above completed - the screenshot shows how
 * **AWS Networking Core:** Hands-on experience with VPC Wizards, Subnet creation, and Internet Gateway (IGW) logic.
 * **Requirement Analysis:** Successfully balanced large-scale internal needs with small-scale public access requirements.
 
+The successful creation of architecture requested by the customer can also be seen in the VPC's *Resource Map*:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51c2a496-d20a-4c6c-97e8-1e2f06e62d47" />
+
 ---
 
 ## Key Findings & Solutions
