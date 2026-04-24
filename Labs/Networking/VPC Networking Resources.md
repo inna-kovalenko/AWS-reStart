@@ -16,6 +16,10 @@ Here this creation step is shown with the requirement from the customer (on the 
     * **Stateful Security**: Configured **Security Groups** to act as a virtual firewall for the instance, specifically permitting **SSH (22)**, **HTTP (80)**, and **HTTPS (443)** traffic.
 * **Validation & Testing**: Launched an **Amazon Linux EC2 instance**, established a secure **SSH connection**, and utilized the **ICMP protocol (ping)** to verify 0% packet loss and successful end-to-end connectivity.
 
+Here is the illustration of successful completion of all the lab's steps as seen also from the AWS Management Console & using `ping` through the SSH connection:
+<img width="1813" height="1008" alt="image" src="https://github.com/user-attachments/assets/d64db3ae-06d3-47df-800e-a9dbaa4a2481" />
+
+
 ## Skills Demonstrated
 * **AWS Core Services**: VPC, Subnets, Internet Gateways, Route Tables, EC2.
 * **Network Security**: Stateful vs. Stateless firewalls, Security Group rules, NACL logic.
