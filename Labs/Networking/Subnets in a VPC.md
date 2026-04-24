@@ -7,18 +7,14 @@ In this technical engagement, I acted as a Cloud Support Engineer for a startup 
 
 ## Objectives & Key Tasks
 * **Architectural Planning:** Evaluated customer requirements for a large-scale private network (15,000+ IPs) and a public-facing operations subnet (50+ IPs).
-
-Here the screenshot shows how the customer's requirements translated to the correct CIDR choice - I configured VPC at 10.0.0.0/18 (16,384 IPs) and Public Subnet at 10.0.0.0/26 (64 IPs) to fulfill the client's request for 15,000 network addresses and 50+ subnet hosts:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ad32843-321f-46ee-8f6d-08f8881dc0b5" />
-
-
-
 * **VPC Construction:** Utilized the AWS Create VPC function to deploy a "VPC with a Single Public Subnet" configuration.
 * **IP Address Allocation:** Calculated and assigned appropriate CIDR blocks using 192.168.0.0/18 to accommodate the requested capacity.
 * **Subnet Segmentation:** Defined a specific range for the Public Subnet to ensure operational needs were met without wasting address space.
 
-Here is the confirmation of the steps above completed:
-<img width="1913" height="979" alt="image" src="https://github.com/user-attachments/assets/5f805a10-36c6-4c44-8e8f-97bafc9a9bd2" />
+Here is the confirmation of the steps above completed - the screenshot shows how the customer's requirements translated to the correct CIDR bock choice (I configured VPC at 192.168.0.0/18 (16,384 IPs) and Public Subnet at  192.168.0.0/26 (64 IPs) to fulfill the client's request for 15,000 network addresses and 50+ subnet hosts):
+
+
+
 
 ---
 
