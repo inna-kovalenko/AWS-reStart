@@ -22,6 +22,10 @@ This step is well documented here - both the secret key and unique user ID appea
 * **Programmatic Resource Management**: Audited account security by querying **IAM (Identity and Access Management)** users and policies through the terminal.
 * **Data Extraction**: Leveraged advanced CLI commands to filter customer-managed policies and exported security documents into **JSON files** for documentation and auditing.
 
+This screenshot confirms completion of the last 2 steps (includes the challenge description from the lab instructions) - achieved thanks to quering AIM users and policies through AWS CLI:
+<img width="1844" height="1008" alt="image" src="https://github.com/user-attachments/assets/040ed458-9e76-46f6-8466-ed2d19ddc326" />
+
+
 ## Skills Demonstrated
 * **Cloud Infrastructure**: AWS EC2, VPC, IAM.
 * **Linux Administration**: Command line navigation, package installation, file permissions.
