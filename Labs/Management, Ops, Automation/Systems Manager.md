@@ -1,4 +1,4 @@
-# Lab Synopsis: Centralized Operations and Automation with AWS Systems Manager (SSM)
+# Centralized Operations and Automation with AWS Systems Manager (SSM)
 
 ## Project Overview
 I implemented **AWS Systems Manager (SSM)** to centralize operational data and automate management tasks across a fleet of Amazon EC2 instances. This project focused on improving security and scalability by replacing manual, per-instance management with automated "Node Management" capabilities, allowing for secure access and configuration updates without exposing traditional management ports.
