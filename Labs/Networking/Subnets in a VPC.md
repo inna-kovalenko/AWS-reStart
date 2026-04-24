@@ -11,9 +11,9 @@ In this technical engagement, I acted as a Cloud Support Engineer for a startup 
 * **IP Address Allocation:** Calculated and assigned appropriate CIDR blocks using 192.168.0.0/18 to accommodate the requested capacity.
 * **Subnet Segmentation:** Defined a specific range for the Public Subnet to ensure operational needs were met without wasting address space.
 
-Here is the confirmation of the steps above completed - the screenshot shows how the customer's requirements translated to the correct CIDR bock choice (I configured VPC at 192.168.0.0/18 (16,384 IPs) and Public Subnet at  192.168.0.0/26 (64 IPs) to fulfill the client's request for 15,000 network addresses and 50+ subnet hosts):
+Here is the confirmation of the steps above completed - the screenshot shows how the customer's requirements translated to the correct CIDR bock choice (I configured VPC at 192.168.0.0/18 (16,384 IPs) and Public Subnet at  192.168.1.0/26 (64 IPs) to fulfill the client's request for 15,000 network addresses and 50+ subnet hosts):
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/95865608-b545-4a52-a946-3935b3cd44f5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c3db6abb-d250-481b-ba31-db5d658fbe7b" />
 
 
 ---
