@@ -1,4 +1,4 @@
-# Lab Synopsis: Architecting Networking Resources in an Amazon VPC
+# Architecting Networking Resources in an Amazon VPC
 
 ## Project Overview
 I served as a **Cloud Support Engineer** to resolve a critical connectivity issue for a startup client. The project involved building a secure, routable **Virtual Private Cloud (VPC)** from the ground up, transitioning the infrastructure from an isolated state to a fully functional network capable of internet communication.
