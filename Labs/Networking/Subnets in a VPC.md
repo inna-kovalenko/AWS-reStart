@@ -13,7 +13,7 @@ In this technical engagement, I acted as a Cloud Support Engineer for a startup 
 
 Here is the confirmation of the steps above completed - the screenshot shows how the customer's requirements translated to the correct CIDR bock choice (I configured VPC at 192.168.0.0/18 (16,384 IPs) and Public Subnet at  192.168.0.0/26 (64 IPs) to fulfill the client's request for 15,000 network addresses and 50+ subnet hosts):
 
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/95865608-b545-4a52-a946-3935b3cd44f5" />
 
 
 ---
