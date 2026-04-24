@@ -27,7 +27,7 @@ Here is the confirmation of the steps above completed - the screenshot shows how
 ---
 
 ## Key Findings & Solutions
-* **Scalability:** To meet the 15,000 IP requirement, a /18 mask (192.168.0.0/18) was used, providing 16,384 addresses—the smallest standard block that satisfies the request.
+* **Scalability:** To meet the 15,000 IP requirement, a /18 mask (192.168.0.0/18) was used, providing 16,384 addresses (the smallest standard block that satisfies the request).
 * **Public Access:** A /26 mask (192.168.1.0/26) was assigned to the Public Subnet, providing 64 addresses, which safely covers the customer's 50-IP requirement.
 * **Isolation Strategy:** Confirmed that private IP addresses remain unreachable from the internet, protecting the "Seattle Headquarters" resources while allowing "Operations" to face the web.
 
