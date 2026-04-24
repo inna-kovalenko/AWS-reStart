@@ -15,6 +15,10 @@ This image shows successful completion of the 2 steps mentioned above: connectin
 <img width="1916" height="1004" alt="image" src="https://github.com/user-attachments/assets/8f0b2580-eea7-4258-b22f-2a0bc321c603" />
 
 * **Identity & Access Integration**: Configured secure communication between the CLI and the AWS account using **Access Keys**, **Secret Keys**, and JSON output formatting.
+
+This step is well documented here - both the secret key and unique user ID appear in the AWS Management Console (AIM) & in CLI:
+<img width="1918" height="1007" alt="image" src="https://github.com/user-attachments/assets/49a21bf2-aef9-4671-9779-814587dd16dd" />
+
 * **Programmatic Resource Management**: Audited account security by querying **IAM (Identity and Access Management)** users and policies through the terminal.
 * **Data Extraction**: Leveraged advanced CLI commands to filter customer-managed policies and exported security documents into **JSON files** for documentation and auditing.
 
