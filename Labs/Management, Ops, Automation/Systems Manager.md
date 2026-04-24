@@ -3,6 +3,10 @@
 ## Project Overview
 I implemented **AWS Systems Manager (SSM)** to centralize operational data and automate management tasks across a fleet of Amazon EC2 instances. This project focused on improving security and scalability by replacing manual, per-instance management with automated "Node Management" capabilities, allowing for secure access and configuration updates without exposing traditional management ports.
 
+Visualisation of the project work assigned:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28dc63c4-0efd-4e84-98e7-efb41b07b123" />
+
+
 ## Technical Accomplishments
 * **Fleet Inventory Management**: Leveraged **Fleet Manager** to automate the collection of software metadata and OS configurations, creating a centralized inventory for compliance auditing across managed nodes.
 
