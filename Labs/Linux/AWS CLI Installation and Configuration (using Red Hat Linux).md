@@ -3,6 +3,10 @@
 ## Project Overview
 I successfully deployed and configured the **AWS Command Line Interface (AWS CLI)** on a remote **Red Hat Enterprise Linux (RHEL)** instance. This project focused on moving beyond the Graphical User Interface (GUI) to manage cloud infrastructure programmatically, ensuring faster workflows and automation readiness.
 
+Here is the description of the lab with the diagram depicting the underlying architecture:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c851366a-7eb3-49fa-b70b-0a387a13cdd3" />
+
+
 ## Technical Accomplishments
 * **Remote Environment Setup**: Established a secure **SSH connection** from a Windows local machine to a Linux EC2 instance using **PuTTY** and **RSA key-pair authentication**.
 * **Software Deployment**: Executed a command-line installation of the AWS CLI v2 by retrieving packages via `curl`, unzipping resources, and managing permissions with `sudo`.
