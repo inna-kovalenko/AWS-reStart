@@ -23,7 +23,7 @@ This step is well documented here - both the secret key and unique user ID appea
 * **Data Extraction**: Leveraged advanced CLI commands to filter customer-managed policies and exported security documents into **JSON files** for documentation and auditing.
 
 This screenshot confirms completion of the last 2 steps (includes the challenge description from the lab instructions) - achieved thanks to quering AIM users and policies through AWS CLI:
-<img width="1844" height="1008" alt="image" src="https://github.com/user-attachments/assets/040ed458-9e76-46f6-8466-ed2d19ddc326" />
+<img width="1853" height="991" alt="image" src="https://github.com/user-attachments/assets/ceffe23a-d8d7-431a-ae2f-fdcf4856e4c9" />
 
 
 ## Skills Demonstrated
