@@ -5,6 +5,11 @@ I implemented **AWS Systems Manager (SSM)** to centralize operational data and a
 
 ## Technical Accomplishments
 * **Fleet Inventory Management**: Leveraged **Fleet Manager** to automate the collection of software metadata and OS configurations, creating a centralized inventory for compliance auditing across managed nodes.
+
+This documents completion of the step above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d43811da-d870-443f-8b32-a6792d6cc880" />
+
+
 * **Automated Application Deployment**: Utilized **SSM Run Command** to remotely deploy a full web stack (Apache, PHP, and the AWS SDK) across instances simultaneously, eliminating the need for manual, error-prone local script execution.
 * **Dynamic Configuration Management**: Implemented **Parameter Store** to manage application-level settings. By storing a hierarchical parameter (`/dashboard/show-beta-features`), I successfully enabled "beta" features on a live application in real-time without code deployments or server restarts.
 * **Secure Remote Administration**: Replaced traditional SSH/Bastion host access with **Session Manager**, establishing an encrypted, browser-based shell for instance management. This significantly reduced the attack surface by allowing the closure of inbound SSH ports while maintaining full administrative control.
