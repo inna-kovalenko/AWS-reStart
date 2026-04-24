@@ -24,6 +24,10 @@ Here I tested the successful installation of the custom app using SSM Run Comman
 * **Secure Remote Administration**: Replaced traditional SSH/Bastion host access with **Session Manager**, establishing an encrypted, browser-based shell for instance management. This significantly reduced the attack surface by allowing the closure of inbound SSH ports while maintaining full administrative control.
 * **Programmatic Infrastructure Access**: Executed AWS CLI commands within the Session Manager environment to retrieve instance metadata in JSON format, demonstrating a secure and fully auditable administrative workflow.
 
+Demonstration of the above step complete:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/32462f60-43b4-4910-892a-ef4722c56132" />
+
+
 ## Tools & Technologies
 * **AWS Systems Manager Capabilities**: Fleet Manager, Run Command, Parameter Store, Session Manager.
 
