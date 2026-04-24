@@ -24,6 +24,3 @@ I implemented a comprehensive monitoring and compliance strategy for AWS infrast
 * **Security & Auditing**: Eliminated the need to manually SSH into servers for log review, centralizing all audit data in CloudWatch Logs.
 * **Operational Efficiency**: Reduced "Mean Time to Detection" (MTTD) for application errors by implementing automated 1-minute alarm cycles.
 * **Cost Optimization**: Utilized AWS Config to identify unattached EBS volumes, preventing unnecessary billing for orphaned storage resources.
-
-with open("monitoring-infrastructure-lab-synopsis.md", "w") as f:
-    f.write(md_content)
