@@ -1,6 +1,6 @@
 ## Technologies and Tools
 
-AWS • EC2 • S3 • VPC • IAM • CloudWatch • Linux • Bash • Networking • Cloud Security
+AWS • CLI • EC2 • S3 • VPC • IAM • CloudWatch • Linux • Bash • Networking • Cloud Security
 
 # AWS re/Start – Cloud Computing Training Portfolio
 
