@@ -10,6 +10,10 @@ Here is the description of the lab with the diagram depicting the underlying arc
 ## Technical Accomplishments
 * **Remote Environment Setup**: Established a secure **SSH connection** from a Windows local machine to a Linux EC2 instance using **PuTTY** and **RSA key-pair authentication**.
 * **Software Deployment**: Executed a command-line installation of the AWS CLI v2 by retrieving packages via `curl`, unzipping resources, and managing permissions with `sudo`.
+
+This image shows successful completion of the 2 steps mentioned above: connecting via SSH & installing AWS CLI (version visible as the selected text):
+<img width="1916" height="1004" alt="image" src="https://github.com/user-attachments/assets/8f0b2580-eea7-4258-b22f-2a0bc321c603" />
+
 * **Identity & Access Integration**: Configured secure communication between the CLI and the AWS account using **Access Keys**, **Secret Keys**, and JSON output formatting.
 * **Programmatic Resource Management**: Audited account security by querying **IAM (Identity and Access Management)** users and policies through the terminal.
 * **Data Extraction**: Leveraged advanced CLI commands to filter customer-managed policies and exported security documents into **JSON files** for documentation and auditing.
