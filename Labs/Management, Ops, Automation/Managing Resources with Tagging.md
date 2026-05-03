@@ -53,6 +53,10 @@ This section focused on automated governance and security compliance.
 *   **The Policy**: Established that any instance in a private subnet lacking a mandatory `Environment` tag was non-compliant.
 *   **The Execution**: A specialized PHP script (`terminate-instances.php`) identified these untagged resources and executed a `TerminateInstances` API call to mitigate risks.
 
+Illustration of completion of the step above:
+<img width="1809" height="998" alt="image" src="https://github.com/user-attachments/assets/71e4d004-16c9-4e2c-a2aa-bb795e48b6fb" />
+
+
 ---
 
 ## Infrastructure Requirements
