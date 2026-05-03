@@ -28,6 +28,11 @@ The environment was built within a **Lab VPC** and included a **CommandHost** pr
 ### 1. Advanced Querying and Tag Manipulation
 The lab utilized the `--query` parameter and **JMESPath** syntax to extract specific data from JSON responses.
 *   **Filtered Instances**: Isolated instances belonging to both the `ERPSystem` project and `development` environment.
+
+This screenshot demostrates the output after filtering and quering, with visible instance IDs and tags (Environment, Version):
+
+<img width="1809" height="996" alt="image" src="https://github.com/user-attachments/assets/238cb18c-9086-41f7-acf3-c387e4f0ba4c" />
+
 *   **Automated Batch Updates**: Executed a Bash script (`change-resource-tags.sh`) to perform batch updates on the `Version` tag for all identified development instances.
 
 ### 2. Automated Resource Scheduling (Stopinator)
