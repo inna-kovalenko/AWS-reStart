@@ -1,6 +1,6 @@
-# Lab Synopsis: Managing Resources with Tagging
+# Managing Resources with Tagging
 
-This repository contains the documentation and technical summary for the AWS lab focused on infrastructure automation through resource metadata. The lab demonstrated how to utilize the AWS Command Line Interface (CLI) and the AWS SDK for PHP to manage EC2 instances at scale.
+This lab focused on infrastructure automation through resource metadata. The lab demonstrated how to utilize the AWS Command Line Interface (CLI) and the AWS SDK for PHP to manage EC2 instances at scale.
 
 ---
 
