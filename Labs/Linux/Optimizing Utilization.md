@@ -50,7 +50,7 @@ The optimization was performed using the AWS CLI through a dedicated CLI Host.
 
 ### 2. Cost Estimation and Analysis
 The AWS Pricing Calculator was used to model the financial impact of these changes.
-*   **Baseline Estimate**: Calculated the "Before Optimization" cost (approx. $35.60/month) including the `t3.small` instance and 40 GB of storage.
+*   **Baseline Estimate**: Calculated the "Before Optimization" cost (approx. $88.85/month) including the `t3.small` instance and 20 GB of storage.
 
 <i>Before optimizing:</i>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e91913e9-f023-4cfb-ae77-7e8d28b3c3e5" />
