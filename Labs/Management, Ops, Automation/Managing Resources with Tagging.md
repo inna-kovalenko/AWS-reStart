@@ -44,6 +44,10 @@ A PHP-based utility, `stopinator.php`, was introduced to interact with the AWS S
 *   **Cost Optimization**: Implemented measures to shut down development environments outside of business hours.
 *   **Mechanism**: The script identified instances via tag-value pairs across all AWS regions and issued `StopInstances` or `StartInstances` commands.
 
+This illustrates how the two instances were identified and stopped with Stopinator:
+<img width="1824" height="1005" alt="image" src="https://github.com/user-attachments/assets/9e6ff218-3c22-4d76-b770-24bc7689f41b" />
+
+
 ### 3. Challenge: "Tag-or-Terminate" Policy
 This section focused on automated governance and security compliance.
 *   **The Policy**: Established that any instance in a private subnet lacking a mandatory `Environment` tag was non-compliant.
