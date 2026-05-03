@@ -23,6 +23,9 @@ The activity focused on the Café web application which had recently migrated it
 | **Rightsizing** | Changed instance type from `t3.small` to `t3.micro`. | Lowered hourly compute costs while maintaining performance. |
 | **Storage Reduction** | Reduced EBS volume requirement from 40 GB to 20 GB. | Minimized monthly storage fees. |
 
+<img width="1364" height="718" alt="image" src="https://github.com/user-attachments/assets/694d7804-cf88-4b76-8189-f9d3f11d550d" />
+
+
 ---
 
 ## Task Summary
