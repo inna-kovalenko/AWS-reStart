@@ -38,10 +38,15 @@ Illustration of this step complete:
 <img width="1846" height="992" alt="image" src="https://github.com/user-attachments/assets/e583e5ba-fdfc-4282-a8cb-c100d66ae2bf" />
 
 *   **Instance Modification**: Stopped the Café instance and utilized `modify-instance-attribute` to switch the instance type to `t3.micro`.
+
+Completion of the step above:
+<img width="1808" height="997" alt="image" src="https://github.com/user-attachments/assets/1f98cc9d-41f8-4b57-8ec9-d1de0e6e5d14" />
+
 *   **Verification**: Restarted the instance and verified the new Public DNS and IP address to ensure the website remained functional.
 
-Completion of the steps above:
-<img width="1808" height="997" alt="image" src="https://github.com/user-attachments/assets/1f98cc9d-41f8-4b57-8ec9-d1de0e6e5d14" />
+This illustrates the website remained functional with the new Public DNS Name:
+<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/fe31bcce-a236-40d9-975e-72433e8edec8" />
+
 
 ### 2. Cost Estimation and Analysis
 The AWS Pricing Calculator was used to model the financial impact of these changes.
