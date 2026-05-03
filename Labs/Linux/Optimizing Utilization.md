@@ -40,6 +40,9 @@ Illustration of this step complete:
 *   **Instance Modification**: Stopped the Café instance and utilized `modify-instance-attribute` to switch the instance type to `t3.micro`.
 *   **Verification**: Restarted the instance and verified the new Public DNS and IP address to ensure the website remained functional.
 
+Completion of the steps above:
+<img width="1808" height="997" alt="image" src="https://github.com/user-attachments/assets/1f98cc9d-41f8-4b57-8ec9-d1de0e6e5d14" />
+
 ### 2. Cost Estimation and Analysis
 The AWS Pricing Calculator was used to model the financial impact of these changes.
 *   **Baseline Estimate**: Calculated the "Before Optimization" cost (approx. $35.60/month) including the `t3.small` instance and 40 GB of storage.
