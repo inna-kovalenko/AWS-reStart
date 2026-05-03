@@ -35,7 +35,7 @@ This screenshot, for example, demostrates the output after filtering and quering
 *   **Filtered Instances**: Isolated instances belonging to both the `ERPSystem` project and `development` environment.
 *   **Automated Batch Updates**: Executed a Bash script (`change-resource-tags.sh`) to perform batch updates on the `Version` tag for all identified development instances.
 
-This demonstrates completion of the last step - all development instances found & their version updated automatically and in bulk:
+This demonstrates completion of the last step - all the found development instances got only their version updated, automatically and in bulk:
 <img width="1830" height="996" alt="image" src="https://github.com/user-attachments/assets/8905e90f-21d7-4d30-8a77-5c0c37a34ba3" />
 
 
