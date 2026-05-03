@@ -34,17 +34,17 @@ The activity focused on the Café web application which had recently migrated it
 The optimization was performed using the AWS CLI through a dedicated CLI Host.
 *   **Database Decommissioning**: Stopped the `mariadb` service and removed the server package using `yum` to free up system resources.
 
-Illustration of this step complete:
+<i>Illustration of this step complete:</i>
 <img width="1846" height="992" alt="image" src="https://github.com/user-attachments/assets/e583e5ba-fdfc-4282-a8cb-c100d66ae2bf" />
 
 *   **Instance Modification**: Stopped the Café instance and utilized `modify-instance-attribute` to switch the instance type to `t3.micro`.
 
-Completion of the step above:
+<i>Completion of the step above:</i>
 <img width="1808" height="997" alt="image" src="https://github.com/user-attachments/assets/1f98cc9d-41f8-4b57-8ec9-d1de0e6e5d14" />
 
 *   **Verification**: Restarted the instance and verified the new Public DNS and IP address to ensure the website remained functional.
 
-This illustrates the website remained functional with the new Public DNS Name:
+<i>This illustrates the website remained functional with the new Public DNS Name:</i>
 <img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/fe31bcce-a236-40d9-975e-72433e8edec8" />
 
 
