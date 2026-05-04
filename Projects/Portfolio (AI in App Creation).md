@@ -23,3 +23,7 @@ Recruiters typically spend less than ten seconds on an initial CV review. If the
 ## How does it work?
 
 The user pastes their current CV summary into one input field and the job description into another. The AI reads both, identifies the key skills, terms, and priorities from the job posting, and rewrites the CV summary to highlight the most relevant parts of the applicant's background using the employer's own language. The output is a ready-to-use summary of three to five sentences that the applicant can copy directly or adjust before submitting.
+
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2834b9e3-33f6-4cdc-b1dd-94f37e3e7e3d" />
