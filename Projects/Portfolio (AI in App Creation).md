@@ -32,3 +32,6 @@ The user pastes their current CV summary into one input field and the job descri
 
 2 Then it came up with the first solution
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34f250c5-b7af-4833-9298-b05e65b19940" />
+
+3 Step 3 was to test it using my real data (from CV/JD)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/582af0a4-7931-49ad-be6f-df5a7b86072c" />
