@@ -38,3 +38,6 @@ The user pastes their current CV summary into one input field and the job descri
 
 4 It was also possible to analyze many aspects of how the app works, incl. the flow, widgets, variables:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd706bbc-2579-4396-83ea-5cfe263b9772" />
+
+5 As an option, I could choose to make the app available for the public or people with the link, or keep it private:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24aaf5d8-4731-4d9d-9da3-94194829e828" />
