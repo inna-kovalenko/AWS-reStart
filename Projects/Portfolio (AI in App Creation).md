@@ -25,13 +25,16 @@ Recruiters typically spend less than ten seconds on an initial CV review. If the
 The user pastes their current CV summary into one input field and the job description into another. The AI reads both, identifies the key skills, terms, and priorities from the job posting, and rewrites the CV summary to highlight the most relevant parts of the applicant's background using the employer's own language. The output is a ready-to-use summary of three to five sentences that the applicant can copy directly or adjust before submitting.
 
 ---
-## Steps working with Partyrock:
+## Steps working with Partyrock
 
-1 First, I gave the context as here with my ideas of which widgets to have
+1 First, I gave the context as here with my ideas of which widgets to have:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2834b9e3-33f6-4cdc-b1dd-94f37e3e7e3d" />
 
-2 Then it came up with the first solution
+2 Then it came up with the first solution:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34f250c5-b7af-4833-9298-b05e65b19940" />
 
-3 Step 3 was to test it using my real data (from CV/JD)
+3 Step 3 was to test it using my real data (from CV/JD):
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/582af0a4-7931-49ad-be6f-df5a7b86072c" />
+
+4 It was also possible to analyze many aspects of how the app works, incl. the flow, widgets, variables:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd706bbc-2579-4396-83ea-5cfe263b9772" />
