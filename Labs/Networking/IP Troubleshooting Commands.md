@@ -29,7 +29,7 @@ As a network administrator, I utilized an Amazon Linux EC2 instance to simulate 
 *   **`ping`**: Used to test basic IP-level connectivity and reachability to a specific target (e.g., `ping 8.8.8.8 -c 5`). It is essential for verifying security group rules and ICMP permissions.
 *   **`traceroute`**: Used to identify the path a packet takes and locate where latency or packet loss occurs (e.g., `traceroute 8.8.8.8`). Three asterisks (***) indicate a failed hop in the network path.
 
-The screenshot shows completions of the above two steps checking the Network Layer:
+The screenshot shows completion of the above steps checking the if there are issues with the Network Layer:
 <img width="890" height="486" alt="image" src="https://github.com/user-attachments/assets/7358e3cd-0ce9-4040-8d6c-77186d078d3a" />
 
 
