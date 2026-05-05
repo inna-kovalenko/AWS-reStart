@@ -14,6 +14,13 @@ In this lab, I built a structured and secure cloud network and configured access
 
 <ul>
 <li>Created a <b>VPC</b> with both <b>public and private subnets</b></li>
+
+This shows completion of VPC creating step:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f01ff984-1626-4aea-9f68-5338d76b5208" />
+
+Here is work done to set up & configure the public subnet:
+<img width="1844" height="948" alt="image" src="https://github.com/user-attachments/assets/e09debdb-fa01-41f9-8098-edc9c0b0c08d" />
+
 <li>Configured an <b>Internet Gateway</b> for external access</li>
 <li>Set up a <b>NAT Gateway</b> to enable outbound internet access for private subnet resources</li>
 <li>Configured <b>route tables</b> to manage local and internet-bound traffic</li>
@@ -21,9 +28,9 @@ In this lab, I built a structured and secure cloud network and configured access
 <li>Used the bastion host to securely connect to an instance in the private subnet</li>
 </ul>
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f01ff984-1626-4aea-9f68-5338d76b5208" />
 
-<img width="1844" height="948" alt="image" src="https://github.com/user-attachments/assets/e09debdb-fa01-41f9-8098-edc9c0b0c08d" />
+
+
 
 <img width="1851" height="996" alt="image" src="https://github.com/user-attachments/assets/a37d1e15-6874-4180-ba79-e86ebaadfb23" />
 
