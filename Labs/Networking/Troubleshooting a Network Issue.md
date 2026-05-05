@@ -27,9 +27,6 @@ To resolve the issue, I investigated the following VPC components:
 *   **Internet Gateway**: Ensured the gateway was properly attached to the VPC.
 *   **Security Groups & NACLs**: Inspected inbound and outbound rules for ICMP (Ping) and HTTP (Port 80) traffic.
 
-Here I modified the corresponding Security Group's inbound rules:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d69cdf66-3442-4db7-81f5-f5c2b9be31a7" />
-
 
 ---
 
@@ -50,6 +47,8 @@ Even with the service running, the web page failed to load in the browser, indic
 *   **Security Group Analysis**: Evaluated the Security Group rules. In AWS, Security Groups act as a virtual firewall for instances, controlling inbound and outbound traffic.
 
 
+Here it is visible I modified the corresponding Security Group's inbound rules:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d1a70d3-5807-4abd-bff4-24977160fa48" />
 
 ### 3. Resolution: Port Configuration
 The root cause was identified as a misconfiguration in the **Security Group**.
