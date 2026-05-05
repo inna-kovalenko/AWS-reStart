@@ -2,6 +2,10 @@
 
 This lab focused on network diagnostic tools. The lab demonstrated how to connect to AWS resources via SSH and utilize core networking commands to identify and resolve connectivity issues across different layers of the OSI model.
 
+Here is an example of how the troubleshooting commands flow with the Open Systems Interconnection (OSI) model:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05d5d425-b734-48c5-8094-83ed13ae5923" />
+
+
 ---
 
 ## Lab Objectives
