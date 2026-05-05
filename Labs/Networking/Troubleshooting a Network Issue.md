@@ -16,6 +16,10 @@ After completing this lab, I demonstrated the ability to:
 ## Technical Scenario
 A customer, a contractor working with AWS, reported that her Apache server was unreachable via `ping` and web browser despite being created via the command line. I utilized a replica of her environment to isolate and fix the issue.
 
+This shows the customer's AWS architecture:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/368aa976-22a6-41d5-96b3-c30701ebcc82" />
+
+
 ### Troubleshooting Checklist
 To resolve the issue, I investigated the following VPC components:
 *   **Subnets**: Verified route table associations.
