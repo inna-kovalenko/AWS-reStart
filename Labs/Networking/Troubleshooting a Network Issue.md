@@ -36,6 +36,10 @@ Upon connecting to the instance via SSH, I discovered that the Apache service wa
 *   **Status Check**: Verified current state with `sudo systemctl status httpd.service`.
 *   **Activation**: Successfully started the web server using `sudo systemctl start httpd.service`.
 
+This screenshot documents completion of the steps above:
+<img width="947" height="502" alt="image" src="https://github.com/user-attachments/assets/d35aa019-f1be-4d08-b603-1cf0869ec3d9" />
+
+
 ### 2. Network Diagnostics
 Even with the service running, the web page failed to load in the browser, indicating a network-level blockage.
 *   **Internet Connectivity Test**: Verified outbound access by pinging external sites (e.g., `amazon.com`).
