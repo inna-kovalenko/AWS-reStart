@@ -29,6 +29,10 @@ As a network administrator, I utilized an Amazon Linux EC2 instance to simulate 
 *   **`ping`**: Used to test basic IP-level connectivity and reachability to a specific target (e.g., `ping 8.8.8.8 -c 5`). It is essential for verifying security group rules and ICMP permissions.
 *   **`traceroute`**: Used to identify the path a packet takes and locate where latency or packet loss occurs (e.g., `traceroute 8.8.8.8`). Three asterisks (***) indicate a failed hop in the network path.
 
+The screenshot shows completions of the above two steps checking the Network Layer:
+<img width="890" height="486" alt="image" src="https://github.com/user-attachments/assets/7358e3cd-0ce9-4040-8d6c-77186d078d3a" />
+
+
 ### Layer 4: Transport Layer (Ports & Connections)
 *   **`netstat`**: Used to identify which ports are listening or established on a host (e.g., `netstat -tp`). This is a critical tool for security scans and narrowing down local networking issues.
 *   **`telnet`**: Used to confirm if a specific TCP port is open or blocked by a firewall (e.g., `telnet www.google.com 80`). 
