@@ -39,6 +39,10 @@ The screenshot shows completion of the above steps checking the if there are iss
     *   **Connection Refused**: Indicates a firewall or security group is likely blocking the port.
     *   **Connection Timed Out**: Suggests a total lack of network route or connectivity.
 
+This demonstrates completion of checking connectivity at Layer 4 using both `netstat` and `telnet` commands:
+<img width="913" height="505" alt="image" src="https://github.com/user-attachments/assets/7ec0a4e1-9d80-48d7-ad4b-ed50fbca6602" />
+
+
 ### Layer 7: Application Layer (Data Transfer)
 *   **`curl`**: Used to transfer data and test application-level responses (e.g., `curl -vLo /dev/null https://aws.com`). 
 *   **Verbose Mode (`-v`)**: Essential for seeing HTTP headers and identifying if a server returns a `200 OK` status, confirming the application is running successfully.
