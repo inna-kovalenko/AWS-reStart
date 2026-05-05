@@ -14,7 +14,7 @@ After completing this lab, I demonstrated the ability to:
 ---
 
 ## Technical Scenario
-A customer, AnaContractor, reported that her Apache server was unreachable via `ping` and web browser despite being created via the command line. I utilized a replica of her environment to isolate and fix the issue.
+A customer, a contractor working with AWS, reported that her Apache server was unreachable via `ping` and web browser despite being created via the command line. I utilized a replica of her environment to isolate and fix the issue.
 
 ### Troubleshooting Checklist
 To resolve the issue, I investigated the following VPC components:
