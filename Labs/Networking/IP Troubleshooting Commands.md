@@ -47,6 +47,10 @@ This demonstrates completion of checking connectivity at Layer 4 using both `net
 *   **`curl`**: Used to transfer data and test application-level responses (e.g., `curl -vLo /dev/null https://aws.com`). 
 *   **Verbose Mode (`-v`)**: Essential for seeing HTTP headers and identifying if a server returns a `200 OK` status, confirming the application is running successfully.
 
+This step completed (monitoring at the Application Layer) using `curl`:
+<img width="911" height="500" alt="image" src="https://github.com/user-attachments/assets/0c766966-23ed-4e0f-81d8-7c5232ad5288" />
+
+
 ---
 
 ## Key Takeaways for Career Path
