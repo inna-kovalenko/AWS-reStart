@@ -55,6 +55,9 @@ The root cause was identified as a misconfiguration in the **Security Group**.
 *   **The Fix**: Modified the inbound rules to allow **HTTP (Port 80)** traffic and **ICMP** (for ping requests).
 *   **Verification**: Confirmed the fix by successfully loading the Apache Test Page using the instance's Public IP address.
 
+This shows connection got successfully established after the changes made to the Security Group:
+<img width="930" height="502" alt="image" src="https://github.com/user-attachments/assets/b49752ba-cc66-43ed-b38f-f99d09303e76" />
+
 ---
 
 ## Key Takeaways
