@@ -3,6 +3,10 @@
 ## Lab Overview
 I implemented a centralized patch management solution using **AWS Systems Manager (SSM)** to automate the lifecycle of operating system updates across a hybrid fleet of EC2 instances. This project focused on establishing security baselines, managing patch groups, and ensuring cross-platform compliance for both Linux and Windows environments.
 
+This shows an example of an available instance that Systems Manager could work with in the lab setup:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6730914e-0be7-4b22-8bc4-a7640882b47b" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Automated Linux Patching via Default Baselines
