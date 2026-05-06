@@ -14,6 +14,10 @@ This shows an example of an available instance that Systems Manager could work w
 *   Leveraged **Default Patch Baselines** to rapidly address vulnerabilities without the need for manual script intervention.
 *   Orchestrated targeted patching operations using **Instance Tags** (e.g., `Patch Group: LinuxProd`) to ensure only specific production nodes were modified.
 
+This demonstrates setting up the Patch function:
+<img width="934" height="505" alt="image" src="https://github.com/user-attachments/assets/7a04b435-09fa-4989-8861-2e9366e85328" />
+
+
 ### 2. Custom Security Baseline Engineering for Windows
 *   Engineered a **Custom Patch Baseline** specifically for Windows Server 2019 to enforce a strict security posture.
 *   Defined granular **Approval Rules** based on Classification (Security Updates) and Severity (Critical and Important).
