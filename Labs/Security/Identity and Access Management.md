@@ -3,6 +3,10 @@
 ## Lab Overview
 I implemented a robust access control framework using **AWS Identity and Access Management (IAM)** to manage identity lifecycle and resource security. This project focused on enforcing the **Principle of Least Privilege** by configuring custom password policies, managing user groups, and auditing JSON-based permission structures for diverse technical roles.
 
+This demonstrates the breakdown of the task with the diagram AIM infrastructure:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/251be133-84e3-48d1-815d-2a70e4e20baf" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Governance & Password Policy Enforcement
