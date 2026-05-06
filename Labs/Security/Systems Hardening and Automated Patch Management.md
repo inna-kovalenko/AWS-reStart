@@ -23,6 +23,10 @@ This demonstrates setting up the Patch function:
 *   Defined granular **Approval Rules** based on Classification (Security Updates) and Severity (Critical and Important).
 *   Implemented an **Auto-approval Delay** of 3 days to balance the need for rapid patching with the requirement for environmental stability.
 
+The example of this granularity mentioned in the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c786ad26-06fa-4692-ae00-bc985750a36e" />
+
+
 ### 3. Patch Group Management & Orchestration
 *   Configured **Patch Groups** to associate specific EC2 instances with designated security baselines, preventing "configuration drift" across the fleet.
 
