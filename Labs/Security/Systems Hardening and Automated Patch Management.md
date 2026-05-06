@@ -25,6 +25,10 @@ This demonstrates setting up the Patch function:
 
 ### 3. Patch Group Management & Orchestration
 *   Configured **Patch Groups** to associate specific EC2 instances with designated security baselines, preventing "configuration drift" across the fleet.
+
+This shows progress monitoring and visualisation of patching and installing on the 3 instances:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0630577-3535-4e52-8978-30f841270320" />
+
 *   Automated the **Scan and Install** workflow using the `AWS-RunPatchBaseline` SSM document.
 *   Managed instance reboot behaviors during maintenance windows to minimize downtime while ensuring kernel-level updates were successfully applied.
 
