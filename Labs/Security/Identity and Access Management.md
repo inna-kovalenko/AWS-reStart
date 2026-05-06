@@ -32,6 +32,10 @@ This demonstrates granularity of the task above:
 *   Conducted multi-user validation using the **IAM Sign-in URL** and Private browser sessions to simulate real-world access scenarios.
 *   Verified the **Principle of Least Privilege** by confirming:
     *   **User-1 (S3 Support):** Confirmed access to S3 buckets while maintaining "Access Denied" for EC2 services.
+
+    While access to S3 for this user was ok, access to EC2 was denied:
+    <img width="956" height="501" alt="image" src="https://github.com/user-attachments/assets/e75f6868-e15e-445c-975f-78056d018125" />
+
     *   **User-2 (EC2 Support):** Verified the ability to view EC2 instances while being restricted from destructive actions (Stop/Terminate).
     *   **User-3 (EC2 Admin):** Successfully validated administrative rights to modify instance states as permitted by the specific inline policy.
 
