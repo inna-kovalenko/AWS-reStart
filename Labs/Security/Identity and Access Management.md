@@ -43,5 +43,9 @@ This demonstrates granularity of the task above:
 
     *   **User-3 (EC2 Admin):** Successfully validated administrative rights to modify instance states as permitted by the specific inline policy.
 
+    This confirms User-3 was successfully assigned to EC2-Admin group and so can perform actions requiring Admin-level permissions, e.g. stopping an instance:
+    <img width="920" height="499" alt="image" src="https://github.com/user-attachments/assets/d7d2360f-b72c-4a27-80f4-49a5e5472a24" />
+
+
 ---
 **Tech Stack:** AWS IAM (Users, Groups, Roles, Policies), Security Governance, JSON Policy Design.
