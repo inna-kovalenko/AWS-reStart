@@ -26,6 +26,10 @@ This demonstrates completion of the step above:
 ### 3. Security & Infrastructure Hardening
 *   Engineered a **Security Group** strategy acting as an instance-level firewall.
 *   Configured **Stateful** inbound rules to permit HTTP (Port 80) and ICMP traffic from any IPv4 source (`0.0.0.0/0`).
+
+Example of adding a rule to permit web requests:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3480900f-32e3-4b55-bbd4-31141a790903" />
+
 *   Verified **Network ACLs (NACLs)** at the subnet level to provide a second layer of stateless defense.
 
 ### 4. Automated Server Deployment
