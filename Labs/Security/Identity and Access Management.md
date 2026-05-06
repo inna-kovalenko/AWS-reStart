@@ -37,6 +37,10 @@ This demonstrates granularity of the task above:
     <img width="956" height="501" alt="image" src="https://github.com/user-attachments/assets/e75f6868-e15e-445c-975f-78056d018125" />
 
     *   **User-2 (EC2 Support):** Verified the ability to view EC2 instances while being restricted from destructive actions (Stop/Terminate).
+
+    This shows User-2 who has Read-Only permissions for EC2 can't stop the instance as this is the Admin-level permission:
+    <img width="919" height="500" alt="image" src="https://github.com/user-attachments/assets/573887c1-c43c-48ef-952e-9806defa6d9f" />
+
     *   **User-3 (EC2 Admin):** Successfully validated administrative rights to modify instance states as permitted by the specific inline policy.
 
 ---
