@@ -14,6 +14,10 @@ This demonstrates the breakdown of the task with the diagram AIM infrastructure:
 *   Mandated high-complexity requirements including uppercase, lowercase, numbers, and non-alphanumeric symbols.
 *   Configured security hygiene standards by enabling **Password Expiration** (90 days) and **Preventing Password Reuse**.
 
+This demonstrates granularity of the task above:
+<img width="928" height="499" alt="image" src="https://github.com/user-attachments/assets/4d3e433e-3674-45ee-8f4d-732cc326a672" />
+
+
 ### 2. IAM Architecture & User Management
 *   Organized pre-created IAM identities into functional **User Groups** (`S3-Support`, `EC2-Support`, and `EC2-Admin`) to streamline administrative overhead.
 *   Mapped specialized staff to their respective groups, enabling automated inheritance of required security credentials and permissions.
