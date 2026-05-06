@@ -3,6 +3,10 @@
 ## Lab Overview
 I successfully designed and deployed a custom, high-availability virtual network environment on AWS to support a web application. This project involved building a Virtual Private Cloud (VPC) from scratch, configuring multi-layered security protocols, and automating a web server deployment.
 
+This visualizes the task to create a VPC with additional components to produce a customized network for a Fortune 100 customer:
+<img width="564" height="326" alt="image" src="https://github.com/user-attachments/assets/e8fdd73e-bf84-435d-945c-e38088d7b90a" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Custom VPC Architecture
