@@ -24,10 +24,17 @@ An example of 60% threshold set:
 
 * Linked the Alarm state to the SNS topic to automate the "A2P" (Application-to-Person) notification workflow.
 
-Confirmation of the successful creation of the alarm 
+Confirmation of the successful creation of the alarm (still lacking data as very little work was done with the current instance & no stress test):
+<img width="1920" height="1080" alt="Screenshot 2026-05-07 121035" src="https://github.com/user-attachments/assets/215e7ea3-0a8b-406f-86b7-23ebdc21e835" />
+
+
 ### 3. Stress Testing & Incident Simulation
 * Executed a manual **CPU Stress Test** on a Linux EC2 instance using the `stress` utility to simulate 100% load.
 * Used terminal monitoring tools (`top`) to validate real-time resource consumption during the simulated attack.
+
+This shows execution of both commands above:
+<img width="959" height="497" alt="image" src="https://github.com/user-attachments/assets/46eef134-0991-477c-ad00-cbc796abb4c7" />
+
 * Verified the transition of the CloudWatch alarm from `OK` to `In Alarm` state, confirming the sensitivity and accuracy of the monitoring logic.
 
 ### 4. Visual Observability & Dashboards
