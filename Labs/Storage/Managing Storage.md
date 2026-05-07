@@ -3,6 +3,10 @@
 ## Lab Overview
 I implemented an automated data lifecycle management strategy across AWS storage services. This project involved utilizing the AWS CLI and Python scripting to orchestrate EBS volume snapshots, alongside implementing a hybrid synchronization and recovery workflow using Amazon S3 Versioning.
 
+Here is the architecture of this solution:
+<img width="717" height="425" alt="image" src="https://github.com/user-attachments/assets/084a698e-bf92-4541-bd08-b4e4b0d89d99" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Automated Snapshot Orchestration
