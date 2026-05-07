@@ -11,6 +11,10 @@ I implemented a real-time monitoring and alerting solution to detect anomalous r
 * Provisioned an **Amazon SNS (Simple Notification Service)** topic to serve as the communication backbone for system alerts.
 * Configured and validated an **Email Subscription** protocol, including end-to-end confirmation to ensure reliable delivery of incident notifications.
 
+This shows completion of the steps above:
+<img width="932" height="499" alt="image" src="https://github.com/user-attachments/assets/d4358bc1-b9d2-4b76-986a-06567f32a08b" />
+
+
 ### 2. CloudWatch Alarm Engineering
 * Established a **Metric Alarm** in Amazon CloudWatch to monitor the `CPUUtilization` metric with a 1-minute granularity for high-resolution tracking.
 * Defined a static threshold of **> 60% CPU utilization** as the trigger condition for incident response.
