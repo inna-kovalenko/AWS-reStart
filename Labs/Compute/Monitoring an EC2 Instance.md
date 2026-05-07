@@ -24,6 +24,7 @@ An example of 60% threshold set:
 
 * Linked the Alarm state to the SNS topic to automate the "A2P" (Application-to-Person) notification workflow.
 
+Confirmation of the successful creation of the alarm 
 ### 3. Stress Testing & Incident Simulation
 * Executed a manual **CPU Stress Test** on a Linux EC2 instance using the `stress` utility to simulate 100% load.
 * Used terminal monitoring tools (`top`) to validate real-time resource consumption during the simulated attack.
