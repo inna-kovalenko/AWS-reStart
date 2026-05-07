@@ -14,6 +14,11 @@ This is a visual breakdown of task:
 * Managed authenticated administrative access to a **MySQL** database engine using CLI-based credential management.
 * Performed schema exploration using `SHOW DATABASES` and `SELECT *` to audit table structures (`city`, `country`, `countrylanguage`).
 
+This documents steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/353c5f40-fcd6-45c5-9652-05533d22940b" />
+
+
+
 ### 2. Aggregate Data Analytics
 * Synthesized large-scale population data using aggregate functions including **SUM()**, **MIN()**, **MAX()**, and **AVG()**.
 * Calculated dataset metadata using the **COUNT()** function to verify record integrity across 239 countries.
