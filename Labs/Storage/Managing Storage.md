@@ -21,6 +21,10 @@ Here it is visible these snapshot got created as expected:
 
 * **Snapshot Lifecycle Management:** Deployed a Python script (`snapshotter_v2.py`) to automatically prune outdated backups, maintaining a strict retention policy of the two most recent snapshots to optimize storage costs.
 
+Demonstration of the work in progress as per the previous step:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3ca0a1cf-7484-431e-8fc4-b8ccb1ef6715" />
+
+
 ### 2. S3 Hybrid Synchronization & Data Integrity
 * **S3 Sync Deployment:** Orchestrated a secure data transfer from local EBS directories to an Amazon S3 bucket using the `aws s3 sync` command.
 * **One-Way Synchronization:** Implemented the `--delete` flag to mirror local file deletions within the S3 bucket, maintaining high-fidelity synchronization between block and object storage.
