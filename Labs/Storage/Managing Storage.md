@@ -15,6 +15,10 @@ An example of working with commands as above:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef71818e-c211-40bd-b520-986811112205" />
 
 * **Cron-Based Scheduling:** Configured a Linux `cron` scheduler to automate high-frequency snapshots, ensuring a granular Recovery Point Objective (RPO).
+
+Here it is visible these snapshot got created as expected:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ad8c9c5-27fc-431f-8803-39a921cfe3d1" />
+
 * **Snapshot Lifecycle Management:** Deployed a Python script (`snapshotter_v2.py`) to automatically prune outdated backups, maintaining a strict retention policy of the two most recent snapshots to optimize storage costs.
 
 ### 2. S3 Hybrid Synchronization & Data Integrity
