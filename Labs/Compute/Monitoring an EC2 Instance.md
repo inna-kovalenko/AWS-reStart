@@ -1,7 +1,9 @@
-# AWS Project: Infrastructure Monitoring and Automated Alerting
+# Infrastructure Monitoring and Automated Alerting
 
-## Project Overview
+## Lab Overview
 I implemented a real-time monitoring and alerting solution to detect anomalous resource behavior on Amazon EC2 instances. By integrating **Amazon CloudWatch** with **Amazon SNS**, I established an automated notification system that alerts administrators via email when CPU utilization exceeds predefined safety thresholds, simulating a response to potential malware or system compromise.
+
+> **Security Note: Incident Detection** > While this is a Compute monitoring task, it serves as a critical **Security** control. Spikes in CPU utilization are often the first indicator of a compromised instance being used for unauthorized crypto-mining or as part of a Botnet. Establishing a 60% threshold ensures "Resource Exhaustion" attacks are detected and mitigated before they impact service availability.
 
 ## Key Achievements & Technical Milestones
 
