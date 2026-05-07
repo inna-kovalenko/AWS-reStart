@@ -41,5 +41,9 @@ This shows execution of both commands above:
 * Engineered a custom **CloudWatch Dashboard** to centralize infrastructure health metrics into a single "pane of glass."
 * Deployed a **Line Widget** to visualize historical CPU trends, enabling faster identification of performance patterns and baseline deviations.
 
+Here is the Dashboard showing CPU spikes as a result of running stress tests:
+<img width="931" height="472" alt="image" src="https://github.com/user-attachments/assets/3e2bb3cc-5672-43cf-bff6-0494184934c3" />
+
+
 ---
 **Tech Stack:** AWS CloudWatch (Alarms, Dashboards, Metrics), Amazon SNS, Amazon EC2, Linux CLI (Stress testing tools).
