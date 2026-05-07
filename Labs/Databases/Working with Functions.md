@@ -30,6 +30,10 @@ Use of the functions above:
 ### 3. Advanced String Manipulation & Data Cleaning
 * Engineered complex queries using **SUBSTRING_INDEX()** to parse and split geographic region strings into distinct data columns.
 * Applied **TRIM()** and **LENGTH()** functions within `WHERE` clauses to filter records based on specific character-count criteria.
+
+This demonstrates working with the above functions:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2a131dc-a619-42ba-8d2f-0a81d8b386e6" />
+
 * Utilized **DISTINCT()** to eliminate redundant records and ensure high-fidelity reporting of unique geographical regions.
 
 This shows completion of the step above & the challenge below:
