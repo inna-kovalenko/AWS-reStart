@@ -10,6 +10,10 @@ Here is the architecture of this solution:
 
 ### 1. Automated Snapshot Orchestration
 * **CLI-Driven Backups:** Utilized the AWS CLI to programmatically identify EBS Volume IDs and execute point-in-time snapshots of the "Processor" instance.
+
+An example of working with commands as above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef71818e-c211-40bd-b520-986811112205" />
+
 * **Cron-Based Scheduling:** Configured a Linux `cron` scheduler to automate high-frequency snapshots, ensuring a granular Recovery Point Objective (RPO).
 * **Snapshot Lifecycle Management:** Deployed a Python script (`snapshotter_v2.py`) to automatically prune outdated backups, maintaining a strict retention policy of the two most recent snapshots to optimize storage costs.
 
