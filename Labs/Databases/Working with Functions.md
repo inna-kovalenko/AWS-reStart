@@ -24,6 +24,9 @@ This documents steps above:
 * Calculated dataset metadata using the **COUNT()** function to verify record integrity across 239 countries.
 * Generated summary reports to identify global population extremes and averages without manual data processing.
 
+Use of the functions above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b766093d-1698-44ed-9372-9b2e0ba5e1a9" />
+
 ### 3. Advanced String Manipulation & Data Cleaning
 * Engineered complex queries using **SUBSTRING_INDEX()** to parse and split geographic region strings into distinct data columns.
 * Applied **TRIM()** and **LENGTH()** functions within `WHERE` clauses to filter records based on specific character-count criteria.
