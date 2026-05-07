@@ -24,6 +24,10 @@ This is a visual breakdown of task:
 * Applied **TRIM()** and **LENGTH()** functions within `WHERE` clauses to filter records based on specific character-count criteria.
 * Utilized **DISTINCT()** to eliminate redundant records and ensure high-fidelity reporting of unique geographical regions.
 
+This shows completion of the step above & the challenge below:
+<img width="925" height="496" alt="image" src="https://github.com/user-attachments/assets/14b7dec5-ecef-48fc-b93e-5e626af4935a" />
+
+
 ### 4. Logic & Query Optimization (Challenge Task)
 * Solved a complex data-splitting requirement by nesting string functions to separate "Micronesia/Caribbean" into two distinct aliases: `Region Name 1` and `Region Name 2`.
 * Applied logical filtering using the `WHERE` clause to isolate specific regional subsets for targeted reporting.
