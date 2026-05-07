@@ -18,6 +18,10 @@ This shows completion of the steps above:
 ### 2. CloudWatch Alarm Engineering
 * Established a **Metric Alarm** in Amazon CloudWatch to monitor the `CPUUtilization` metric with a 1-minute granularity for high-resolution tracking.
 * Defined a static threshold of **> 60% CPU utilization** as the trigger condition for incident response.
+
+An example of 60% threshold set:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/790bb86e-74f4-48cd-8d00-d161c827e106" />
+
 * Linked the Alarm state to the SNS topic to automate the "A2P" (Application-to-Person) notification workflow.
 
 ### 3. Stress Testing & Incident Simulation
