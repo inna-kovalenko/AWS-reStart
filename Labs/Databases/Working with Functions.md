@@ -3,6 +3,10 @@
 ## Lab Overview
 I performed advanced data manipulation and analysis on a relational `world` database hosted on an AWS EC2 Command Host. This project focused on utilizing SQL functions to extract business intelligence, perform string manipulation, and generate aggregate statistics from complex datasets.
 
+This is a visual breakdown of task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcb8ebab-00e4-4e90-9812-faaef7973c9f" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Database Connectivity & Environment Management
