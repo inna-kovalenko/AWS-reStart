@@ -10,10 +10,10 @@ Here is the architecture of this solution:
 
 The first two steps of creating & attaching a bucket from AWS Management Console are documented below:
 
+<b>1</b>
 <img width="925" height="483" alt="Screenshot 2026-05-07 191039" src="https://github.com/user-attachments/assets/5e486302-ab28-4d2a-b69f-47ec501af6af" />
 
-and
-
+<b>2</b>
 <img width="924" height="458" alt="Screenshot 2026-05-07 191623" src="https://github.com/user-attachments/assets/363ab395-d38e-4c14-9828-3dbf2660c147" />
 
 
