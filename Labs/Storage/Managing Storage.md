@@ -46,5 +46,8 @@ Demonstration of the work in progress as per the previous step:
 * **Least Privilege Access:** Managed cross-service permissions by attaching targeted IAM instance profiles to EC2 resources, enabling secure API calls to EBS and S3 without hardcoded credentials.
 * **Remote Administration:** Conducted all administrative tasks via a dedicated "Command Host" utilizing EC2 Instance Connect for secure, browser-based shell access.
 
+This confirms successful completion of challenge steps 2-4 above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c24fc8c-2056-4b38-be08-35b20d29000d" />
+
 ---
 **Tech Stack:** AWS CLI, Amazon EBS (Snapshots), Amazon S3 (Versioning, Sync), Linux (Cron, Python), IAM.
