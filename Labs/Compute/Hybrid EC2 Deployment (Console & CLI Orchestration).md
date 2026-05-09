@@ -14,6 +14,10 @@ Here is the breakdown of the task with visualisation of the corresponding archit
 * **Network Isolation:** Launched the instance within a dedicated **Lab VPC** and a Public Subnet, ensuring a secure entry point for administrative tasks.
 * **Identity & Access Management:** Attached a specialized **IAM Instance Profile (Bastion-Role)** to the host, granting the instance secure, credential-less permission to call other AWS services.
 
+This overview of the instance shows the steps above have been successfully completed:
+<img width="934" height="501" alt="image" src="https://github.com/user-attachments/assets/7844d709-ec25-4c5b-b082-ab6034a87ad8" />
+
+
 ### 2. Automated Web Tier Deployment (AWS CLI)
 * **Programmatic Resource Discovery:** Used CLI commands to dynamically retrieve environment-specific metadata, including:
     * **Latest AMI ID** via AWS Systems Manager Parameter Store.
