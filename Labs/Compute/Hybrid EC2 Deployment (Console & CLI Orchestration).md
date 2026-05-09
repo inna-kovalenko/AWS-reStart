@@ -3,6 +3,10 @@
 ## Lab Overview
 I executed a multi-tier deployment strategy to launch and manage Amazon EC2 instances. This lab focused on the dual approach of manual provisioning via the AWS Management Console and automated orchestration using the AWS Command Line Interface (CLI).
 
+Here is the breakdown of the task with visualisation of the corresponding architecture:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15a6768b-f451-40ed-8b32-e78bbaf091c1" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Bastion Host Architecture (Manual Provisioning)
