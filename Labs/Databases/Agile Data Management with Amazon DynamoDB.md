@@ -9,6 +9,9 @@ I implemented a serverless NoSQL database solution using Amazon DynamoDB to mana
 * **Primary Key Design:** Engineered a composite primary key consisting of a **Partition Key** (Artist) and a **Sort Key** (Song). This design ensures unique item identification and optimized data distribution across DynamoDB partitions.
 * **High Availability:** Leveraged DynamoDB's fully managed infrastructure to provide consistent, single-digit millisecond latency at scale.
 
+The creenshot confirms successful completion of the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bac0c6f5-0082-42bd-bf5e-ab6d4813b351" />
+
 ### 2. Flexible Schema Implementation
 * **Dynamic Attribute Loading:** Demonstrated NoSQL flexibility by entering items with varying attributes (e.g., adding `Genre` to one record and `LengthSeconds` to another) without requiring a pre-defined schema.
 * **Data Lifecycle Management:** Performed real-time CRUD (Create, Read, Update, Delete) operations, including modifying existing item attributes and performing targeted data updates.
