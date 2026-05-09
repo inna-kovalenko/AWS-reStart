@@ -15,7 +15,7 @@ Here is the breakdown of the task with visualisation of the corresponding archit
 * **Identity & Access Management:** Attached a specialized **IAM Instance Profile (Bastion-Role)** to the host, granting the instance secure, credential-less permission to call other AWS services.
 
 This overview of the instance shows the steps above have been successfully completed:
-<img width="934" height="501" alt="image" src="https://github.com/user-attachments/assets/7844d709-ec25-4c5b-b082-ab6034a87ad8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3bf83ab4-0080-4fb5-90ba-62065ea49389" />
 
 
 ### 2. Automated Web Tier Deployment (AWS CLI)
