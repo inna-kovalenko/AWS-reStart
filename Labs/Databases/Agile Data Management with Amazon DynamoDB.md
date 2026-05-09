@@ -23,6 +23,10 @@ An example of running a **Query** operation, with results showing newly added **
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a78e6e32-13b3-458a-bed9-05fb0f0b1d21" />
 
 * **Advanced Filtering (Scanning):** Executed **Scan** operations with specific filters (e.g., filtering by `Year`) to demonstrate data retrieval across non-indexed attributes.
+
+This shows how **Scan** was run:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b12430c4-66b2-482b-80aa-403c78ff7176" />
+
 * **Performance Analysis:** Evaluated the efficiency trade-offs between indexed Queries (faster, lower cost) and table-wide Scans (slower for large datasets).
 
 ### 4. Resource Governance
