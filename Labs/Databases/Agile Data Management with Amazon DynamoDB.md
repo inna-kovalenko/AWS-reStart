@@ -18,6 +18,10 @@ The creenshot confirms successful completion of the steps above:
 
 ### 3. Optimized Data Retrieval Strategies
 * **High-Efficiency Querying:** Implemented **Query** operations to retrieve specific records using primary keys, utilizing DynamoDB’s underlying indexing for maximum speed.
+
+An example of running a **Query** operation, with results showing newly added **Attributes** unique to this particular entry:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a78e6e32-13b3-458a-bed9-05fb0f0b1d21" />
+
 * **Advanced Filtering (Scanning):** Executed **Scan** operations with specific filters (e.g., filtering by `Year`) to demonstrate data retrieval across non-indexed attributes.
 * **Performance Analysis:** Evaluated the efficiency trade-offs between indexed Queries (faster, lower cost) and table-wide Scans (slower for large datasets).
 
