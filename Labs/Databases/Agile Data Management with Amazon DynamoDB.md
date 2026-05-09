@@ -32,5 +32,8 @@ This shows how **Scan** was run:
 ### 4. Resource Governance
 * **Clean-Up & Cost Control:** Practiced cloud hygiene by decommissioning resources (Table deletion) upon project completion to prevent unnecessary storage costs.
 
+Since deletion of this resource can't be undone, there is this additional step to type a message confirming this operation:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75a96d2f-f615-4617-8411-66696d0e5ba7" />
+
 ---
 **Tech Stack:** Amazon DynamoDB, NoSQL, AWS Management Console.
