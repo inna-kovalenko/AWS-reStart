@@ -25,6 +25,10 @@ This overview of the instance shows the steps above have been successfully compl
 * **Bootstrapping at Scale:** Launched the "Web Server" instance using the `run-instances` command, injecting a **User Data script** to automate the installation of the Apache web server and application files.
 * **State Monitoring:** Utilized `aws ec2 wait` and `describe-instances` with JSON queries to programmatically verify instance readiness.
 
+This screenshot captures the **Metadata Validation** phase of the EC2 instance lifecycle, showing the system's transition from a run-instances request to a fully acknowledged, state-tracked resource:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/30411a3b-4640-4e67-9469-6ab2f17836f7" />
+
+
 ### 3. Secure Administration
 * **Agentless Connectivity:** Leveraged **EC2 Instance Connect** for secure, browser-based shell access to the Bastion host, eliminating the need for local SSH key management.
 * **Verification:** Successfully validated the end-to-end deployment by accessing the Web Server's **Public DNS** name, confirming the automated web stack was fully operational.
