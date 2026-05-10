@@ -16,6 +16,10 @@ Visualisation of the architecture of the final solution:
 
 ### 1. Golden Image & Template Strategy
 * **AMI Engineering:** Created a "Golden Image" (Amazon Machine Image) from a pre-configured web server to ensure consistent deployments across the scaling group.
+
+The screenshot pictures successful creation of a "Golden Image" named **Web Server AMI** from the running source instance to capture the boot disk, installed software, and configurations, ensuring the Auto Scaling group can launch identical clones as verified by the AWS Management Console success banner:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/79878d6d-6ead-4e97-9a77-724e8f974597" />
+
 * **Launch Template Orchestration:** Defined a **Launch Template** specifying the instance class (t3.micro), security groups, and the custom AMI to standardize the production environment.
 
 ### 2. High-Availability Networking
