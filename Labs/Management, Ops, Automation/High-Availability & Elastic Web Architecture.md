@@ -8,6 +8,10 @@
 ## Lab Overview
 I designed and deployed a fault-tolerant, elastic web architecture utilizing **Application Load Balancing (ALB)** and **EC2 Auto Scaling**. This project demonstrates the ability to automate infrastructure responses to fluctuating traffic patterns while maintaining high availability across multiple Availability Zones.
 
+Visualisation of the architecture of the final solution:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a4f57b7-dd07-4cf5-acaa-cef11ea1a492" />
+
+
 ## Key Achievements & Technical Milestones
 
 ### 1. Golden Image & Template Strategy
