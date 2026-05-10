@@ -20,7 +20,10 @@ This shows the Subnet Group was successfully created:
 ### 2. Multi-AZ Production Deployment
 * **Engine Selection:** Provisioned a **MySQL 8.x** instance using the **db.t3.medium** burstable class.
 * **High Availability (HA):** Implemented a **Multi-AZ Deployment**, where AWS automatically maintains a synchronous standby replica in a different AZ to ensure data durability and minimize downtime during maintenance or outages.
-* **Storage Optimization:** Utilized **General Purpose SSD (gp2)** storage to balance cost and performance for the relational workload.
+* **Storage Optimization:** Utilized **General Purpose SSD (gp3)** storage to balance cost and performance for the relational workload.
+
+Here is the screen with details about the newly created Database with the Endpoint information selected for use in the next steps:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1133f1b6-5b55-4cb7-b1c9-3f148e1a3f69" />
 
 ### 3. Application-Database Integration
 * **Endpoint Orchestration:** Successfully linked a live Web Application to the RDS instance by configuring the **DB Endpoint**, credentials, and schema name (`lab`).
