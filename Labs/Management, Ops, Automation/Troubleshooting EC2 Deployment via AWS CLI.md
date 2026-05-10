@@ -10,9 +10,13 @@
 ### ACTIVITY OVERVIEW
 In this project, I moved beyond the AWS Management Console to launch and manage resources using the **AWS Command Line Interface (CLI)**. The core challenge involved executing a complex deployment script for a **LAMP Stack** (Linux, Apache, MariaDB, PHP), identifying intentional configuration errors, and using professional Linux diagnostic tools to bring the application to a "Healthy" state.
 
+Here is the breakdown of the task & the architecture of the solution:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e742b17c-9e03-463e-b97d-5735aea78d50" />
 
 
-### CORE MILESTONES & STEP-BY-STEP ACHIEVEMENTS
+
+
+### CORE MILESTONES
 
 #### 1. CLI Host Configuration
 * **Environment Setup:** Established a secure connection to a dedicated CLI Host and initialized the AWS environment using `aws configure`.
