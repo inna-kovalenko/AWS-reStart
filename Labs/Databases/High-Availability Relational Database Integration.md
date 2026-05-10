@@ -13,6 +13,10 @@ This demonstrates completion of the step above:
 
 * **DB Subnet Group Configuration:** Defined a **Subnet Group** spanning two separate Availability Zones. This ensures the database has a "landing zone" in multiple physical locations for failover purposes.
 
+This shows the Subnet Group was successfully created:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31623d4a-0e54-4833-ba84-415b77acfcc7" />
+
+
 ### 2. Multi-AZ Production Deployment
 * **Engine Selection:** Provisioned a **MySQL 8.x** instance using the **db.t3.medium** burstable class.
 * **High Availability (HA):** Implemented a **Multi-AZ Deployment**, where AWS automatically maintains a synchronous standby replica in a different AZ to ensure data durability and minimize downtime during maintenance or outages.
