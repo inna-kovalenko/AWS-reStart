@@ -18,6 +18,10 @@ This shows completion of this task using AWS Management Console:
 * **Persistence Configuration:** Modified the system's filesystem table (`/etc/fstab`) to ensure persistent mounting across instance reboots, demonstrating high-availability best practices.
 * **Disk Utility Auditing:** Utilized `df -h` and `lsblk` to monitor storage utilization and verify successful volume mapping.
 
+This shows mounting was configured & performed correctly:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6cea1ee2-08b6-4b40-9011-db8302d1a5a6" />
+
+
 ### 3. Data Protection & Disaster Recovery (DR)
 * **Point-in-Time Backups:** Executed an **Amazon EBS Snapshot** to capture a consistent state of the data volume and stored it durably in Amazon S3.
 * **Recovery Simulation:** Successfully simulated a "Data Loss" event by deleting critical files, then performed a full restoration by:
