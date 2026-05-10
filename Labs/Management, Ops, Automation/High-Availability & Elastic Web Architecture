@@ -1,8 +1,10 @@
-# High-Availability Auto Scaling & Load Balancing
+# High-Availability & Elastic Web Architecture: Auto Scaling & Load Balancing 
+
+**Primary Domain:** Ops & Management
+**Key Concepts:** Infrastructure Automation & Scalability
 
 ## Lab Overview
 I designed and deployed a fault-tolerant, elastic web architecture utilizing **Application Load Balancing (ALB)** and **EC2 Auto Scaling**. This project demonstrates the ability to automate infrastructure responses to fluctuating traffic patterns while maintaining high availability across multiple Availability Zones.
-
 
 ## Key Achievements & Technical Milestones
 
@@ -22,10 +24,6 @@ I designed and deployed a fault-tolerant, elastic web architecture utilizing **A
 
 ---
 
-# PROJECT: High-Availability & Elastic Web Architecture
-**Primary Domain:** Ops & Management
-**Key Concepts:** Infrastructure Automation & Scalability
-
 ### TECH STACK & COMPONENTS
 * **Compute:** Amazon EC2 (t3.micro), Custom AMI (Golden Image)
 * **Networking:** Application Load Balancer (ALB), Lab VPC, Public/Private Subnets
@@ -33,7 +31,7 @@ I designed and deployed a fault-tolerant, elastic web architecture utilizing **A
 * **Monitoring:** CloudWatch Alarms, Target Tracking Scaling Policies
 * **Security:** Security Groups, Multi-tier Architecture (Private App Layer)
 
-### CORE MILESTONES
+### CORE MILESTONES SUMMARY
 * **Self-Healing Automation:** Configured a system to automatically scale capacity (2 to 4 instances) based on real-time CPU demand.
 * **Fault Tolerance:** Deployed resources across multiple Availability Zones to ensure continuity during localized hardware failures.
 * **Security Hardening:** Isolated the application tier within private subnets, using the ALB as the secure public-facing entry point.
