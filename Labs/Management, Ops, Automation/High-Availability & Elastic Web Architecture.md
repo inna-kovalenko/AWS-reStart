@@ -1,6 +1,8 @@
 # High-Availability & Elastic Web Architecture: Auto Scaling & Load Balancing 
 
 **Primary Domain:** Ops & Management
+
+
 **Key Concepts:** Infrastructure Automation & Scalability
 
 ## Lab Overview
