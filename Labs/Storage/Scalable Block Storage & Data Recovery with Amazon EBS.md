@@ -29,5 +29,8 @@ This shows mounting was configured & performed correctly:
     2. Re-attaching and re-mounting the restored volume to a secondary mount point (`/mnt/data-store2`).
     3. Verifying 100% data integrity and recovery.
 
+This confirms successful completion of the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40c5d48a-c5b0-4237-98c4-0e18c156645e" />
+
 ---
 **Tech Stack:** Amazon EBS, Amazon EC2, Linux CLI, Bash Scripting, Amazon S3 (Snapshot storage).
