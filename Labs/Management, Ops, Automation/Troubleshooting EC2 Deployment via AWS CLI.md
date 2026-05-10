@@ -1,5 +1,7 @@
-# PROJECT: Troubleshooting EC2 Deployment via AWS CLI
+# Troubleshooting EC2 Deployment via AWS CLI
+
 **Primary Domain:** Ops & Management
+
 **Key Concepts:** Infrastructure Automation & Troubleshooting
 
 ### TECH STACK & COMPONENTS
