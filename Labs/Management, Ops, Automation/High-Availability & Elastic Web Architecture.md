@@ -46,6 +46,9 @@ This screenshot verifies that all auto-scaled "Lab Instances" passed health chec
 * **Load Stress Testing:** Successfully triggered a "Scale-Out" event by simulating high CPU demand, verifying that the Auto Scaling group increased capacity from 2 to 4 instances automatically.
 * **Redundancy Validation:** Terminated the original source instance to prove the architecture’s independence from its initial components.
 
+This confirms completion of the final steps:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6bdc7d3d-4ac5-499f-801d-996690f9ebd1" />
+
 ---
 
 ### TECH STACK & COMPONENTS
