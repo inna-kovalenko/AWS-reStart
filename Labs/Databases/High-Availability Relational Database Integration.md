@@ -7,6 +7,10 @@ I architected and deployed a highly available, scalable relational database usin
 
 ### 1. Secure Tiered Networking
 * **Security Group Chaining:** Engineered a **DB Security Group** that uses "Source Security Group" referencing. Instead of opening ports to the whole world, I restricted database access (Port 3306) specifically to instances belonging to the **Web Security Group**.
+
+This demonstrates completion of the step above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c33be37b-6afb-4b68-b5a9-c2371f146f97" />
+
 * **DB Subnet Group Configuration:** Defined a **Subnet Group** spanning two separate Availability Zones. This ensures the database has a "landing zone" in multiple physical locations for failover purposes.
 
 ### 2. Multi-AZ Production Deployment
