@@ -25,8 +25,14 @@ The screenshot pictures successful creation of a "Golden Image" named **Web Serv
 ### 2. High-Availability Networking
 * **Elastic Load Balancing (ELB):** Provisioned an **Application Load Balancer (ALB)** across two public subnets. Configured a **Target Group** with automated health checks to ensure traffic is only routed to "Healthy" instances.
 
-THis shows I successfully staged the source instance within the **lab-target-group** and completed the registration process, enabling the Application Load Balancer to recognize and route traffic to the validated web tier:
+THis shows I successfully staged the source instance within the **lab-target-group** and completed the registration process, enabling the Application Load Balancer to recognize and route traffic to the validated web tier in 2 steps:
+
+**1**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/00412638-69ca-40b5-b0c1-0184900984e2" />
+
+**2**
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4e2ac92-32f3-47cd-8f13-46a348f87b31" />
 
 * **Private Tier Security:** Directed the Auto Scaling group to launch instances within **Private Subnets**, ensuring that the backend application servers are never directly exposed to the public internet.
 
