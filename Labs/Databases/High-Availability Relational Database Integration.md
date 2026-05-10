@@ -29,5 +29,8 @@ Here is the screen with details about the newly created Database with the Endpoi
 * **Endpoint Orchestration:** Successfully linked a live Web Application to the RDS instance by configuring the **DB Endpoint**, credentials, and schema name (`lab`).
 * **CRUD Functional Testing:** Validated end-to-end data persistence by performing Create, Read, Update, and Delete (CRUD) operations via the web interface, confirming the application could successfully write to and retrieve from the RDS backend.
 
+Here it is visible that after the Endpoint got configured, it became possible to access & modify the Database using the WebServer IP address:
+<img width="1920" height="1080" alt="Screenshot 2026-05-10 103624" src="https://github.com/user-attachments/assets/f8a1db3c-6722-4973-8cf7-0cd1132aa0ff" />
+
 ---
 **Tech Stack:** Amazon RDS (MySQL), VPC (Security Groups, Subnets), Multi-AZ Failover, EC2, Web Application Integration.
