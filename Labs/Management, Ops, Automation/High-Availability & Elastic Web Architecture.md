@@ -39,6 +39,10 @@ THis shows I successfully staged the source instance within the **lab-target-gro
 ### 3. Elasticity & Monitoring (The "Self-Healing" Layer)
 * **Dynamic Scaling Policies:** Implemented a **Target Tracking Scaling Policy** aimed at maintaining 50% CPU utilization.
 * **CloudWatch Integration:** Utilized **Amazon CloudWatch Alarms** to monitor infrastructure performance. 
+
+This screenshot verifies that all auto-scaled "Lab Instances" passed health checks and reached a **Healthy** status, confirming the load balancer is correctly connected to the new capacity across multiple Availability Zones:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/38432fa0-69dd-44e5-8d66-1670ac67fb19" />
+
 * **Load Stress Testing:** Successfully triggered a "Scale-Out" event by simulating high CPU demand, verifying that the Auto Scaling group increased capacity from 2 to 4 instances automatically.
 * **Redundancy Validation:** Terminated the original source instance to prove the architecture’s independence from its initial components.
 
