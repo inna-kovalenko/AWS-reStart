@@ -9,6 +9,10 @@ I implemented a robust storage solution using **Amazon Elastic Block Store (EBS)
 * **Volume Lifecycle Management:** Provisioned a **General Purpose SSD (gp2)** volume, ensuring strict alignment with the EC2 instance's **Availability Zone** to enable low-latency block-level attachment.
 * **Dynamic Hot-Plugging:** Successfully performed a "hot-attach" of a secondary volume to a running Linux instance without requiring a system reboot.
 
+This shows completion of this task using AWS Management Console:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68145a91-cab3-4c6d-9191-504959ca7fcf" />
+
+
 ### 2. Linux System Administration & Filesystem Mounting
 * **Filesystem Engineering:** Formatted raw block storage into an **ext3** filesystem using `mkfs` and created logical mount points (`/mnt/data-store`).
 * **Persistence Configuration:** Modified the system's filesystem table (`/etc/fstab`) to ensure persistent mounting across instance reboots, demonstrating high-availability best practices.
