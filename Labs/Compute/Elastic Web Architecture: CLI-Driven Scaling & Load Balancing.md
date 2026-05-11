@@ -21,6 +21,10 @@ This demonstrates the Instance was successfully launched & assigned a Public DNS
 
 * **Custom AMI Creation:** Engineered a golden image (**AMI**) from the configured instance to serve as the immutable blueprint for all fleet expansions, ensuring environment parity across the cluster.
 
+This shows a new AMI being created based on this instance:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a373afb7-dc43-40aa-bab8-d38beeb54ad8" />
+
+
 #### 2. Load Balancing & Traffic Management
 * **ALB Deployment:** Provisioned an **Application Load Balancer** across two Public Subnets to act as the single point of entry for end-users, decoupling the frontend from backend instances.
 * **Target Group Logic:** Defined health check parameters targeting `index.php` to ensure the balancer only routes traffic to "Healthy" instances, automatically bypassing failed nodes.
