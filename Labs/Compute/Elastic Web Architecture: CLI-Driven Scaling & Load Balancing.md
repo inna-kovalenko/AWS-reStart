@@ -29,6 +29,9 @@ This shows a new AMI being created based on this instance:
 * **ALB Deployment:** Provisioned an **Application Load Balancer** across two Public Subnets to act as the single point of entry for end-users, decoupling the frontend from backend instances.
 * **Target Group Logic:** Defined health check parameters targeting `index.php` to ensure the balancer only routes traffic to "Healthy" instances, automatically bypassing failed nodes.
 
+Confirmation of completion of the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1989a9d8-2bf8-4cf2-9045-c94ebd82dc60" />
+
 #### 3. Scaling Strategy & Launch Templates
 * **Launch Template Versioning:** Defined instance specifications—including AMI ID, instance type (`t3.micro`), and Security Group associations—within a version-controlled **Launch Template**.
 * **Auto Scaling Group (ASG) Configuration:** Established an ASG spanning multiple **Private Subnets** to protect application logic from direct internet exposure.
