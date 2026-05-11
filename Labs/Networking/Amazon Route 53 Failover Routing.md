@@ -1,15 +1,15 @@
-# PROJECT: Amazon Route 53 Failover Routing
+# Amazon Route 53 Failover Routing
 **Primary Domain:** Networking & Content Delivery
 **Key Concepts:** DNS Failover, Health Monitoring, High Availability (HA)
 
 ---
 
-### ACTIVITY OVERVIEW
+### OVERVIEW
 In this project, I configured a resilient DNS strategy to ensure high availability for a web application across multiple Availability Zones. By leveraging **Amazon Route 53**, I implemented a failover routing policy that automatically redirects traffic from a primary server to a standby secondary server during an outage, minimizing downtime and maintaining business continuity.
 
 
 
-### CORE MILESTONES & STEP-BY-STEP ACHIEVEMENTS
+### CORE MILESTONES
 
 #### 1. Infrastructure Audit & Cross-Zone Verification
 * **Resource Assessment:** Verified two EC2 instances (CafeInstance1 and CafeInstance2) deployed in separate Availability Zones (`us-west-2a` and `us-west-2b`).
