@@ -22,6 +22,10 @@ Here is the visualization of the task:
 * **Terminal Access:** Established a secure session to the **Command Host** via AWS Systems Manager Session Manager.
 * **Database Authentication:** Authenticated with the MySQL server using CLI-based credentials to access the `world` database schema (comprising `city`, `country`, and `countrylanguage` tables).
 
+This shows completion of the above steps:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44729950-1c05-4c5b-98f6-999fd5061083" />
+
+
 #### 2. Aggregating Data with GROUP BY
 * **Regional Summarization:** Developed queries using the `SUM()` aggregate function paired with `GROUP BY` to calculate the total population of specific regions (e.g., "Australia and New Zealand").
 * **Data Filtering:** Applied `WHERE` clauses to refine datasets before aggregation, ensuring precision in regional reporting.
