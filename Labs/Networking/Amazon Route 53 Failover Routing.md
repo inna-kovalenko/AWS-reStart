@@ -21,6 +21,10 @@ This demonstrates checking the instances:
 #### 2. Configuring Route 53 Health Checks
 * **Endpoint Monitoring:** Created a health check for the primary instance's IP address, specifically targeting the `/cafe` path.
 * **Aggressive Detection:** Configured a **Fast (10s)** request interval and a **Failure Threshold of 2**, enabling the system to detect an outage and initiate failover within 20 seconds.
+
+The confirmation the alarm was created for use by **Route 53**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d877d10d-592b-428f-827d-392979c58dac" />
+
 * **Automated Alerting:** Integrated an **SNS Topic** to trigger immediate email notifications upon any status change from "Healthy" to "Unhealthy."
 
 This confirms the previous steps were done correctly and so only an email confirmation pending:
