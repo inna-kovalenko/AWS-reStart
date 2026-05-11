@@ -50,6 +50,10 @@ This shows I successfully deployed an Auto Scaling group utilizing the standardi
 * **Load Simulation:** Triggered a high CPU load on the fleet to simulate a production traffic spike.
 * **Automated Recovery:** Monitored the **CloudWatch-triggered** alarm response, confirming the ASG successfully provisioned additional capacity to normalize CPU metrics and maintain application performance.
 
+Here is how I confirmed the successful automated provisioning of new EC2 instances as the Auto Scaling group responded to capacity requirements and desired state configurations:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d0b42a66-5a0c-442c-a47d-fe95b619516b" />
+
+
 ---
 
 ### TECH STACK & COMPONENTS
