@@ -35,6 +35,10 @@ This confirms the previous steps were done correctly and so only an email confir
 * **Primary A-Record:** Provisioned a Failover-type record for the application domain, linking it to the active Health Check with a low **TTL (15s)** for rapid DNS propagation.
 * **Secondary A-Record:** Configured the standby record pointing to the secondary Availability Zone, completing the disaster recovery path.
 
+THe screenshot demonstrates I successfully configured the web server to failover to another AZ: 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ee35bcf-7a29-4a3f-9197-6c998eaea2af" />
+
+
 #### 4. Validating Failover & Disaster Recovery
 * **Simulated Outage:** Manually stopped the primary instance to trigger a real-world failure scenario.
 * **Failover Execution:** Monitored the Route 53 dashboard as the health status transitioned to **Unhealthy**, successfully forcing the DNS to resolve to the secondary instance.
