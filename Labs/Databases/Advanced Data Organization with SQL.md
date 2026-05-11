@@ -34,6 +34,10 @@ This shows completion of the above steps:
 * **Running Totals:** Engineered complex `SELECT` statements using the `OVER(partition by ...)` clause. This allowed for the calculation of "Running Totals" across countries while maintaining individual record visibility—a task impossible with standard `GROUP BY`.
 * **Statistical Ranking:** Implemented the `RANK()` window function to assign numerical positions to countries based on population metrics. This is critical for identifying regional outliers and leading metrics.
 
+An example of working with commands with **GROUP BY** & **OVER**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/844d3bbc-d1fa-44e2-a9ee-f55c05f5abc9" />
+
+
 #### 4. The "Largest to Smallest" Challenge
 * **Solution Engineering:** Designed a final optimized query to rank every country globally, partitioned by their respective regions, and ordered by population in descending order.
 * **SQL Logic:**
