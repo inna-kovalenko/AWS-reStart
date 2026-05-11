@@ -37,6 +37,9 @@ This shows completion of the above steps:
 An example of working with commands with **GROUP BY** & **OVER**:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/844d3bbc-d1fa-44e2-a9ee-f55c05f5abc9" />
 
+Use of **OVER** clause & **RANK** function was demonstrated also in this step:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0c2320ed-cbd9-44d2-a630-e1884ce0a2c4" />
+
 
 #### 4. The "Largest to Smallest" Challenge
 * **Solution Engineering:** Designed a final optimized query to rank every country globally, partitioned by their respective regions, and ordered by population in descending order.
