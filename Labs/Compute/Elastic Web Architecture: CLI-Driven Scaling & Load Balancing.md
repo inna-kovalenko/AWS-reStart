@@ -42,6 +42,10 @@ This demonstrates I finalized a standardized launch template to define the AMI, 
 * **Auto Scaling Group (ASG) Configuration:** Established an ASG spanning multiple **Private Subnets** to protect application logic from direct internet exposure.
 * **Elasticity Logic:** Implemented a **Target Tracking Scaling Policy** aimed at maintaining an average **CPU Utilization of 50%**, allowing the infrastructure to dynamically scale out to 4 instances or scale in to 2 based on real-time demand.
 
+This shows I successfully deployed an Auto Scaling group utilizing the standardized launch template to maintain a highly available fleet of EC2 instances across multiple Availability Zones as in the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40c1601c-9384-4509-941d-dc117a5f52ff" />
+
+
 #### 4. Stress Testing & Performance Validation
 * **Load Simulation:** Triggered a high CPU load on the fleet to simulate a production traffic spike.
 * **Automated Recovery:** Monitored the **CloudWatch-triggered** alarm response, confirming the ASG successfully provisioned additional capacity to normalize CPU metrics and maintain application performance.
