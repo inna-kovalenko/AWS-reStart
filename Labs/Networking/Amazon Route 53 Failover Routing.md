@@ -38,6 +38,8 @@ This confirms the previous steps were done correctly and so only an email confir
 THe screenshot demonstrates I successfully configured the web server to failover to another AZ: 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ee35bcf-7a29-4a3f-9197-6c998eaea2af" />
 
+Here I verified the DNS resolution:
+<img width="900" height="505" alt="image" src="https://github.com/user-attachments/assets/2b0e927a-74d5-42bc-80a0-f8b4aafb7ea4" />
 
 #### 4. Validating Failover & Disaster Recovery
 * **Simulated Outage:** Manually stopped the primary instance to trigger a real-world failure scenario.
