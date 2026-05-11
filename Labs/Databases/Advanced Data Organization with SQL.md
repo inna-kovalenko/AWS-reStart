@@ -37,3 +37,6 @@ Here is the visualization of the task:
   SELECT Region, Name, Population, 
   RANK() OVER(partition by Region ORDER BY Population desc) as 'Ranked' 
   FROM world.country ORDER BY Region, Ranked;
+
+This is the result of quering based on the logic above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68eb4a96-f063-453f-91b5-9197f0d35ff7" />
