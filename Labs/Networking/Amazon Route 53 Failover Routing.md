@@ -15,6 +15,9 @@ In this project, I configured a resilient DNS strategy to ensure high availabili
 * **Resource Assessment:** Verified two EC2 instances (CafeInstance1 and CafeInstance2) deployed in separate Availability Zones (`us-west-2a` and `us-west-2b`).
 * **Baseline Confirmation:** Validated that both endpoints were independently serving the Café application, ensuring the secondary site was ready to handle production traffic.
 
+This demonstrates checking the instances:
+<img width="924" height="505" alt="image" src="https://github.com/user-attachments/assets/a15206d2-79ec-4491-96dd-88d03bb80fee" />
+
 #### 2. Configuring Route 53 Health Checks
 * **Endpoint Monitoring:** Created a health check for the primary instance's IP address, specifically targeting the `/cafe` path.
 * **Aggressive Detection:** Configured a **Fast (10s)** request interval and a **Failure Threshold of 2**, enabling the system to detect an outage and initiate failover within 20 seconds.
