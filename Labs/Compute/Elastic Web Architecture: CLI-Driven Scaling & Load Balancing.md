@@ -33,7 +33,12 @@ Confirmation of completion of the steps above:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1989a9d8-2bf8-4cf2-9045-c94ebd82dc60" />
 
 #### 3. Scaling Strategy & Launch Templates
-* **Launch Template Versioning:** Defined instance specifications—including AMI ID, instance type (`t3.micro`), and Security Group associations—within a version-controlled **Launch Template**.
+* **Launch Template Versioning:** Defined instance specifications (including AMI ID, instance type (`t3.micro`), and Security Group associations) within a version-controlled **Launch Template**.
+
+This demonstrates I finalized a standardized launch template to define the AMI, instance type, security group parameters, ensuring consistent and repeatable deployments across the Auto Scaling Group:
+<img width="926" height="486" alt="image" src="https://github.com/user-attachments/assets/e117e66d-c092-46ad-b6a5-d0aada724b6b" />
+
+
 * **Auto Scaling Group (ASG) Configuration:** Established an ASG spanning multiple **Private Subnets** to protect application logic from direct internet exposure.
 * **Elasticity Logic:** Implemented a **Target Tracking Scaling Policy** aimed at maintaining an average **CPU Utilization of 50%**, allowing the infrastructure to dynamically scale out to 4 instances or scale in to 2 based on real-time demand.
 
