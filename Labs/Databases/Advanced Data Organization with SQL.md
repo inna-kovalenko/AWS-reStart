@@ -8,8 +8,12 @@
 ---
 
 ### OVERVIEW
-In this project, I acted as a Data Analyst for a database operations team to perform complex regional population analysis. Using a relational database (`world`), I engineered advanced SQL queries to transform raw data into structured insights. I focused on the mechanical differences between the `GROUP BY` clause (for aggregation) and the `OVER` clause (for windowing and ranking).
+In this project, I acted as a Data Analyst for a database operations team to perform complex regional population analysis. 
 
+Using a relational database (`world`), I engineered advanced SQL queries to transform raw data into structured insights. I focused on the mechanical differences between the `GROUP BY` clause (for aggregation) and the `OVER` clause (for windowing and ranking).
+
+Here is the visualization of the task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a480d9e-8ea4-470b-b5e1-f70977e9e9e7" />
 
 
 ### CORE MILESTONES
