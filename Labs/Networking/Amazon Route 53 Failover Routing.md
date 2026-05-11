@@ -16,12 +16,16 @@ In this project, I configured a resilient DNS strategy to ensure high availabili
 * **Baseline Confirmation:** Validated that both endpoints were independently serving the Café application, ensuring the secondary site was ready to handle production traffic.
 
 This demonstrates checking the instances:
-<img width="924" height="505" alt="image" src="https://github.com/user-attachments/assets/a15206d2-79ec-4491-96dd-88d03bb80fee" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a15206d2-79ec-4491-96dd-88d03bb80fee" />
 
 #### 2. Configuring Route 53 Health Checks
 * **Endpoint Monitoring:** Created a health check for the primary instance's IP address, specifically targeting the `/cafe` path.
 * **Aggressive Detection:** Configured a **Fast (10s)** request interval and a **Failure Threshold of 2**, enabling the system to detect an outage and initiate failover within 20 seconds.
 * **Automated Alerting:** Integrated an **SNS Topic** to trigger immediate email notifications upon any status change from "Healthy" to "Unhealthy."
+
+This confirms the previous steps were done correctly and so only an email confirmation pending:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da0c10ad-226a-4668-9d4a-ac2f26e2316c" />
+
 
 #### 3. Establishing DNS Failover Records
 * **Primary A-Record:** Provisioned a Failover-type record for the application domain, linking it to the active Health Check with a low **TTL (15s)** for rapid DNS propagation.
