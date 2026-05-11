@@ -15,6 +15,10 @@ Implemented a highly available, self-healing web architecture by transitioning f
 
 #### 1. Image Lifecycle & CLI Automation
 * **Standardized Provisioning:** Leveraged the **AWS CLI** to bootstrap a baseline EC2 instance with a custom PHP stress-test application via User Data scripts.
+
+This demonstrates the Instance was successfully launched & assigned a Public DNS Address:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/89a5ca5f-d241-4145-b29e-1b90352af8ba" />
+
 * **Custom AMI Creation:** Engineered a golden image (**AMI**) from the configured instance to serve as the immutable blueprint for all fleet expansions, ensuring environment parity across the cluster.
 
 #### 2. Load Balancing & Traffic Management
