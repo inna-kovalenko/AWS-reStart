@@ -1,6 +1,9 @@
 # Data Protection Using Encryption
 
 **Domain:** Security, Identity, & Compliance
+
+
+
 **Key Concepts:** Cryptography, Symmetric Encryption, Key Management Service (KMS)
 
 ---
@@ -14,6 +17,10 @@ Implemented a comprehensive data protection workflow by leveraging **AWS Key Man
 * Provisioned a **Symmetric AWS KMS key** designed for fast and efficient data processing where the same key is utilized for both encryption and decryption.
 * Configured granular **IAM administrative and usage permissions**, ensuring that only authorized roles (voclabs) could manage or invoke the key for cryptographic operations.
 * Generated a unique **Amazon Resource Name (ARN)** for the key to serve as a secure identifier for CLI-based automation.
+
+This confirms successful completion of the above steps:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d9943c9b-ce07-42c4-a438-dee1ef89517b" />
+
 
 #### 2. Secure Environment Configuration
 * Established secure communication between a remote **Amazon EC2 File Server** and AWS KMS by configuring transient AWS CLI credentials.
