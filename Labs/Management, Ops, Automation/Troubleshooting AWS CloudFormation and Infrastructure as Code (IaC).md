@@ -43,6 +43,10 @@ For example, here the Source was changed to **My IP**:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75d61d80-2c98-431d-8c46-ac6162a5d45f" />
 
 * Solution: Performed Drift Detection to identify the discrepancy between the live environment and the template.
+
+This is how **Drift** was detected:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f038c02-54a1-4c35-8d21-271e94fcc67e" />
+
 * Result: Used the AWS CLI to extract specific property differences, maintaining the integrity of the IaC source of truth.
 
 ### 3. Advanced Resource Deletion (The S3 Challenge)
