@@ -13,6 +13,10 @@ This project focused on the deployment and management of a cloud-based web serve
 
 ### 1. Root Cause Analysis of Stack Failures
 * Problem: The CloudFormation stack failed during the WaitCondition phase and triggered an automatic rollback, deleting logs before they could be inspected.
+
+This is how inspecting the table with progress in resource creation helped see there was something in need of troubleshooting:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/496d57f9-eec6-4272-9dc0-6dec9984868b" />
+
 * Solution: Redeployed using the --on-failure DO_NOTHING flag. I SSH'd into the instance to analyze /var/log/cloud-init-output.log and identified a package naming error (http instead of httpd).
 * Result: Corrected the template and achieved a successful CREATE_COMPLETE status.
 
