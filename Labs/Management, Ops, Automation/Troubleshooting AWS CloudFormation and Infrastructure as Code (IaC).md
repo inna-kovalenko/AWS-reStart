@@ -32,6 +32,8 @@ This is how it became visible that instead of `httpd` there was `http` (`yum ins
 
 * Result: Corrected the template and achieved a successful CREATE_COMPLETE status.
 
+This shows that a CloudFormation deployment failure was resolved by correcting a UserData script typo and re-creating the stack:
+
 ### 2. Identifying Configuration Drift
 * Problem: Manual changes were made to security group rules via the AWS Console, diverging from the template.
 * Solution: Performed Drift Detection to identify the discrepancy between the live environment and the template.
