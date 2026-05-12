@@ -26,7 +26,7 @@ This shows I utilized the CloudFormation Timeline view to observe the real-time 
 * Updated the existing template to include an **Amazon S3** bucket.
 
 Here how the update looked like:
-<img width="929" height="505" alt="image" src="https://github.com/user-attachments/assets/4e9d8518-b7f0-4839-8afa-e14f16081ddf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e9d8518-b7f0-4839-8afa-e14f16081ddf" />
 
 * Executed stack updates by uploading revised templates, allowing CloudFormation to calculate and apply only the necessary changes via **Change Sets**.
 
