@@ -24,6 +24,10 @@ This confirms successful completion of the above steps:
 
 #### 2. Secure Environment Configuration
 * Established secure communication between a remote **Amazon EC2 File Server** and AWS KMS by configuring transient AWS CLI credentials.
+
+This is how AWS credentials file contents looked like:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/534bb8d2-fa1d-4612-88e0-5ccc6a1fb4e3" />
+
 * Orchestrated the installation of the **AWS Encryption SDK CLI** using the Python package manager (pip) to enable advanced cryptographic features.
 * Updated system pathing to ensure the encryption toolset remained accessible across the instance environment.
 
