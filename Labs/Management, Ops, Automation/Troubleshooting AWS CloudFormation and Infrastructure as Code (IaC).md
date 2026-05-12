@@ -58,6 +58,10 @@ This shows how it was possible to inspect the details of the **Drift**:
 * Solution: Implemented a targeted deletion strategy using the --retain-resources flag for the S3 bucket's Logical ID.
 * Result: Successfully removed the stack infrastructure while preserving critical data in the bucket.
 
+This demonstrates I successfully bypassed a deletion failure by using the `--retain-resources` flag to preserve the S3 bucket while fully decommissioning the rest of the stack:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/897efc62-9777-43a4-aedd-9f465e0e02f0" />
+
+
 ## Lessons Learned
 * Fail-Fast Logic: Using the -e parameter in bash scripts ensures that errors are caught immediately during the bootstrapping process.
 * Automation vs. Manual Change: Documented how manual intervention leads to inconsistent infrastructure and why drift detection is vital for security auditing.
