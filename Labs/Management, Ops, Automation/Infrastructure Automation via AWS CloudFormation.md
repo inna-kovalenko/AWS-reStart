@@ -49,6 +49,10 @@ The screenshot shows verification stage - checking whether adding a App Server t
 
 #### 4. Automated Lifecycle Management
 * Validated the efficiency of IaC by executing a single **Delete stack** command to terminate the entire environment.
+
+Since deletion is a serious step, this validation screen appeared before initiating the **Delete**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e84cb19-09b9-43b1-ab7b-51577520f2e8" />
+
 * Confirmed that CloudFormation automatically and cleanly removed the S3 bucket, EC2 instance, and VPC resources in the correct sequence.
 
 ---
