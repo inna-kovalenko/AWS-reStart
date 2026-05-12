@@ -38,6 +38,10 @@ This shows that a CloudFormation deployment failure was resolved by correcting a
 
 ### 2. Identifying Configuration Drift
 * Problem: Manual changes were made to security group rules via the AWS Console, diverging from the template.
+
+For example, here the Source was changed to **My IP**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75d61d80-2c98-431d-8c46-ac6162a5d45f" />
+
 * Solution: Performed Drift Detection to identify the discrepancy between the live environment and the template.
 * Result: Used the AWS CLI to extract specific property differences, maintaining the integrity of the IaC source of truth.
 
