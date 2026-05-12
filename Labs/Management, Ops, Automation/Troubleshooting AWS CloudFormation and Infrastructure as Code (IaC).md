@@ -50,7 +50,7 @@ This is how **Drift** was detected:
 * Result: Used the AWS CLI to extract specific property differences, maintaining the integrity of the IaC source of truth.
 * 
 This shows how it was possible to inspect the details of the **Drift**:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5dc5667-b259-427d-a753-231bcf7cb963" />
+<img width="1920" height="980" alt="image" src="https://github.com/user-attachments/assets/a5dc5667-b259-427d-a753-231bcf7cb963" />
 
 
 ### 3. Advanced Resource Deletion (The S3 Challenge)
