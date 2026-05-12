@@ -36,6 +36,10 @@ This is how AWS credentials file contents looked like:
 * Executed advanced encryption commands incorporating **encryption contexts** (e.g., purpose=test) and **commitment policies** to ensure high-security standards and data integrity.
 * Validated command execution accuracy using system exit codes to confirm the successful generation of metadata and encrypted output files.
 
+Completion of the previous step is well visible here:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62b4d22b-ba01-4c19-ae07-13a7ee5fee9b" />
+
+
 #### 4. Decryption and Integrity Validation
 * Reverted ciphertext back into its original plaintext form by applying the symmetric key and matching cryptographic parameters.
 * Verified the successful restoration of sensitive data, confirming that the decryption process accurately reproduced the initial information without corruption.
