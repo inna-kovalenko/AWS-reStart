@@ -44,6 +44,9 @@ Completion of the previous step is well visible here:
 * Reverted ciphertext back into its original plaintext form by applying the symmetric key and matching cryptographic parameters.
 * Verified the successful restoration of sensitive data, confirming that the decryption process accurately reproduced the initial information without corruption.
 
+This demonstrated I successfully executed data encryption using the `aws kms encrypt` command (this approach was used as a robust fallback to bypass a ModuleNotFoundError within the Python-based AWS Encryption CLI, ensuring the lab objective was met by directly interacting with the AWS KMS API):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f03c56b-53c1-41e4-80ed-bed1d9ae6541" />
+
 ---
 
 ### TECH STACK AND COMPONENTS
