@@ -41,6 +41,9 @@ This demonstrates the template was updated successfully:
 * Integrated an **Amazon EC2** instance into the stack by using the `!Ref` keyword to link it to previously defined subnets and security groups.
 * Applied standardized resource tags to ensure organizational visibility and tracking within the console.
 
+This documents work on the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc4036b2-22ec-42e4-b3b2-01b0771ec0a6" />
+
 #### 4. Automated Lifecycle Management
 * Validated the efficiency of IaC by executing a single **Delete stack** command to terminate the entire environment.
 * Confirmed that CloudFormation automatically and cleanly removed the S3 bucket, EC2 instance, and VPC resources in the correct sequence.
