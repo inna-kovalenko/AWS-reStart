@@ -22,6 +22,10 @@ This got confirmed by running the following command:
 
 
 * Solution: Redeployed using the --on-failure DO_NOTHING flag. I SSH'd into the instance to analyze /var/log/cloud-init-output.log and identified a package naming error (http instead of httpd).
+
+This helped to SSH into the running instance as shown here with the help of access key:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/878a1fee-0a0d-4bcc-a539-7ef67a48f1df" />
+
 * Result: Corrected the template and achieved a successful CREATE_COMPLETE status.
 
 ### 2. Identifying Configuration Drift
