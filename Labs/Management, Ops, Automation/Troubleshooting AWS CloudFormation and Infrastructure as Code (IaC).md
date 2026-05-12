@@ -33,7 +33,7 @@ This is how it became visible that instead of `httpd` there was `http` (`yum ins
 * Result: Corrected the template and achieved a successful CREATE_COMPLETE status.
 
 This shows that a CloudFormation deployment failure was resolved by correcting a UserData script typo and re-creating the stack:
-<img width="929" height="506" alt="image" src="https://github.com/user-attachments/assets/da965189-5a17-4916-9834-24861719e738" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da965189-5a17-4916-9834-24861719e738" />
 
 
 ### 2. Identifying Configuration Drift
