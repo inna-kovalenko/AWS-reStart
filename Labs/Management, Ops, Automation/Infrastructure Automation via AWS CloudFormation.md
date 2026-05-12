@@ -19,6 +19,9 @@ This gives overview of the task with an example of how key elements appear in th
 * Utilized **YAML**-formatted templates to define infrastructure parameters, resources, and outputs.
 * Monitored real-time stack events to verify the optimal creation order of dependent networking components.
 
+This shows I utilized the CloudFormation Timeline view to observe the real-time orchestration and dependency-ordered creation of VPC infrastructure components as they transitioned to a complete state:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d1950b01-b892-44c5-8cf8-8d6c681a2580" />
+
 #### 2. Iterative Template Configuration
 * Updated the existing template to include an **Amazon S3** bucket.
 * Executed stack updates by uploading revised templates, allowing CloudFormation to calculate and apply only the necessary changes via **Change Sets**.
