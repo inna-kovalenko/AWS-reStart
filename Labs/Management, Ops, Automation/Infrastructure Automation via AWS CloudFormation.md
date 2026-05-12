@@ -7,6 +7,8 @@
 ### ARCHITECTURAL SYNOPSIS
 Transitioned from manual resource configuration to **Infrastructure as Code (IaC)** by defining a standardized environment within **CloudFormation** templates. This approach ensured consistent, repeatable deployments of a virtual network, storage, and compute resources while eliminating human error during provisioning.
 
+This gives overview of the task with key elements of the template written in **YAML** format:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ef2d291-400b-48a1-b8bf-2dc34915560c" />
 
 
 ### ACHIEVEMENTS
