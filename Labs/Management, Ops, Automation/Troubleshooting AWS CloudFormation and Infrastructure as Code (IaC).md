@@ -17,6 +17,10 @@ This project focused on the deployment and management of a cloud-based web serve
 This is how inspecting the table with progress in resource creation helped see there was something in need of troubleshooting:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/496d57f9-eec6-4272-9dc0-6dec9984868b" />
 
+This got confirmed by running the following command:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a046c494-4f81-4d28-9d64-41c0c72b72b9" />
+
+
 * Solution: Redeployed using the --on-failure DO_NOTHING flag. I SSH'd into the instance to analyze /var/log/cloud-init-output.log and identified a package naming error (http instead of httpd).
 * Result: Corrected the template and achieved a successful CREATE_COMPLETE status.
 
