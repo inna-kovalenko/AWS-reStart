@@ -1,54 +1,68 @@
 # Relational Table Operations
 
-This lab focused on the lifecycle of a relational database, incl. management of schemas and tables via the MySQL command-line interface on a Linux-based AWS environment. 
-
-
-I performed end-to-end operations from establishing secure connections to designing schemas to managing data integrity through structural changes to decommissioning resources.
+This lab involved performing fundamental database and table operations using a MySQL client on an Amazon EC2 command host. I practiced the core lifecycle of data management, including creation, auditing, structural modification, and decommissioning.
 
 ---
 
-### Technical Objectives
-*   **Secure Access**: Established a remote connection to a Linux Command Host via AWS Systems Manager to run SQL queries against a relational engine.
-*   **Schema Design**: Constructed a `world` database and defined a multi-attribute `country` table using SQL data types like CHAR, ENUM, and INT.
-*   **Structural Refinement**: Applied `ALTER` statements to modify existing table structures and fix naming errors without impacting data integrity.
-*   **Environment Decommissioning**: Executed precise `DROP` sequences to safely remove resources and verify successful deletion through CLI auditing.
+### Key Achievements
+*   **Established Database Connectivity**: Connected to a Linux-based Command Host and authenticated into the MySQL shell using root credentials.
+*   **Defined Data Structures**: Created the `world` database and engineered the `country` table schema with specific data types including CHAR, ENUM, and FLOAT.
+*   **Managed Schema Integrity**: Utilized the `ALTER` statement to rename columns and correct structural errors identified during audits.
+*   **Executed Resource Decommissioning**: Performed controlled `DROP` operations to safely delete tables and databases after verifying task completion.
 
 ---
 
-### Implementation Steps
+### Implementation Workflow
 
-#### 1. Database Connectivity
-To interface with the relational engine, I navigated the Linux environment and initiated the MySQL client using established credentials:
+#### 1. Environment Access
+I accessed the Command Host via Session Manager and initiated the MySQL client to interface with the relational database.
 
-# Elevate privileges and navigate to the home directory
+# Elevated privileges and accessed the database
 sudo su
 cd /home/ec2-user/
-
-# Access the MySQL shell using root credentials
 mysql -u root --password='re:St@rt!9'
 
-#### 2. Creating the Schema
-I initialized the environment by creating a dedicated database and a robust table structure based on regional statistics.
+#### 2. Database and Table Creation
+I built the organizational structure for the data by creating a new database and defining a detailed table schema.
 
--- Initialize the database container
+# Initialized the environment
 CREATE DATABASE world;
 USE world;
 
--- Define the country table with specific data constraints
-CREATE TABLE country (
-  `Code` CHAR(3) NOT NULL DEFAULT '',
-  `Name` CHAR(52) NOT NULL DEFAULT '',
+# Defined the table schema
+CREATE TABLE world.country (
+  `Code` CHAR(3) NOT NULL,
+  `Name` CHAR(52) NOT NULL,
   `Continent` ENUM('Asia','Europe','North America','Africa','Oceania','Antarctica','South America') NOT NULL DEFAULT 'Asia',
-  `Region` CHAR(26) NOT NULL DEFAULT '',
-  `Population` INT(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`Code`)
 );
 
-#### 3. Handling Schema Drift & Modifications
-During the audit phase, a misspelling was identified in the schema (`Conitinent`). I applied an `ALTER` statement to refine the structure efficiently without needing to rebuild the table.
+#### 3. Schema Audit and Modification
+I used discovery commands to inspect the table structure and applied corrections to the schema configuration.
 
--- Audit the current column properties
+# Verified table columns
 SHOW COLUMNS FROM world.country;
+
+# Corrected column naming error
+ALTER TABLE world.country RENAME COLUMN Conitinent TO Continent;
+
+#### 4. Resource Cleanup
+To conclude the operations, I successfully decommissioned the created resources to restore the environment to its original state.
+
+# Deleted tables and the database
+DROP TABLE world.city;
+DROP TABLE world.country;
+DROP DATABASE world;
+
+# Final verification
+SHOW DATABASES;
+
+---
+
+### Technical Skills
+*   **SQL Fundamentals**: Proficient in CREATE, SHOW, ALTER, and DROP statements.
+*   **Linux CLI**: Managed system directories and elevated user permissions.
+*   **Data Governance**: Audited and modified database schemas to ensure accuracy.
 
 -- Rename the column to fix the spelling error
 ALTER TABLE world.country RENAME COLUMN Conitinent TO Continent;
