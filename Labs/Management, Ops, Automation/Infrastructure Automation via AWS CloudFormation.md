@@ -33,6 +33,8 @@ Here how the update looked like:
 This shows only S3 bucket would be added by **CloudFormation**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5d0d8c53-35d4-4805-a252-ff07efccce88" />
 
+This demonstrates the template was updated successfully:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2db1bd09-0831-4795-8504-dd1a69aee1ca" />
 
 #### 3. Dynamic Resource Integration
 * Implemented a specialized parameter to fetch the latest **Amazon Linux 2 AMI ID** directly from the **AWS Systems Manager Parameter Store**.
