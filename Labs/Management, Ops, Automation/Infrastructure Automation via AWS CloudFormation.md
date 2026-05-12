@@ -44,7 +44,7 @@ This demonstrates the template was updated successfully:
 This documents work on the steps above:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc4036b2-22ec-42e4-b3b2-01b0771ec0a6" />
 
-The screenshot shows verification stage - checking how adding a Web Server was done:
+The screenshot shows verification stage - checking whether adding a App Server to the template was completed:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a54c9e61-6ba4-474e-bb32-e4c4a6278bd4" />
 
 #### 4. Automated Lifecycle Management
