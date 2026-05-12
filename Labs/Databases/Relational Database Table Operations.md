@@ -1,37 +1,39 @@
 # Relational Database Table Operations
 
-This lab involved performing fundamental database and table operations using a MySQL client on an Amazon EC2 command host. I practiced the core lifecycle of data management, including creation, auditing, structural modification, and decommissioning.
+---
 
-## Technical Tasks Completed
+## Lab Overview
 
-### 1. Established Secure Connection
-I connected to a Linux Command Host via AWS Systems Manager and accessed the MySQL shell.
+I performed fundamental database administration and table operations on a relational `world` database hosted on an AWS EC2 Command Host. This project focused on the complete data lifecycle, from initial environment configuration to schema modification and resource decommissioning using industry-standard SQL.
 
-- Command to switch to root: sudo su
-- Command to navigate home: cd /home/ec2-user/
-- Command to log into MySQL: mysql -u root --password='re:St@rt!9'
+## Key Achievements & Technical Milestones
 
-### 2. Created Database and Schema
-I initialized the data environment and defined a structured table for country data with specific constraints.
+---
 
-- Created the world database: CREATE DATABASE world;
-- Defined the country table: CREATE TABLE world.country (Code CHAR(3), Name CHAR(52), Conitinent ENUM(...), Population INT, PRIMARY KEY (Code));
+### 1. Database Connectivity & Environment Management
+*   **Established** a secure terminal session to a Linux-based Command Host using **AWS Systems Manager (SSM) Session Manager**.
+*   **Managed** authenticated administrative access to a **MySQL** database engine using CLI-based credential management.
+*   **Configured** the local environment by elevating privileges to `sudo su` and navigating to the root application directory.
 
-### 3. Modified Table Structure
-I updated the table schema using the ALTER command to ensure data accuracy and correct naming errors.
+### 2. Schema Architecture & Data Initialization
+*   **Engineered** a new relational database named `world` to serve as the primary data container.
+*   **Defined** complex table structures using the `CREATE TABLE` statement, implementing specific constraints for data integrity.
+*   **Implemented** primary keys and data types (CHAR, INT, ENUM) to ensure the `country` table followed a strict schema.
 
-- Fixed a typographical error in the column name: ALTER TABLE world.country RENAME COLUMN Conitinent TO Continent;
-- Verified the updated columns: SHOW COLUMNS FROM world.country;
+### 3. Structural Auditing & Table Modification
+*   **Performed** schema exploration using `SHOW COLUMNS` to audit existing table structures and identify naming inconsistencies.
+*   **Executed** structural changes using the `ALTER TABLE` command to rename columns and correct typographical errors without data loss.
+*   **Validated** schema updates in real-time to ensure the database accurately reflected the intended business logic.
 
-### 4. Managed Resource Lifecycle
-I practiced proper resource cleanup by removing tables and databases once the tasks were completed.
+### 4. Resource Lifecycle & Decommissioning
+*   **Managed** the safe removal of relational assets using the `DROP TABLE` command for specific tables (`city`, `country`).
+*   **Decommissioned** the entire `world` database environment to maintain high cloud hygiene and reduce resource overhead.
+*   **Verified** successful cleanup using `SHOW DATABASES` to ensure no orphaned resources remained on the instance.
 
-- Dropped the secondary city table: DROP TABLE world.city;
-- Dropped the country table: DROP TABLE world.country;
-- Deleted the entire world database: DROP DATABASE world;
+---
 
-## Skills Demonstrated
-- Cloud Computing: Amazon EC2, AWS Systems Manager (Session Manager)
-- Database Management: MySQL, Relational Database Design
-- SQL Proficiency: DDL (Data Definition Language) commands: CREATE, ALTER, DROP, SHOW
-- Linux Administration: CLI navigation and root privilege management
+## Technical Skills Demonstrated
+*   **Cloud Infrastructure:** Amazon EC2, AWS Systems Manager.
+*   **Database Administration:** MySQL, Relational Schema Design.
+*   **SQL Proficiency:** DDL (Data Definition Language) - `CREATE`, `ALTER`, `DROP`, `SHOW`.
+*   **Systems Operation:** Linux CLI, Root User Management, Directory Navigation.
