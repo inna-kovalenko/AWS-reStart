@@ -20,14 +20,15 @@ This is how inspecting the table with progress in resource creation helped see t
 This got confirmed by running the following command:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a046c494-4f81-4d28-9d64-41c0c72b72b9" />
 
-This is how it became visible that instead of `httpd` there was `http` (`yum install -y http` has an error - there is no package called `http` - the correct name for the Apache web server on Amazon Linux is `httpd`, so because the script starts with `#!/bin/bash -ex`, the `-e` flag told the instance: "If any command fails, stop everything immediately." - so since `yum install -y http` failed, the script stopped there):
-
-<img width="1920" height="1080" alt="Screenshot 2026-05-12 222558" src="https://github.com/user-attachments/assets/810c5aa0-0d04-4b3d-9842-c2759bb5e76a" />
 
 * Solution: Redeployed using the --on-failure DO_NOTHING flag. I SSH'd into the instance to analyze /var/log/cloud-init-output.log and identified a package naming error (http instead of httpd).
 
 This helped to SSH into the running instance as shown here with the help of access key:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/878a1fee-0a0d-4bcc-a539-7ef67a48f1df" />
+
+This is how it became visible that instead of `httpd` there was `http` (`yum install -y http` has an error - there is no package called `http` - the correct name for the Apache web server on Amazon Linux is `httpd`, so because the script starts with `#!/bin/bash -ex`, the `-e` flag told the instance: "If any command fails, stop everything immediately." - so since `yum install -y http` failed, the script stopped there):
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-12 222558" src="https://github.com/user-attachments/assets/810c5aa0-0d04-4b3d-9842-c2759bb5e76a" />
 
 * Result: Corrected the template and achieved a successful CREATE_COMPLETE status.
 
