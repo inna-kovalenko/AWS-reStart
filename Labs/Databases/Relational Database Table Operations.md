@@ -20,6 +20,10 @@ Visualization of the task:
 
 ### 2. Schema Architecture & Data Initialization
 *   **Engineered** a new relational database named `world` to serve as the primary data container.
+
+This demonstrates completion of the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/552bd973-9c1b-4f2c-b90c-935e8e469e3a" />
+
 *   **Defined** complex table structures using the `CREATE TABLE` statement, implementing specific constraints for data integrity.
 *   **Implemented** primary keys and data types (CHAR, INT, ENUM) to ensure the `country` table followed a strict schema.
 
