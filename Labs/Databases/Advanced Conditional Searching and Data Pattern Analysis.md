@@ -27,6 +27,10 @@ I executed complex data retrieval operations on a relational `world` database ho
 
 ### 4. Aggregate Functions & Business Intelligence
 *   **Utilized** the `SUM()` function to calculate aggregate statistics, such as total continental population and combined surface area, directly from the database.
+
+The screenshot shows sample output results after quering with the help of `SELECT`, `WHERE`, `BETWEEN`, `LIKE`, `SUM()`:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f02c129-b255-4bd8-8495-06a6ad01921f" />
+
 *   **Enhanced** reporting clarity by applying the `AS` keyword to create professional column aliases (e.g., "Europe Population Total").
 *   **Calculated** specific metrics for North America as part of a technical challenge to demonstrate proficiency in multi-function query construction.
 
