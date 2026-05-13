@@ -21,6 +21,10 @@ Visualization of the task:
 
 ### 2. Aggregate Data Analysis & Auditing
 *   **Utilized** the `COUNT()` function to perform quantitative analysis on the dataset, identifying the total volume of records within the `country` table.
+
+An example of output after performing the tasks above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9854c05c-5164-4624-a113-1d4c7c2f6ad2" />
+
 *   **Extracted** targeted intelligence by querying specific columns such as Name, Capital, and Population to streamline data visibility.
 *   **Applied** the `AS` keyword to generate user-friendly aliases for technical column names, improving the readability of business reports.
 
