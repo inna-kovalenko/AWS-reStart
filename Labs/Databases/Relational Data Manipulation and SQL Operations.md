@@ -38,8 +38,6 @@ An example of quering using `city`(in the image, above) `countrylanguage` (below
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7b52998-06b4-4ed4-8723-30dbf498e72d" />
 
 
-
-
 ---
 
 ## Technical Skills Demonstrated
@@ -47,3 +45,7 @@ An example of quering using `city`(in the image, above) `countrylanguage` (below
 *   **Database Management:** MySQL, Data Manipulation Language (DML).
 *   **SQL Proficiency:** `INSERT`, `UPDATE`, `DELETE`, `SELECT`, `SET FOREIGN_KEY_CHECKS`.
 *   **Systems Operation:** Linux CLI, SQL Script Importing, Root User Management.
+
+This screenshot demonstrates successful work with the **Database** using **SQL** and `SELECT`statement (used to identify which columns should be included in a result set, acting as a "command" to retrieve data):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba3b1ab3-9bc2-460c-86b3-9dccc796ec00" />
+
