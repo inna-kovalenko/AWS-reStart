@@ -71,6 +71,9 @@ The screenshot shows I performed a final audit of the **Amazon EventBridge** rul
     *   **Cost Optimization**: Implemented `ec2-volume-inuse-check` to identify unattached EBS volumes, reducing "zombie" infrastructure costs.
 *   **Drift Detection**: Analyzed compliance dashboards to distinguish between compliant and non-compliant assets across the AWS account.
 
+This is how I identified configuration drift using **AWS Config** (21 resources flagged as **Noncompliant** for missing mandatory tags required for organizational governance):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e971db02-658d-4c48-a3b7-32b80d2ec20e" />
+
 ---
 
 ## Technical Skills Demonstrated
