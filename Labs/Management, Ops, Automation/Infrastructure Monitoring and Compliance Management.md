@@ -32,6 +32,10 @@ This is how I inspected the AmazonCloudWatch-ManageAgent **JSON document** to un
 
 
 ### 2. Real-Time Log Analytics & Anomaly Detection
+
+Visualization of the task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f24e4b9e-0999-434e-9062-8de639aacdfb" />
+
 *   **Log Ingestion**: Successfully streamed Apache web server access and error logs to **CloudWatch Logs** for centralized analysis.
 *   **Metric Filter Engineering**: Developed custom filter patterns `[ip, id, user, timestamp, request, status_code=404, size]` to isolate specific HTTP failure codes.
 *   **Automated Alerting**: Established a **CloudWatch Alarm** integrated with **Amazon SNS** to trigger email notifications when error thresholds (e.g., five 404 errors per minute) were exceeded.
