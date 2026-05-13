@@ -41,6 +41,10 @@ This shows completion of the previous steps up to the point where a spelling err
 *   **Decommissioned** the entire `world` database environment to maintain high cloud hygiene and reduce resource overhead.
 *   **Verified** successful cleanup using `SHOW DATABASES` to ensure no orphaned resources remained on the instance.
 
+Here visible are the steps above performed to alter the table (correct the error), verify the output & remove it together with the whole database:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8517155-183a-4bbd-80c6-18290f07ddb0" />
+
+
 ---
 
 ## Technical Skills Demonstrated
