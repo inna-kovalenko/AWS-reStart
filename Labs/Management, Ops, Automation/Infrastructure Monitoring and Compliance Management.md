@@ -48,6 +48,10 @@ This is how I engineered a high-precision metric filter by defining a specific p
 
 *   **Automated Alerting**: Established a **CloudWatch Alarm** integrated with **Amazon SNS** to trigger email notifications when error thresholds (e.g., five 404 errors per minute) were exceeded.
 
+An example of output after testing (entering non-existent web page adresses such as `/contact`, `admin`, `about`, `home` over five times):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c33e16cc-9050-478a-b9f9-2bfc4a4a304e" />
+
+
 ### 3. Event-Driven Automation
 *   **State-Change Intelligence**: Created **CloudWatch Event Rules** to monitor EC2 lifecycle transitions in near-real-time.
 *   **Instant Notifications**: Configured an automated response system that triggers SNS alerts immediately upon instance stoppage or termination, enabling rapid incident response.
