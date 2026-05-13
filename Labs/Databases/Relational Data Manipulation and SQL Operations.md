@@ -6,6 +6,10 @@
 
 I performed advanced data manipulation on a relational `world` database hosted on an AWS EC2 Command Host. This project focused on the core DML (Data Manipulation Language) lifecycle, including inserting, updating, deleting, and bulk-importing datasets to validate database configurations and maintain data integrity.
 
+Here is visualization of the task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fdd106c-573a-40c5-bfb8-287faffe30ac" />
+
+
 ## Key Achievements & Technical Milestones
 
 ---
