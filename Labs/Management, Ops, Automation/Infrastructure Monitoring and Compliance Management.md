@@ -27,6 +27,10 @@ The screenshot demonstrates how centralizing infrastructure monitoring was imple
 
 *   **Deep Visibility**: Configured the agent to bridge the gap between standard hypervisor metrics and internal "in-guest" data, such as memory utilization and disk swap percentages.
 
+This is how I inspected the AmazonCloudWatch-ManageAgent **JSON document** to understand its orchestration of agent deployment and retrieval of custom configurations from the Parameter Store:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/46687160-821a-4c03-9eeb-cf99abad11a0" />
+
+
 ### 2. Real-Time Log Analytics & Anomaly Detection
 *   **Log Ingestion**: Successfully streamed Apache web server access and error logs to **CloudWatch Logs** for centralized analysis.
 *   **Metric Filter Engineering**: Developed custom filter patterns `[ip, id, user, timestamp, request, status_code=404, size]` to isolate specific HTTP failure codes.
