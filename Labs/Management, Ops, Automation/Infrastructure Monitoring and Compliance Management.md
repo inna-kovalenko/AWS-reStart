@@ -11,6 +11,10 @@ I implemented a comprehensive monitoring and compliance strategy using **Amazon 
 ---
 
 ### 1. Hybrid Monitoring Agent Deployment
+
+Overview of the task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48b49ff5-f6e1-4ea1-a004-8ce17aec71da" />
+
 *   **Automated Installation**: Utilized **AWS Systems Manager Run Command** to deploy the CloudWatch agent across EC2 instances without manual login.
 
 This shows how I selected certain configuration parameters when working with **Run Command**:
