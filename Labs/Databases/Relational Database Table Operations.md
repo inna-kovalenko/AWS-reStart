@@ -29,6 +29,10 @@ This demonstrates completion of the steps above:
 
 ### 3. Structural Auditing & Table Modification
 *   **Performed** schema exploration using `SHOW COLUMNS` to audit existing table structures and identify naming inconsistencies.
+
+This shows completion of the previous steps up to the point where a spelling error was found:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e8e9a4bf-efaf-44e9-8f24-5396f8b0bc46" />
+
 *   **Executed** structural changes using the `ALTER TABLE` command to rename columns and correct typographical errors without data loss.
 *   **Validated** schema updates in real-time to ensure the database accurately reflected the intended business logic.
 
