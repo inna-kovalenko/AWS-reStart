@@ -12,6 +12,10 @@ I implemented a comprehensive monitoring and compliance strategy using **Amazon 
 
 ### 1. Hybrid Monitoring Agent Deployment
 *   **Automated Installation**: Utilized **AWS Systems Manager Run Command** to deploy the CloudWatch agent across EC2 instances without manual login.
+
+This shows how I selected certain configuration parameters when working with **Run Command**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e5bd83a-79b7-4058-8a37-96dc8adc6f69" />
+
 *   **Centralized Configuration**: Engineered a JSON-based configuration file stored in **SSM Parameter Store** to standardize metric collection across the fleet.
 *   **Deep Visibility**: Configured the agent to bridge the gap between standard hypervisor metrics and internal "in-guest" data, such as memory utilization and disk swap percentages.
 
