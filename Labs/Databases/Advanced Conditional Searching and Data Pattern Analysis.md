@@ -30,6 +30,10 @@ I executed complex data retrieval operations on a relational `world` database ho
 *   **Enhanced** reporting clarity by applying the `AS` keyword to create professional column aliases (e.g., "Europe Population Total").
 *   **Calculated** specific metrics for North America as part of a technical challenge to demonstrate proficiency in multi-function query construction.
 
+The output of completing the challenge above (also on top it is visible I utilized the `LOWER` function to perform a case-sensitive search):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9643fc8b-9885-43e7-ae06-32d4b2cc4805" />
+
+
 ---
 
 ## Technical Skills Demonstrated
