@@ -37,6 +37,10 @@ Visualization of the task:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f24e4b9e-0999-434e-9062-8de639aacdfb" />
 
 *   **Log Ingestion**: Successfully streamed Apache web server access and error logs to **CloudWatch Logs** for centralized analysis.
+
+This demonstrates I analyzed the HttpAccessLog in **CloudWatch Logs** to verify that a manual 404 error generated on the web server was successfully captured and streamed for real-time monitoring:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64ae932e-dc7e-42eb-930b-977016ebd43f" />
+
 *   **Metric Filter Engineering**: Developed custom filter patterns `[ip, id, user, timestamp, request, status_code=404, size]` to isolate specific HTTP failure codes.
 *   **Automated Alerting**: Established a **CloudWatch Alarm** integrated with **Amazon SNS** to trigger email notifications when error thresholds (e.g., five 404 errors per minute) were exceeded.
 
