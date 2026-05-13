@@ -43,7 +43,7 @@ This demonstrates I analyzed the HttpAccessLog in **CloudWatch Logs** to verify 
 
 *   **Metric Filter Engineering**: Developed custom filter patterns `[ip, id, user, timestamp, request, status_code=404, size]` to isolate specific HTTP failure codes.
 
-This step shows engineering a high-precision metric filter by defining a specific pattern to isolate **404 "Not Found" errors**, such as the manual `/start` request, for automated alerting and analysis:
+This is how I engineered a high-precision metric filter by defining a specific pattern to isolate **404 "Not Found" errors**, such as the manual `/start` request, for automated alerting and analysis:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c2a2401-0f3c-4d64-8cc2-5dd72c196f8c" />
 
 *   **Automated Alerting**: Established a **CloudWatch Alarm** integrated with **Amazon SNS** to trigger email notifications when error thresholds (e.g., five 404 errors per minute) were exceeded.
