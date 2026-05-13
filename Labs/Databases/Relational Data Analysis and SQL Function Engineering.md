@@ -28,6 +28,10 @@ An example of output after performing the tasks above:
 *   **Extracted** targeted intelligence by querying specific columns such as Name, Capital, and Population to streamline data visibility.
 *   **Applied** the `AS` keyword to generate user-friendly aliases for technical column names, improving the readability of business reports.
 
+The screenshot shows the combined result of completing both of the tasks above (quering specific columns + utilizig `SELECT` **Statement** with `AS` **(Aliasing) Function** to improve the UI/UX of the CLI result set by mapping schema-specific column names to descriptive business labels):
+<img width="925" height="463" alt="image" src="https://github.com/user-attachments/assets/8f10dc3c-9049-4617-958f-294d31bdd060" />
+
+
 ### 3. Data Sorting & Result Set Optimization
 *   **Implemented** complex sorting logic using the `ORDER BY` statement to organize result sets by specific metrics.
 *   **Managed** data hierarchy by applying `DESC` (descending) operators to prioritize high-value records, such as ranking nations by population density.
