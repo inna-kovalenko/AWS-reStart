@@ -60,6 +60,10 @@ An example of EC2 metric upon inspection (from automatically generated metrics c
 
 *   **Instant Notifications**: Configured an automated response system that triggers SNS alerts immediately upon instance stoppage or termination, enabling rapid incident response.
 
+The screenshot shows I performed a final audit of the **Amazon EventBridge** rule as shown on the **Review and create** page, verifying that the JSON event pattern correctly targets EC2 "stopped" and "terminated" states to trigger the **SNS topic** for immediate alerting:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac7bef49-4122-480a-9297-00dcda0794ec" />
+
+
 ### 4. Infrastructure Compliance Auditing
 *   **Automated Governance**: Activated **AWS Config** to continuously record resource configurations and evaluate them against organizational benchmarks.
 *   **Managed Rule Implementation**:
