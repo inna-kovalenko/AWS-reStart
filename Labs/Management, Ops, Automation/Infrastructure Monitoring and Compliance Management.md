@@ -54,6 +54,10 @@ An example of output after testing (entering non-existent web page adresses such
 
 ### 3. Event-Driven Automation
 *   **State-Change Intelligence**: Created **CloudWatch Event Rules** to monitor EC2 lifecycle transitions in near-real-time.
+
+An example of EC2 metric upon inspection (from automatically generated metrics coming from the AWS services):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecfdf1d3-e460-459b-b0ba-2390663d0ded" />
+
 *   **Instant Notifications**: Configured an automated response system that triggers SNS alerts immediately upon instance stoppage or termination, enabling rapid incident response.
 
 ### 4. Infrastructure Compliance Auditing
