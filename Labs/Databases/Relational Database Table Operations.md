@@ -6,6 +6,9 @@
 
 I performed fundamental database administration and table operations on a relational `world` database hosted on an AWS EC2 Command Host. This project focused on the complete data lifecycle, from initial environment configuration to schema modification and resource decommissioning using industry-standard SQL.
 
+Visualization of the task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2489ab51-3215-4944-bc32-9d37d5f544f7" />
+
 ## Key Achievements & Technical Milestones
 
 ---
