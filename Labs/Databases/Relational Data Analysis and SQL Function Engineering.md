@@ -29,7 +29,7 @@ An example of output after performing the tasks above:
 *   **Applied** the `AS` keyword to generate user-friendly aliases for technical column names, improving the readability of business reports.
 
 The screenshot shows the combined result of completing both of the tasks above (quering specific columns + utilizig `SELECT` **Statement** with `AS` **(Aliasing) Function** to improve the UI/UX of the CLI result set by mapping schema-specific column names to descriptive business labels):
-<img width="925" height="463" alt="image" src="https://github.com/user-attachments/assets/8f10dc3c-9049-4617-958f-294d31bdd060" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f10dc3c-9049-4617-958f-294d31bdd060" />
 
 
 ### 3. Data Sorting & Result Set Optimization
@@ -41,6 +41,10 @@ The screenshot shows the combined result of completing both of the tasks above (
 *   **Engineered** precision queries using the `WHERE` clause to isolate records meeting specific business criteria.
 *   **Applied** comparison operators (`>`, `<`, `=`) to filter data based on numerical thresholds, such as identifying regions with populations exceeding 50 million.
 *   **Constructed** multi-conditional queries using the `AND` operator to find specific intersections of data, such as identifying high-population countries within Southern Europe.
+
+This demonstrates output of running complex queries as in the steps above:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d0d7bc7b-fdab-4ce4-bf41-dffba9fa7d5b" />
+
 
 ---
 
