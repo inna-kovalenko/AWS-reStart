@@ -6,6 +6,10 @@
 
 I performed advanced data manipulation and analysis on a relational `world` database hosted on an AWS EC2 Command Host. This project focused on utilizing SQL functions to extract business intelligence, perform data auditing, and generate aggregate statistics from complex datasets.
 
+Visualization of the task:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/256fbdc6-a566-41f8-8ae6-3559efcfdc7f" />
+
+
 ## Key Achievements & Technical Milestones
 
 ---
