@@ -34,6 +34,12 @@ Here is visualization of the task:
 *   **Automated** large-scale data loading by importing an external `.sql` backup file via the Linux command line.
 *   **Verified** the restoration of multi-table environments (`city`, `country`, `countrylanguage`) to ensure the database was fully operational after the bulk import.
 
+An example of quering using `city`(in the image, above) `countrylanguage` (below):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7b52998-06b4-4ed4-8723-30dbf498e72d" />
+
+
+
+
 ---
 
 ## Technical Skills Demonstrated
