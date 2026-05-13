@@ -21,6 +21,10 @@ This shows how I selected certain configuration parameters when working with **R
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e5bd83a-79b7-4058-8a37-96dc8adc6f69" />
 
 *   **Centralized Configuration**: Engineered a JSON-based configuration file stored in **SSM Parameter Store** to standardize metric collection across the fleet.
+
+The screenshot demonstrates how centralizing infrastructure monitoring was implemented by storing a JSON-based CloudWatch agent configuration to standardize log collection across EC2 instances: 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0f3aa549-cb19-4306-bd36-05e80fb90b23" />
+
 *   **Deep Visibility**: Configured the agent to bridge the gap between standard hypervisor metrics and internal "in-guest" data, such as memory utilization and disk swap percentages.
 
 ### 2. Real-Time Log Analytics & Anomaly Detection
