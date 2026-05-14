@@ -33,6 +33,10 @@ Here I corrected the security group ingress authorization by mapping the verifie
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ab2c925-77dc-43a5-ad4a-f993a7c556da" />
 
 * **Subnet Architecture:** Defined a DB Subnet Group spanning two private subnets to support high-availability requirements.
+
+<img width="1920" height="620" alt="Screenshot 2026-05-15 012944" src="https://github.com/user-attachments/assets/9c0bb73d-3ba2-4bea-90ae-e828060905e7" />
+<img width="1920" height="640" alt="Screenshot 2026-05-15 013026" src="https://github.com/user-attachments/assets/a871fa7f-6ed5-4dbf-a849-794c807b10a8" />
+
 * **RDS Deployment:** Launched a db.t3.micro MariaDB instance with automated backups and mandatory SSL/TLS encryption.
 
 ### 3. Migration Strategy and Execution
