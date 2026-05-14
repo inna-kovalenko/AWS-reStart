@@ -59,12 +59,16 @@ This demonstrates how quering **Logs** with the help of **Amazon Athena** could 
 * **Protocol Hardening:** Modified `/etc/ssh/sshd_config` to disable `PasswordAuthentication`, ensuring only key-pair authentication is permitted.
 * **IAM Governance:** Permanently deleted the compromised `chaos` IAM user to prevent further unauthorized programmatic access to the AWS account.
 
-The screenshot pinpoints how **Password Authentication** was disabled 
+The screenshot pinpoints how **Password Authentication** was disabled and all activities & sessions by `chaos` terminated:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e02f301-c0ec-4638-957a-8382b0e55649" />
 
 
 ### CONCLUSION
 I successfully restored the integrity of the Café's cloud environment by combining real-time auditing with forensic query tools. This lab demonstrated proficiency in using **CloudTrail** and **Athena** to transform raw log data into actionable security intelligence.
+
+These final steps show access of hacker user was deactivated, user deleted (deletion after that confirmed), website restored:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6bda91ed-b13b-4498-ab52-50e29619349d" />
+
 
 ---
 
