@@ -27,9 +27,9 @@ Then, I identified the unique **RDS Endpoint** to establish a direct network con
 Here I updated **Inbound rules** to include **MySQL Port 3306**, authorizing database traffic from the LinuxServer to the RDS instance: 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/60b71167-24f1-4056-8591-20553ae0dc48" />
 
-*   **Schema Design (DDL)**: Engineered normalized tables (`RESTART` and `CLOUD_PRACTITIONER`) with constrained data types including Integers, Varchars, and DateTimes.
-*   **Data Ingestion (DML)**: Populated schemas with sample datasets using multi-record insertion scripts to simulate real-world data environments.
-*   **Relational Querying**: Performed advanced SQL operations, including **Inner Joins**, to aggregate data across multiple tables for integrated reporting.
+* **Schema Design (DDL):** Engineered normalized tables (`RESTART` and `CLOUD_PRACTITIONER`) with constrained data types including Integers, Varchars, and DateTimes.
+* **Data Ingestion (DML):** Populated schemas with sample datasets using multi-record insertion scripts to simulate real-world data environments.
+* **Relational Querying:** Performed advanced SQL operations, including **Inner Joins**, to aggregate **Student Names** with their specific **Certification Dates**, providing integrated reporting on learner achievements.
 
 This confirms I developed a relational schema and performed batch data insertion using SQL DDL and DML commands to establish a baseline for learner analytics:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a33d061a-ca02-4f61-8855-b28019cd5ec9" />
