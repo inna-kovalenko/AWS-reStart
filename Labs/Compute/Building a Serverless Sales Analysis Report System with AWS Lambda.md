@@ -26,6 +26,9 @@ Visualization of the architecture of the sales analysis report solution with the
 ### 2. Efficiency with Lambda Layers
 *   Created a custom **Lambda Layer** for the `PyMySQL` library. This reduced the size of the deployment package and followed best practices for code reuse.
 
+Confirmation of successful completion of the above step:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58b45897-e410-44b1-be8d-d5394e84b976" />
+
 ### 3. Serverless Integration & Troubleshooting
 *   **Database Integration**: Configured VPC settings (Subnets/Security Groups) to bridge the serverless function with the EC2-hosted database.
 *   **Testing & Debugging**: Identified a connection timeout issue. Used **CloudWatch Logs** to diagnose that the Security Group was missing an inbound rule for Port 3306 (MySQL).
