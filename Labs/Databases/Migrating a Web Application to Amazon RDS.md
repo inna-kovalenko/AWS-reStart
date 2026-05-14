@@ -37,6 +37,8 @@ Here I corrected the security group ingress authorization by mapping the verifie
 <img width="1920" height="620" alt="Screenshot 2026-05-15 012944" src="https://github.com/user-attachments/assets/9c0bb73d-3ba2-4bea-90ae-e828060905e7" />
 <img width="1920" height="640" alt="Screenshot 2026-05-15 013026" src="https://github.com/user-attachments/assets/a871fa7f-6ed5-4dbf-a849-794c807b10a8" />
 
+> **Technical Note:** Executed multi-AZ subnet provisioning to establish a high-availability networking foundation. By distributing private subnets across `us-west-2a` and `us-west-2b`, I ensured the RDS deployment satisfies the AWS best practice for failover redundancy and fault tolerance within the VPC.
+> 
 * **RDS Deployment:** Launched a db.t3.micro MariaDB instance with automated backups and mandatory SSL/TLS encryption.
 
 ### 3. Migration Strategy and Execution
