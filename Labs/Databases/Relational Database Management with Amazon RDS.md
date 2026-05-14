@@ -18,6 +18,8 @@ This scresnshot demonstrates I configured **VPC**, **DB Subnet**, **Firewall** &
 This shows connection was successfully established and the database (`challengelabdb`) had also been created:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02bee699-28bb-4437-aae2-24fc03857719" />
 
+Here I installed the **MariaDB** client on the **Amazon Linux jump host** to enable secure CLI-based communication with the RDS instance:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e4420e19-d189-41e2-8a6b-4998d8970c87" />
 
 *   **Schema Design (DDL)**: Engineered normalized tables (`RESTART` and `CLOUD_PRACTITIONER`) with constrained data types including Integers, Varchars, and DateTimes.
 *   **Data Ingestion (DML)**: Populated schemas with sample datasets using multi-record insertion scripts to simulate real-world data environments.
