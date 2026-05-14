@@ -39,6 +39,10 @@ This is where I identified a security vulnerability - an unauthorized inbound ru
 #### 3. Forensic Analysis via CLI & Athena
 * **Linux Log Processing:** Connected to the EC2 instance via SSH and used the `grep` utility to parse downloaded JSON logs for `sourceIPAddress` and `eventName`.
 * **AWS CLI Investigation:** Utilized `lookup-events` to identify the specific API calls responsible for the security group changes.
+
+This shows how I used the AWS CLI `lookup-events` command to isolate the `AuthorizeSecurityGroupIngress` action within the specific security group:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f084ff53-0c35-4afa-828f-c0e2c24a88fc" />
+
 * **SQL-Based Discovery:** Created an **Amazon Athena** table to query CloudTrail logs with SQL, allowing for the rapid identification of the hacker's IAM user, source IP, and exact event timestamps.
 
 #### 4. Remediation & System Hardening
