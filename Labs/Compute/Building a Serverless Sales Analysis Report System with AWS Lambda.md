@@ -56,7 +56,7 @@ This is how I added the needed **Inbound Rule** for **Lambda**:
 This confirms the change was made:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3f7abca-494b-4a13-94e3-ea7adb8409a8" />
 
-The screenshot dmeonstrates that - during testing - the body field, which contains the report data that the function extracted, was empty because there was no order data in the database:
+The screenshot demonstrates that during testing the body field, which contains the report data that the function extracted, was empty because there was no order data in the database:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a134a7bb-73ba-4f91-8a8b-7f204a9483f9" />
 
 
