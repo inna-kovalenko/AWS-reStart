@@ -16,7 +16,7 @@ This scresnshot demonstrates I configured **VPC**, **DB Subnet**, **Firewall** &
 *   **Security & Connectivity**: Established secure SSH tunneling via a Linux jump host and configured Security Groups to permit controlled MySQL client access.
 
 This shows connection was successfully established and the database (`challengelabdb`) had also been created:
-<img width="1920" height="1980" alt="image" src="https://github.com/user-attachments/assets/02bee699-28bb-4437-aae2-24fc03857719" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02bee699-28bb-4437-aae2-24fc03857719" />
 
 
 *   **Schema Design (DDL)**: Engineered normalized tables (`RESTART` and `CLOUD_PRACTITIONER`) with constrained data types including Integers, Varchars, and DateTimes.
