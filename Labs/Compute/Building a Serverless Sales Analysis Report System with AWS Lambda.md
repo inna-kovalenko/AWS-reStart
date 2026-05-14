@@ -79,6 +79,8 @@ This confirms successful **Test** run on this function:
 The screen of **AWS Management Console** where I configured the automation of a daily serverless reporting pipeline:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8fb59025-291e-4b13-8d6e-195395b1be6e" />
 
+Here is the final confirmation of the task performed correctly:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5f04a330-a20e-443f-bdcb-28872f634485" />
 
 ## Core Objectives Achieved
 - [x] Facilitated cross-resource communication via IAM.
