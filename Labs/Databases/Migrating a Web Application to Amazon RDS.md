@@ -28,6 +28,10 @@ This shows the **Cafe Website** was accessed via `CafeInstanceURL` and orders we
 ### 2. Infrastructure as Code (CLI) Implementation
 Foundational networking for the managed database was established through the following CLI operations:
 * **Security Configuration:** Created the CafeDatabaseSG to restrict inbound traffic to port 3306 exclusively from the web server.
+
+Here I corrected the security group ingress authorization by mapping the verified Source Group ID to the database tier, enabling secure TCP communication over port 3306:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ab2c925-77dc-43a5-ad4a-f993a7c556da" />
+
 * **Subnet Architecture:** Defined a DB Subnet Group spanning two private subnets to support high-availability requirements.
 * **RDS Deployment:** Launched a db.t3.micro MariaDB instance with automated backups and mandatory SSL/TLS encryption.
 
