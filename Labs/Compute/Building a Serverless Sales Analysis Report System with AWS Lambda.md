@@ -62,6 +62,10 @@ The screenshot demonstrates that during testing the body field, which contains t
 So it was logical to go to the **Cafe Website** to place an order in order to populate the **Database** as in this example:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd7feb77-a989-478a-91b1-85351ea84bbf" />
 
+As a result, the **Test** was successful:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bada4d21-e952-47dc-9b53-435fb012c2e9" />
+
+
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
 ## Core Objectives Achieved
