@@ -21,7 +21,7 @@ Visualization of the final solution:
 ### 1. Baseline Data Generation
 Initial orders were placed on the active café website to populate the local database. This established a verifiable dataset used to confirm the integrity of the migration upon completion.
 
-This shows the **Website** was accessed via `CafeInstanceUR` and orders were placed:
+This shows the **Cafe Website** was accessed via `CafeInstanceURL` and orders were placed:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91480aa1-d4eb-4464-a4b0-3720768a690f" />
 
 
