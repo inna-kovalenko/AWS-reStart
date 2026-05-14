@@ -32,6 +32,10 @@ This shows I successfully modified the inbound security group rules to allow SSH
 * **Audit Configuration:** Created a management trail named `monitor` to capture all account activity in a dedicated S3 bucket (`monitoring####`).
 * **Threat Identification:** Detected a website defacement and identified a "security hole" where an unauthorized inbound rule allowed global SSH access (`0.0.0.0/0`).
 
+This is where I identified a security vulnerability - an unauthorized inbound rule was added to allow SSH access on port 22 from any IP address (0.0.0.0/0):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d706989e-f90a-4055-84a2-fbb6686efdb8" />
+
+
 #### 3. Forensic Analysis via CLI & Athena
 * **Linux Log Processing:** Connected to the EC2 instance via SSH and used the `grep` utility to parse downloaded JSON logs for `sourceIPAddress` and `eventName`.
 * **AWS CLI Investigation:** Utilized `lookup-events` to identify the specific API calls responsible for the security group changes.
