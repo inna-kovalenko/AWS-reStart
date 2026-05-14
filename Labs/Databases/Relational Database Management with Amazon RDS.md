@@ -24,6 +24,9 @@ Here I installed the **MariaDB** client on the **Amazon Linux jump host** to ena
 Then, I identified the unique **RDS Endpoint** to establish a direct network connection between the EC2 client and the database engine:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b67184ae-0f2f-4fdc-b54f-9ba4b6ec7146" />
 
+Here I updated **Inbound rules** to include **MySQL Port 3306**, authorizing database traffic from the LinuxServer to the RDS instance: 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/60b71167-24f1-4056-8591-20553ae0dc48" />
+
 *   **Schema Design (DDL)**: Engineered normalized tables (`RESTART` and `CLOUD_PRACTITIONER`) with constrained data types including Integers, Varchars, and DateTimes.
 *   **Data Ingestion (DML)**: Populated schemas with sample datasets using multi-record insertion scripts to simulate real-world data environments.
 *   **Relational Querying**: Performed advanced SQL operations, including **Inner Joins**, to aggregate data across multiple tables for integrated reporting.
