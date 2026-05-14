@@ -14,6 +14,10 @@ In this lab, I continued exploring the biomechanical vertebral column dataset to
 
 #### 1. Dataset Preparation & Partitioning
 * **Data Splitting:** Divided the biomechanical dataset into three distinct sets: Training (to teach the model), Validation (to tune hyperparameters), and Testing (for final unbiased evaluation).
+
+Overview of the task & description of dataset:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fd0e284-638c-490b-9e2f-c33974ab788d" />
+
 * **Objective:** Ensured model generalizability and prevented overfitting by isolating the test data from the training process.
 
 #### 2. Environment Configuration
