@@ -1,7 +1,7 @@
 # Migrating a Web Application to Amazon RDS
 
 ## Lab Overview
-This project involved the migration of a live café web application from a local standalone database—hosted on a LAMP stack EC2 instance—to a fully managed Amazon Relational Database Service (RDS) instance. The migration focuses on improving scalability, availability, and administrative efficiency.
+This project involved the migration of a live web application from a local standalone database, hosted on a LAMP stack EC2 instance, to a fully managed Amazon Relational Database Service (RDS) instance. The migration focuses on improving scalability, availability, and administrative efficiency.
 
 Visualization of the final solution:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ade4c2a8-092a-462c-8851-ce65eccb6517" />
