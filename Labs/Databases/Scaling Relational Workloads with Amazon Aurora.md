@@ -35,7 +35,12 @@ Here the screenshot confirms I identified and utilized the Writer Endpoint from 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/239d1471-e1ce-4340-b2d0-1e8ea914c4f1" />
 
    *   Executed advanced Data Definition Language (DDL) scripts to build normalized schemas with constrained data types.
+
+This screenshot shows I successfully initialized the database environment by executing DDL scripts to define the country table schema and validating the Aurora Writer Endpoint via the MySQL CLI.
+<img width="1920" height="1080" alt="Screenshot 2026-05-14 215721" src="https://github.com/user-attachments/assets/a5883a05-7d84-4ed4-bfe6-d70bcc870b15" />
+
    *   Facilitated data ingestion and validated the **Aurora Writer Endpoint** through multi-record insertion scripts.
+   *   
 *   **Optimized Query Performance**: 
     *   Validated the cluster's indexing and retrieval capabilities by executing filtered SQL queries on high-cardinality datasets.
     *   Confirmed low-latency response times for complex analytical operations involving multi-variable filters.
