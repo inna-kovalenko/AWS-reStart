@@ -14,6 +14,14 @@
     *   Outputted results directly to the terminal console for real-time verification.
     *   Automated the creation of a `results.txt` file to store the processed data.
 
+This confirms both files (`results.txt`, `solution.py`) were successfully created & saved:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ce7c4d8-ff4a-4908-b054-06be1eb03eab" />
+
+
 ## 4. Execution & Quality Assurance
 *   **Deployment**: Executed the script using the `python3` interpreter on the Linux Host.
 *   **Validation**: Verified the integrity of the `results.txt` output and confirmed the absolute file path for documentation.
+
+The screenshot shows execution of the script & content of `results.txt` using `cat` to see the prime numbers inside the file without opening an editor:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7b5dec5f-08a4-424e-9fed-bdf3413133d3" />
+
