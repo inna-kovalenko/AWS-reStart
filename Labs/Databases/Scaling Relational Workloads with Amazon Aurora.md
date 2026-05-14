@@ -1,11 +1,11 @@
-# AWS Technical Synopsis: Scaling Relational Workloads with Amazon Aurora
+# Scaling Relational Workloads with Amazon Aurora
 
 ### **Strategic Overview**
 Architected and deployed a high-performance, MySQL-compatible **Amazon Aurora** cluster to evaluate its efficiency and reliability within a distributed cloud environment. This project focused on implementing secure, tiered networking and validating the serverless-ready database engine against complex relational queries.
 
 ---
 
-### **Technical Executions**
+### **Technical Execution**
 
 *   **Engineered Scalable Database Infrastructure, Implementing Network Hardening & Secure Access**: 
    
@@ -25,11 +25,13 @@ The image above also shows completion of the steps below:
      
    *   Managed granular ingress control through **DBSecurityGroup** rules, adhering to the principle of least privilege.
   
-   
-*   Established secure, encrypted administrative tunnels via **AWS Systems Manager Session Manager**, bypassing the need for public-facing SSH exposure.
-  
-*   **Database Management & DDL/DML Operations**: 
-    *   Configured an **Amazon EC2 Linux host** as a dedicated management node, installing and tuning the **MariaDB client** for remote cluster interaction.
+   *   **Database Management & DDL/DML Operations**: 
+    *   Established secure, encrypted administrative tunnels via **AWS Systems Manager Session Manager**, bypassing the need for public-facing SSH exposure.
+
+This image shows secure connection was established as per the step above (here I configured an **Amazon EC2 Linux host** as a dedicated management node, installing and tuning the **MariaDB client** for remote cluster interaction):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ab3af59-fc1c-4f26-bfd5-67532a8ce162" />
+
+
     *   Executed advanced Data Definition Language (DDL) scripts to build normalized schemas with constrained data types.
     *   Facilitated data ingestion and validated the **Aurora Writer Endpoint** through multi-record insertion scripts.
 *   **Optimized Query Performance**: 
