@@ -59,6 +59,10 @@ A structured path was followed to ensure zero data loss during the transition:
 * **Security Handshake:** Integrated the RDS Global Bundle CA certificate to facilitate encrypted connections.
 * **Ingestion:** Restored the SQL backup to the RDS endpoint and validated record counts to ensure data consistency.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6c72f0e-f26a-4c5e-8ae6-f368e38301fc" />
+
+> **Validation Phase:** After executing the SQL restoration, I performed a manual data audit using the `SELECT * FROM product;` statement. This step validates that the schema and record sets remain intact, ensuring a zero-loss transition from the local instance to the managed Amazon RDS environment.
+
 ### 4. Configuration Management
 To align with cloud-native best practices, database connection strings were externalized. By updating the /cafe/dbUrl parameter in the AWS Systems Manager Parameter Store, the application successfully transitioned to the RDS instance without requiring code-level modifications.
 
