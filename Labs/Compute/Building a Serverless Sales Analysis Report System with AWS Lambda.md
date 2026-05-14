@@ -35,6 +35,7 @@ Confirmation of successful completion of the above steps:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e660ceb-5ba7-421e-91ea-2f745c70baa7" />
 
 **3**
+Here I made sure the function expects to receive the database connection information (`dbURL`, `dbName`, `dbUser`, `dbPassword`) in the event input parameter:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c954a421-3429-43cc-9b4e-b31268ed0b58" />
 
 ### 3. Serverless Integration & Troubleshooting
