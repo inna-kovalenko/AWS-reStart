@@ -26,8 +26,14 @@ Visualization of the architecture of the sales analysis report solution with the
 ### 2. Efficiency with Lambda Layers
 *   Created a custom **Lambda Layer** for the `PyMySQL` library. This reduced the size of the deployment package and followed best practices for code reuse.
 
-Confirmation of successful completion of the above step:
+Confirmation of successful completion of the above steps:
+
+**1**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58b45897-e410-44b1-be8d-d5394e84b976" />
+
+**2**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e660ceb-5ba7-421e-91ea-2f745c70baa7" />
+
 
 ### 3. Serverless Integration & Troubleshooting
 *   **Database Integration**: Configured VPC settings (Subnets/Security Groups) to bridge the serverless function with the EC2-hosted database.
