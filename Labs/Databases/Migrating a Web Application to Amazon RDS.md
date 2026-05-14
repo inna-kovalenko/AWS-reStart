@@ -39,6 +39,11 @@ Here I corrected the security group ingress authorization by mapping the verifie
 
 > **Technical Note:** Executed multi-AZ subnet provisioning to establish a high-availability networking foundation. By distributing private subnets across `us-west-2a` and `us-west-2b`, I ensured the RDS deployment satisfies the AWS best practice for failover redundancy and fault tolerance within the VPC.
 > 
+
+This shows I aggregated isolated private subnets into a logical DB Subnet Group, enabling the RDS instance to leverage Multi-AZ deployment for enhanced database durability:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d87254d1-7c55-47eb-b463-df988e785bf6" />
+
+
 * **RDS Deployment:** Launched a db.t3.micro MariaDB instance with automated backups and mandatory SSL/TLS encryption.
 
 ### 3. Migration Strategy and Execution
