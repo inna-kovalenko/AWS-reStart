@@ -24,6 +24,10 @@ In this activity, I acted as a security analyst to investigate a compromised env
 * **Security Group Configuration:** Modified the `WebSecurityGroup` to restrict SSH access (Port 22) specifically to a trusted IP address.
 * **Service Verification:** Confirmed the Café website was functioning normally before the detection of unauthorized activity.
 
+This shows I successfully modified the inbound security group rules to allow SSH access on port 22 and HTTP traffic on port 80 for the web server, and the **Website** reached at **Public IPv4 address** looked normal:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a0d28cc-c072-4881-8b09-43c933999391" />
+
+
 #### 2. CloudTrail Implementation & Incident Detection
 * **Audit Configuration:** Created a management trail named `monitor` to capture all account activity in a dedicated S3 bucket (`monitoring####`).
 * **Threat Identification:** Detected a website defacement and identified a "security hole" where an unauthorized inbound rule allowed global SSH access (`0.0.0.0/0`).
