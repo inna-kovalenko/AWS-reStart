@@ -1,0 +1,49 @@
+# Working with AWS CloudTrail
+
+---
+
+
+
+**Primary Domain:** Security, Identity, & Compliance  
+
+Domain: Infrastructure Security & Governance
+
+
+**Key Concepts:** Governance, Compliance, Operational Auditing, Log Analysis  
+
+---
+
+### OVERVIEW
+In this activity, I acted as a security analyst to investigate a compromised environment at the Café. I implemented **AWS CloudTrail** to establish an audit trail, analyzed logs to identify unauthorized modifications to security groups, and executed a multi-layered remediation strategy to secure both the AWS account and the underlying EC2 infrastructure.
+
+### CORE MILESTONES
+
+#### 1. Environment Baseline & Initial Audit
+* **Security Group Configuration:** Modified the `WebSecurityGroup` to restrict SSH access (Port 22) specifically to a trusted IP address.
+* **Service Verification:** Confirmed the Café website was functioning normally before the detection of unauthorized activity.
+
+#### 2. CloudTrail Implementation & Incident Detection
+* **Audit Configuration:** Created a management trail named `monitor` to capture all account activity in a dedicated S3 bucket (`monitoring####`).
+* **Threat Identification:** Detected a website defacement and identified a "security hole" where an unauthorized inbound rule allowed global SSH access (`0.0.0.0/0`).
+
+#### 3. Forensic Analysis via CLI & Athena
+* **Linux Log Processing:** Connected to the EC2 instance via SSH and used the `grep` utility to parse downloaded JSON logs for `sourceIPAddress` and `eventName`.
+* **AWS CLI Investigation:** Utilized `lookup-events` to identify the specific API calls responsible for the security group changes.
+* **SQL-Based Discovery:** Created an **Amazon Athena** table to query CloudTrail logs with SQL, allowing for the rapid identification of the hacker's IAM user, source IP, and exact event timestamps.
+
+#### 4. Remediation & System Hardening
+* **Instance Recovery:** Identified and removed the unauthorized `chaos-user` from the OS and restored the original website media files.
+* **Protocol Hardening:** Modified `/etc/ssh/sshd_config` to disable `PasswordAuthentication`, ensuring only key-pair authentication is permitted.
+* **IAM Governance:** Permanently deleted the compromised `chaos` IAM user to prevent further unauthorized programmatic access to the AWS account.
+
+### CONCLUSION
+I successfully restored the integrity of the Café's cloud environment by combining real-time auditing with forensic query tools. This lab demonstrated proficiency in using **CloudTrail** and **Athena** to transform raw log data into actionable security intelligence.
+
+---
+
+### GitHub Synopsis
+> Engineered a comprehensive security audit and remediation workflow using AWS CloudTrail and Amazon Athena to identify and neutralize a multi-vector security breach on an EC2-hosted web application.
+
+### Career Alignment
+* **Skills:** AWS CloudTrail, Amazon Athena (SQL), IAM Security, SSH Hardening, Linux Forensics.
+* **German B2 Terminology:** *"Sicherheitsaudit"* (Security audit) and *"Beseitigung von Schwachstellen"* (Remediation of vulnerabilities).
