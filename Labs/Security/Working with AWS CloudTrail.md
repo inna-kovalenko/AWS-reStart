@@ -52,8 +52,9 @@ An example of creating a **Table** in **Amazon Athena** using **CloudTrail**:
 #### 4. Remediation & System Hardening
 * **Instance Recovery:** Identified and removed the unauthorized `chaos-user` from the OS and restored the original website media files.
 
-This demonstrates how quering **Logs** with the help of **Amazon Athena** could show when and how the system was modified, in this case finding the intruder:
+This demonstrates how quering **Logs** with the help of **Amazon Athena** could show when and how the system was modified, in this case finding the intruder (this could also be achieved by running a more general query as such: `SELECT DISTINCT useridentity.userName, eventName, eventSource FROM cloudtrail_logs_monitoring0987 WHERE from_iso8601_timestamp(eventtime) > date_add('day', -1, now()) ORDER BY eventSource;`):
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eda9751b-37af-481b-ba6e-161c78910d15" />
+
 
 * **Protocol Hardening:** Modified `/etc/ssh/sshd_config` to disable `PasswordAuthentication`, ensuring only key-pair authentication is permitted.
 * **IAM Governance:** Permanently deleted the compromised `chaos` IAM user to prevent further unauthorized programmatic access to the AWS account.
