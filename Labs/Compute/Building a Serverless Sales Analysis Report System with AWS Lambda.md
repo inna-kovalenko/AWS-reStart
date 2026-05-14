@@ -34,6 +34,8 @@ Confirmation of successful completion of the above steps:
 **2**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e660ceb-5ba7-421e-91ea-2f745c70baa7" />
 
+**3**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c954a421-3429-43cc-9b4e-b31268ed0b58" />
 
 ### 3. Serverless Integration & Troubleshooting
 *   **Database Integration**: Configured VPC settings (Subnets/Security Groups) to bridge the serverless function with the EC2-hosted database.
