@@ -71,6 +71,9 @@ This documents creation of the corresponding SNS topic:
 Now at this stage configuring the `salesAnalysisReport` **Lambda** function was performed both via **CLI** and **AWS Management Console**:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13618904-3887-4be9-88ad-8bff5a60a491" />
 
+This confirms successful **Test** run on this function:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afcade03-a621-4304-ac43-b1f720cf496b" />
+
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
 ## Core Objectives Achieved
