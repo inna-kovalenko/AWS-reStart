@@ -1,4 +1,4 @@
-# Building a Serverless Sales Analysis Report System with AWS Lambda
+<img width="925" height="500" alt="image" src="https://github.com/user-attachments/assets/bc7d70e5-767f-45eb-a0ad-59efd2f2372e" /># Building a Serverless Sales Analysis Report System with AWS Lambda
 
 ## Lab Overview
 In this project, I deployed a serverless solution using **AWS Lambda** to automate daily sales reporting. The system connects to a MySQL database running on an EC2 instance, extracts sales data, and sends a formatted report to an administrator via **Amazon SNS**.
@@ -46,6 +46,10 @@ This shows how configuring the above settings looked like on **AWS Management Co
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26ef4399-60cb-4ec6-bb09-339551d9577e" />
 
 *   **Testing & Debugging**: Identified a connection timeout issue. Used **CloudWatch Logs** to diagnose that the Security Group was missing an inbound rule for Port 3306 (MySQL).
+
+Sample page showing the message **"Execution result: failed"**: 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e86b13de-096c-4068-bcce-191694bb30eb" />
+
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
 ## Core Objectives Achieved
