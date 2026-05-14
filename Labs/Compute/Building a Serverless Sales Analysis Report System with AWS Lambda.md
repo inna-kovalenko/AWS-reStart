@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c8d1e7f-5ff6-4742-9e73-696faf34c51e" /># Building a Serverless Sales Analysis Report System with AWS Lambda
+# Building a Serverless Sales Analysis Report System with AWS Lambda
 
 ## Lab Overview
 In this project, I deployed a serverless solution using **AWS Lambda** to automate daily sales reporting. The system connects to a MySQL database running on an EC2 instance, extracts sales data, and sends a formatted report to an administrator via **Amazon SNS**.
