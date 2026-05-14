@@ -45,6 +45,9 @@ This shows how I used the AWS CLI `lookup-events` command to isolate the `Author
 
 * **SQL-Based Discovery:** Created an **Amazon Athena** table to query CloudTrail logs with SQL, allowing for the rapid identification of the hacker's IAM user, source IP, and exact event timestamps.
 
+An example of creating a **Table** in **Amazon Athena** using **CloudTrail**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7e025fb-231f-43a0-adfe-958f2d438538" />
+
 #### 4. Remediation & System Hardening
 * **Instance Recovery:** Identified and removed the unauthorized `chaos-user` from the OS and restored the original website media files.
 * **Protocol Hardening:** Modified `/etc/ssh/sshd_config` to disable `PasswordAuthentication`, ensuring only key-pair authentication is permitted.
