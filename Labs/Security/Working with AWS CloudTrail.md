@@ -3,6 +3,8 @@
 ---
 
 
+> Engineered a comprehensive security audit and remediation workflow using AWS CloudTrail and Amazon Athena to identify and neutralize a multi-vector security breach on an EC2-hosted web application.
+
 
 **Primary Domain:** Security, Identity, & Compliance  
 
@@ -41,9 +43,5 @@ I successfully restored the integrity of the Café's cloud environment by combin
 
 ---
 
-### GitHub Synopsis
-> Engineered a comprehensive security audit and remediation workflow using AWS CloudTrail and Amazon Athena to identify and neutralize a multi-vector security breach on an EC2-hosted web application.
-
 ### Career Alignment
 * **Skills:** AWS CloudTrail, Amazon Athena (SQL), IAM Security, SSH Hardening, Linux Forensics.
-* **German B2 Terminology:** *"Sicherheitsaudit"* (Security audit) and *"Beseitigung von Schwachstellen"* (Remediation of vulnerabilities).
