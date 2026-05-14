@@ -50,6 +50,10 @@ This shows how configuring the above settings looked like on **AWS Management Co
 Sample page showing the message **"Execution result: failed"**: 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e86b13de-096c-4068-bcce-191694bb30eb" />
 
+This is how I added the needed **Inbound Rule** for **Lambda**:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/000308a3-53f0-439f-9d69-f377df21c757" />
+
+
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
 ## Core Objectives Achieved
