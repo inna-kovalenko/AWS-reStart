@@ -18,7 +18,11 @@ In this lab, I continued exploring the biomechanical vertebral column dataset to
 Overview of the task & description of dataset:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fd0e284-638c-490b-9e2f-c33974ab788d" />
 
-* **Objective:** Ensured model generalizability and prevented overfitting by isolating the test data from the training process.
+* **Objective Met:** Ensured model generalizability and prevented overfitting by isolating the test data from the training process.
+
+The screenshot shows I successfully executed the notebook cells to install dependencies, download the vertebral column dataset & perform initial data preprocessing by mapping target classes to numerical values:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17736a4e-4418-49e7-b8fb-b9df6f99ec42" />
+
 
 #### 2. Environment Configuration
 * **Resource Assessment:** Accessed the Amazon SageMaker AI dashboard and deployed a pre-provisioned notebook instance named `MyNotebook`.
