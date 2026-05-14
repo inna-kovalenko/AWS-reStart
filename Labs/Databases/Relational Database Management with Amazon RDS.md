@@ -31,6 +31,14 @@ Here I updated **Inbound rules** to include **MySQL Port 3306**, authorizing dat
 *   **Data Ingestion (DML)**: Populated schemas with sample datasets using multi-record insertion scripts to simulate real-world data environments.
 *   **Relational Querying**: Performed advanced SQL operations, including **Inner Joins**, to aggregate data across multiple tables for integrated reporting.
 
+This confirms I developed a relational schema and performed batch data insertion using SQL DDL and DML commands to establish a baseline for learner analytics:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a33d061a-ca02-4f61-8855-b28019cd5ec9" />
+
+This screenshot shows I verified the successful population of the secondary `CLOUD_PRACTITIONER` table with targeted certification records & performed a multi-table relational join to generate a unified view of student names and their respective achievement dates:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/29238ec0-5c33-4459-9373-37b8412ad3d6" />
+
+
+
 ## Tools & Technologies
 *   **AWS Services**: Amazon RDS (Aurora/MySQL), Amazon EC2, Amazon VPC.
 *   **Database Tools**: MySQL Client, SQL (DDL/DML).
