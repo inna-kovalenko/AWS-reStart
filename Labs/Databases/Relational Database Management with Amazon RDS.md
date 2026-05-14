@@ -9,7 +9,12 @@ This lab focused on deploying and managing an AWS-managed relational database en
 Here it is visible I selected **MySQL**, **Free-Tier** option, in a single AZ:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15478b89-9408-4739-a10c-90d92a9a1a85" />
 
+This scresnshot demonstrates I configured **VPC**, **DB Subnet**, **Firewall** & banned **Public Access** (such configuration of **Security Groups** and private networking was needed to ensure the database would be only accessible via a secure Linux jump host):
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dba659f5-f916-4fb0-a2ad-0b753e54320f" />
+
+
 *   **Security & Connectivity**: Established secure SSH tunneling via a Linux jump host and configured Security Groups to permit controlled MySQL client access.
+
 *   **Schema Design (DDL)**: Engineered normalized tables (`RESTART` and `CLOUD_PRACTITIONER`) with constrained data types including Integers, Varchars, and DateTimes.
 *   **Data Ingestion (DML)**: Populated schemas with sample datasets using multi-record insertion scripts to simulate real-world data environments.
 *   **Relational Querying**: Performed advanced SQL operations, including **Inner Joins**, to aggregate data across multiple tables for integrated reporting.
