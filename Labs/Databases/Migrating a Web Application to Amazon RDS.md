@@ -59,7 +59,8 @@ A structured path was followed to ensure zero data loss during the transition:
 * **Security Handshake:** Integrated the RDS Global Bundle CA certificate to facilitate encrypted connections.
 * **Ingestion:** Restored the SQL backup to the RDS endpoint and validated record counts to ensure data consistency.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6c72f0e-f26a-4c5e-8ae6-f368e38301fc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/38ee40e9-515d-42e6-a350-f92e0f016d79" />
+
 
 > **Validation Phase:** After executing the SQL restoration, I performed a manual data audit using the `SELECT * FROM product;` statement. This step validates that the schema and record sets remain intact, ensuring a zero-loss transition from the local instance to the managed Amazon RDS environment.
 
