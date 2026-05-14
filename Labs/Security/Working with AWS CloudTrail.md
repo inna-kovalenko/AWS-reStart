@@ -48,6 +48,10 @@ This shows how I used the AWS CLI `lookup-events` command to isolate the `Author
 An example of creating a **Table** in **Amazon Athena** using **CloudTrail**:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7e025fb-231f-43a0-adfe-958f2d438538" />
 
+This demonstrates how quering with the help of **Amazon Athena** could show when and how the system was modified:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f44f7740-c796-4521-a0e9-09b83fd4358b" />
+
+
 #### 4. Remediation & System Hardening
 * **Instance Recovery:** Identified and removed the unauthorized `chaos-user` from the OS and restored the original website media files.
 * **Protocol Hardening:** Modified `/etc/ssh/sshd_config` to disable `PasswordAuthentication`, ensuring only key-pair authentication is permitted.
