@@ -38,13 +38,20 @@ Here I corrected the security group ingress authorization by mapping the verifie
 <img width="1920" height="640" alt="Screenshot 2026-05-15 013026" src="https://github.com/user-attachments/assets/a871fa7f-6ed5-4dbf-a849-794c807b10a8" />
 
 > **Technical Note:** Executed multi-AZ subnet provisioning to establish a high-availability networking foundation. By distributing private subnets across `us-west-2a` and `us-west-2b`, I ensured the RDS deployment satisfies the AWS best practice for failover redundancy and fault tolerance within the VPC.
-> 
 
 This shows I aggregated isolated private subnets into a logical DB Subnet Group, enabling the RDS instance to leverage Multi-AZ deployment for enhanced database durability:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d87254d1-7c55-47eb-b463-df988e785bf6" />
 
 
 * **RDS Deployment:** Launched a db.t3.micro MariaDB instance with automated backups and mandatory SSL/TLS encryption.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c6a2a6fa-6023-410f-86da-1d490cf216da" />
+
+* **Database Orchestration:** Provisioned a MariaDB RDS instance using the AWS CLI, implementing automated backups and mandatory SSL/TLS encryption to ensure data integrity and durability.
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-15 015349" src="https://github.com/user-attachments/assets/389dee19-a10b-41a8-be27-8177af48ccbb" />
+
+> **Technical Note:** The RDS instance is intentionally deployed with `PubliclyAccessible: false` and encapsulated within a private DB Subnet Group. This architectural choice ensures that the database is isolated from the public internet, accepting traffic exclusively from the web-tier security group over port 3306.
 
 ### 3. Migration Strategy and Execution
 A structured path was followed to ensure zero data loss during the transition:
