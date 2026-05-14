@@ -31,9 +31,11 @@ The image above also shows completion of the steps below:
 This image shows secure connection was established as per the step above (here I configured an **Amazon EC2 Linux host** as a dedicated management node, installing and tuning the **MariaDB client** for remote cluster interaction):
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ab3af59-fc1c-4f26-bfd5-67532a8ce162" />
 
+Here the screenshot confirms I identified and utilized the Writer Endpoint from the Amazon Aurora cluster details to establish a secure database connection for executing administrative DDL and DML operations:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/239d1471-e1ce-4340-b2d0-1e8ea914c4f1" />
 
-    *   Executed advanced Data Definition Language (DDL) scripts to build normalized schemas with constrained data types.
-    *   Facilitated data ingestion and validated the **Aurora Writer Endpoint** through multi-record insertion scripts.
+   *   Executed advanced Data Definition Language (DDL) scripts to build normalized schemas with constrained data types.
+   *   Facilitated data ingestion and validated the **Aurora Writer Endpoint** through multi-record insertion scripts.
 *   **Optimized Query Performance**: 
     *   Validated the cluster's indexing and retrieval capabilities by executing filtered SQL queries on high-cardinality datasets.
     *   Confirmed low-latency response times for complex analytical operations involving multi-variable filters.
