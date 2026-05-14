@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5f38e6d1-e4bf-40c8-aaf6-0c9c1138eb8a" /># Building a Serverless Sales Analysis Report System with AWS Lambda
+# Building a Serverless Sales Analysis Report System with AWS Lambda
 
 ## Lab Overview
 In this project, I deployed a serverless solution using **AWS Lambda** to automate daily sales reporting. The system connects to a MySQL database running on an EC2 instance, extracts sales data, and sends a formatted report to an administrator via **Amazon SNS**.
@@ -75,6 +75,10 @@ This confirms successful **Test** run on this function:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afcade03-a621-4304-ac43-b1f720cf496b" />
 
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
+
+The screen of **AWS Management Console** where I configured the automation of a daily serverless reporting pipeline:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8fb59025-291e-4b13-8d6e-195395b1be6e" />
+
 
 ## Core Objectives Achieved
 - [x] Facilitated cross-resource communication via IAM.
