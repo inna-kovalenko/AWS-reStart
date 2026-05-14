@@ -3,6 +3,10 @@
 ## Lab Overview
 This project involved the migration of a live café web application from a local standalone database—hosted on a LAMP stack EC2 instance—to a fully managed Amazon Relational Database Service (RDS) instance. The migration focuses on improving scalability, availability, and administrative efficiency.
 
+Visualization of the final solution:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ade4c2a8-092a-462c-8851-ce65eccb6517" />
+
+
 ## Objectives
 * **Infrastructure Provisioning:** Utilized the AWS Command Line Interface (CLI) to provision a MariaDB RDS instance.
 * **Data Migration:** Executed a live migration from an EC2-hosted database to Amazon RDS using the mysqldump utility.
@@ -16,6 +20,10 @@ This project involved the migration of a live café web application from a local
 
 ### 1. Baseline Data Generation
 Initial orders were placed on the active café website to populate the local database. This established a verifiable dataset used to confirm the integrity of the migration upon completion.
+
+This shows the **Website** was accessed via `CafeInstanceUR` and orders were placed:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91480aa1-d4eb-4464-a4b0-3720768a690f" />
+
 
 ### 2. Infrastructure as Code (CLI) Implementation
 Foundational networking for the managed database was established through the following CLI operations:
