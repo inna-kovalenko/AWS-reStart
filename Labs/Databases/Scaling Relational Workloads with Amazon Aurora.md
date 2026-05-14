@@ -7,7 +7,7 @@ Architected and deployed a high-performance, MySQL-compatible **Amazon Aurora** 
 
 ### **Technical Executions**
 
-*   **Engineered Scalable Database Infrastructure and Implemented Network Hardening & Secure Access**: 
+*   **Engineered Scalable Database Infrastructure, Implementing Network Hardening & Secure Access**: 
    
    *   Optimized performance using **db.t3.medium burstable instances** to balance cost-efficiency with high-load handling.
 
@@ -19,10 +19,14 @@ This shows selection of the **Instance Class**:
 The screenshot demonstrates I chose a cost-optimized, single-node Amazon Aurora cluster, with the underlying architecture ready to scale to a High-Availability (Multi-AZ) production environment:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/060330b2-36f4-4825-b71e-718a33a49418" />
 
-The image above also shows completions of the steps below:
-     *   Isolated database resources within a custom **Virtual Private Cloud (VPC)** using private subnet groups.
-     *   Managed granular ingress control through **DBSecurityGroup** rules, adhering to the principle of least privilege.
-     *   Established secure, encrypted administrative tunnels via **AWS Systems Manager Session Manager**, bypassing the need for public-facing SSH exposure.
+The image above also shows completion of the steps below:
+
+   *   Isolated database resources within a custom **Virtual Private Cloud (VPC)** using private subnet groups.
+     
+   *   Managed granular ingress control through **DBSecurityGroup** rules, adhering to the principle of least privilege.
+  
+   
+*   Established secure, encrypted administrative tunnels via **AWS Systems Manager Session Manager**, bypassing the need for public-facing SSH exposure.
   
 *   **Database Management & DDL/DML Operations**: 
     *   Configured an **Amazon EC2 Linux host** as a dedicated management node, installing and tuning the **MariaDB client** for remote cluster interaction.
