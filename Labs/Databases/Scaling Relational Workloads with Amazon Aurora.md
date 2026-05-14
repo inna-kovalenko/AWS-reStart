@@ -7,21 +7,23 @@ Architected and deployed a high-performance, MySQL-compatible **Amazon Aurora** 
 
 ### **Technical Executions**
 
-*   **Engineered Scalable Database Infrastructure**: 
-    *   Provisioned a standalone Amazon Aurora DB cluster optimized for development and testing environments.
-
-The screenshot demonstrates I chose a cost-optimized, single-node Amazon Aurora cluster, with the underlying architecture ready to scale to a High-Availability (Multi-AZ) production environment:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/060330b2-36f4-4825-b71e-718a33a49418" />
-
+*   **Engineered Scalable Database Infrastructure and Implemented Network Hardening & Secure Access**: 
+   
    *   Optimized performance using **db.t3.medium burstable instances** to balance cost-efficiency with high-load handling.
 
 This shows selection of the **Instance Class**:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de735275-c913-497e-b845-a4eb55f67263" />
 
-*   **Implemented Network Hardening & Secure Access**: 
-    *   Isolated database resources within a custom **Virtual Private Cloud (VPC)** using private subnet groups.
-    *   Managed granular ingress control through **DBSecurityGroup** rules, adhering to the principle of least privilege.
-    *   Established secure, encrypted administrative tunnels via **AWS Systems Manager Session Manager**, bypassing the need for public-facing SSH exposure.
+ *   Provisioned a standalone Amazon Aurora DB cluster optimized for development and testing environments.
+
+The screenshot demonstrates I chose a cost-optimized, single-node Amazon Aurora cluster, with the underlying architecture ready to scale to a High-Availability (Multi-AZ) production environment:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/060330b2-36f4-4825-b71e-718a33a49418" />
+
+The image above also shows completions of the steps below:
+     *   Isolated database resources within a custom **Virtual Private Cloud (VPC)** using private subnet groups.
+     *   Managed granular ingress control through **DBSecurityGroup** rules, adhering to the principle of least privilege.
+     *   Established secure, encrypted administrative tunnels via **AWS Systems Manager Session Manager**, bypassing the need for public-facing SSH exposure.
+  
 *   **Database Management & DDL/DML Operations**: 
     *   Configured an **Amazon EC2 Linux host** as a dedicated management node, installing and tuning the **MariaDB client** for remote cluster interaction.
     *   Executed advanced Data Definition Language (DDL) scripts to build normalized schemas with constrained data types.
