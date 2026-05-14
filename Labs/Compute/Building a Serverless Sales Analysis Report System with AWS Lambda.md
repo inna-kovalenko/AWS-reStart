@@ -59,6 +59,8 @@ This confirms the change was made:
 The screenshot demonstrates that during testing the body field, which contains the report data that the function extracted, was empty because there was no order data in the database:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a134a7bb-73ba-4f91-8a8b-7f204a9483f9" />
 
+So it was logical to go to the **Cafe Website** to place an order in order to populate the **Database** as in this example:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd7feb77-a989-478a-91b1-85351ea84bbf" />
 
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
