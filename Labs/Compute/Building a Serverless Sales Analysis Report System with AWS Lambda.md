@@ -53,6 +53,9 @@ Sample page showing the message **"Execution result: failed"**:
 This is how I added the needed **Inbound Rule** for **Lambda**:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/000308a3-53f0-439f-9d69-f377df21c757" />
 
+This confirms the change was made:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3f7abca-494b-4a13-94e3-ea7adb8409a8" />
+
 
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
