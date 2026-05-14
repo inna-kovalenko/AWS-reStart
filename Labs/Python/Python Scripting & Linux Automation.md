@@ -10,6 +10,10 @@
 
 ## 3. Python Development & Automation
 *   **Script Engineering**: Developed a Python 3 script to algorithmically identify all **prime numbers between 1 and 250**.
+
+Here is the script:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/79168e06-d110-4534-ad76-95b999755122" />
+
 *   **Data Persistence**: Engineered the script to execute two primary functions:
     *   Outputted results directly to the terminal console for real-time verification.
     *   Automated the creation of a `results.txt` file to store the processed data.
