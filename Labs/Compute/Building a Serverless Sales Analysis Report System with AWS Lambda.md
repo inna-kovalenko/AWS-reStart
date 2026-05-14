@@ -65,6 +65,9 @@ So it was logical to go to the **Cafe Website** to place an order in order to po
 As a result, the **Test** was successful:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bada4d21-e952-47dc-9b53-435fb012c2e9" />
 
+This documents creation of the corresponding SNS topic:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/78c6ae6e-057c-43ae-9c8b-590351bba548" />
+
 
 *   **Automation**: Implemented a **Cron expression** in EventBridge to trigger the report at 8 PM (UTC) Monday–Saturday.
 
