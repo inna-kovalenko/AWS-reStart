@@ -5,8 +5,7 @@
 *   **Infrastructure Mapping**: Documented the **Public IP address** and credentials to facilitate secure remote access.
 
 ## 2. Secure Connectivity
-*   **Authentication**: Configured SSH access using a RSA key pair (`.pem` or `.ppk`).
-*   **Permission Management**: Applied `chmod 400` to the private key file to satisfy Linux security requirements for remote tunneling.
+*   **Authentication**: Configured SSH access using a RSA key pair (in my case - `.ppk`).
 *   **Remote Access**: Established a secure shell session to the **ec2-user** via the instance's public endpoint.
 
 ## 3. Python Development & Automation
