@@ -67,9 +67,15 @@ A structured path was followed to ensure zero data loss during the transition:
 ### 4. Configuration Management
 To align with cloud-native best practices, database connection strings were externalized. By updating the /cafe/dbUrl parameter in the AWS Systems Manager Parameter Store, the application successfully transitioned to the RDS instance without requiring code-level modifications.
 
+**Architectural Insight:** 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bb37a035-3446-44bf-b5e9-28a1c86e80f9" />
 
-> **Architectural Insight:** By leveraging the AWS CLI for deployment and SSM Parameter Store for configuration management, I implemented a robust, decoupled architecture. This ensures that infrastructure changes (like an RDS endpoint update) can be managed centrally without requiring application code redeployment.
+> By leveraging the AWS CLI for deployment and SSM Parameter Store for configuration management, I implemented a robust, decoupled architecture. This ensures that infrastructure changes (like an RDS endpoint update) can be managed centrally without requiring application code redeployment.
+
+**Final System Audit:** 
+<img width="1920" height="660" alt="image" src="https://github.com/user-attachments/assets/56672880-8c63-4a1c-b579-7db232a59d86" />
+
+> Conducted a comprehensive verification of the data pipeline. By comparing the `SELECT` query results in the MariaDB shell against the web-tier's `orderHistory.php` output, I validated full CRUD (Create, Read, Update, Delete) functionality. This confirms that the application is successfully utilizing the new RDS endpoint for both persistent storage and dynamic content delivery.
 
 ### 5. Performance Monitoring
 Post-migration stability was verified through the RDS Monitoring interface. Real-time tracking of DatabaseConnections and CPUUtilization confirmed that the managed instance was correctly handling application workloads and administrative queries.
