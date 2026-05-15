@@ -23,15 +23,19 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
 
 ### 2. Post-Deployment Configuration & Content Delivery
 
-To finalize the web service, I accessed the instance via EC2 Instance Connect and utilized a Heredoc (EOF) to programmatically generate the projects.html file. This CLI-based approach ensured the landing page was deployed to the Apache root directory (/var/www/html/) with precision and speed, avoiding the overhead of manual text editors.
+To finalize the web service, I accessed the instance via **EC2 Instance Connect** and utilized a **Heredoc (EOF)** to programmatically generate the `projects.html` file. This CLI-based approach ensured the landing page was deployed to the Apache root directory (`/var/www/html/`) with precision and speed, avoiding the overhead of manual text editors.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42d57820-3cc6-4a05-a98f-5ade9d065bc0" />
 
-> Instead of using a manual text editor, I utilized a Heredoc (EOF) in the bash terminal to programmatically generate the projects.html file, ensuring accuracy and speed in the deployment process.
+### 3. Environment Specifications & Final Result
 
-### 3. Storage & Compute Scaling
-*   **Compute:** Optimized resource allocation using the **T3 instance family**, leveraging burstable performance for variable web workloads.
-*   **Storage:** Provisioned an **EBS Root Volume (gp2)**, balancing IOPS and throughput for consistent boot performance and application responsiveness.
+To optimize for the web workload, the instance was provisioned using the **T3 family** with an **8 GiB gp2 EBS root volume**, ensuring a balance of burstable compute power and consistent storage throughput.
+
+| Resource | Specification | Purpose |
+| :--- | :--- | :--- |
+| **Instance Type** | t3.micro | Burstable performance for web workloads. |
+| **Root Volume** | 8 GiB (gp2) | Balanced IOPS and throughput for the OS. |
+| **Endpoint** | [Live Webpage](http://18.236.124.24/projects.html) | Final production verification. |
 
 ---
 ## Final Project Outcome
