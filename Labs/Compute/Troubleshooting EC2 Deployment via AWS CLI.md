@@ -51,8 +51,6 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 * **Issue #5: IAM Permission Constraints**
     * **Diagnosis:** Execution blocked by `AccessDeniedException` during `SendSSHPublicKey`.
     * **Root Cause:** Intentional "Least Privilege" restrictions on the `awsstudent` role preventing remote instance modification.
-      
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc6e796a-ff06-4995-bd08-342d0cf6066f" />
 
 ---
 
@@ -60,9 +58,15 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 
 | Key Metric | Status | Verification Method |
 | :--- | :--- | :--- |
-| **Instance Provisioning** | **Successful** | Verified via `aws ec2 describe-instances` |
-| **Network Security** | **Verified** | Security Group `sg-027776299600c1a3a` successfully active |
-| **IAM Integrity** | **Restricted** | Identified intentional "Least Privilege" blocks in lab environment |
+| **Instance Provisioning** | **Successful** | Verified via `aws ec2 describe-instances`. |
+| **Network Security** | **Verified** | Security Group `sg-027776299600c1a3a` successfully active. |
+| **IAM Integrity** | **Restricted** | Identified intentional "Least Privilege" blocks in lab environment. |
+
+---
+
+## Technical Evidence: Troubleshooting Lifecycle
+
+![Full Terminal Workflow](https://github.com/inna-kovalenko/AWS-reStart/raw/main/Labs/Compute/image_24b848.png)
 
 ---
 
@@ -71,3 +75,6 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 * **AWS CLI Orchestration:** Managed full EC2 and VPC lifecycles via terminal.
 * **Security Auditing:** Identified and documented IAM policy gaps and authentication blockers.
 * **Technical Resilience:** Systematic resolution of script logic and connectivity failures.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc6e796a-ff06-4995-bd08-342d0cf6066f" />
+
