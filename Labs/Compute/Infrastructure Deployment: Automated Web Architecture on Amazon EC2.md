@@ -16,6 +16,8 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
     *   **TCP 80:** Global ingress for web traffic.
     *   **TCP 22:** Scoped ingress for administrative maintenance via **EC2 Instance Connect**.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b19d9970-44eb-432d-b207-244f97d2462d" />
+
 ### 2. Automated Provisioning (Bootstrap)
 To eliminate manual configuration drift, I utilized a bash-based **Bootstrap Script** within the EC2 metadata (User Data). This automated:
 *   Yum repository updates and **Apache (httpd)** binaries installation.
