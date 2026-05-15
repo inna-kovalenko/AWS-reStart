@@ -66,9 +66,7 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 
 ## Technical Evidence: Troubleshooting Lifecycle
 
-![Full Terminal Workflow](https://github.com/inna-kovalenko/AWS-reStart/raw/main/Labs/Compute/image_24b848.png)
-
----
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc6e796a-ff06-4995-bd08-342d0cf6066f" />
 
 ## Core Competencies Demonstrated
 
@@ -76,5 +74,5 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 * **Security Auditing:** Identified and documented IAM policy gaps and authentication blockers.
 * **Technical Resilience:** Systematic resolution of script logic and connectivity failures.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc6e796a-ff06-4995-bd08-342d0cf6066f" />
+
 
