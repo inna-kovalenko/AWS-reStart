@@ -9,6 +9,8 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
 
 ### 1. Networking & Security Perimeter
 *   **VPC Design:** Provisioned a dedicated VPC environment with a custom IPv4 CIDR block.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d4d8c0d-ce09-4535-87e1-cc290244f4bf" />
+
 *   **Routing Logic:** Integrated an **Internet Gateway** and updated **Route Tables** to enable bidirectional traffic for public-facing resources.
 *   **Traffic Control:** Engineered a stateful Security Group implementing the principle of least privilege, specifically authorizing:
     *   **TCP 80:** Global ingress for web traffic.
