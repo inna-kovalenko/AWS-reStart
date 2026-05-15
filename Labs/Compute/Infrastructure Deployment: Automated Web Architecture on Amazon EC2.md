@@ -18,13 +18,18 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b19d9970-44eb-432d-b207-244f97d2462d" />
 
-> The instance is provisioned in a Public Subnet with a Public IPv4 address (18.236.124.24) and an attached Security Group configured to handle both web traffic and remote management.
+> The instance was provisioned in a Public Subnet with a Public IPv4 address (18.236.124.24) and an attached Security Group configured to handle both web traffic and remote management.
 
 ### 2. Automated Provisioning (Bootstrap)
 To eliminate manual configuration drift, I utilized a bash-based **Bootstrap Script** within the EC2 metadata (User Data). This automated:
 *   Yum repository updates and **Apache (httpd)** binaries installation.
 *   Systemd service persistence across reboots.
 *   Recursive permission hardening (`chmod 2775`) and ownership assignment for the `/var/www` directory to facilitate secure content deployment.
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42d57820-3cc6-4a05-a98f-5ade9d065bc0" />
+
+> Instead of using a manual text editor, I utilized a Heredoc (EOF) in the bash terminal to programmatically generate the projects.html file, ensuring accuracy and speed in the deployment process.
 
 ### 3. Storage & Compute Scaling
 *   **Compute:** Optimized resource allocation using the **T3 instance family**, leveraging burstable performance for variable web workloads.
