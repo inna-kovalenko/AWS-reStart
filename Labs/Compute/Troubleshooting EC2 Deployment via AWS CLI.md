@@ -34,7 +34,8 @@ Completion of the step above:
 
 ### Technical Evidence: CLI Troubleshooting Flow
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/04318ff6-2aa1-4590-b609-df0d40ebc8c3" />
-*Caption: Terminal log demonstrating the identification of InvalidAMIID errors and the subsequent resource cleanup process.*
+
+> Terminal log demonstrating the identification of InvalidAMIID errors and the subsequent resource cleanup process.
 
 
 * **Issue #2: Connectivity and Security Group Validation**
