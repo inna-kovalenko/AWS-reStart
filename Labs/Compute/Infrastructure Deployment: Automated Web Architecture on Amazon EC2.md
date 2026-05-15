@@ -35,8 +35,7 @@ To optimize for the web workload, the instance was provisioned using the **T3 fa
 | :--- | :--- | :--- |
 | **Instance Type** | t3.micro | Burstable performance for web workloads. |
 | **Root Volume** | 8 GiB (gp2) | Balanced IOPS and throughput for the OS. |
-| **Endpoint** | [Live Webpage](http://18.236.124.24/projects.html) | Final production verification. |
-
+| **Verified URL** | http://18.236.124.24/projects.html | Production endpoint (Active during lab). |
 ---
 ## Final Project Outcome
 
