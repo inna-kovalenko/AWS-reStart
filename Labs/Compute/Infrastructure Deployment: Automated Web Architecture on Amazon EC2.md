@@ -37,7 +37,7 @@ To optimize for the web workload, the instance was provisioned using the **T3 fa
 | **Root Volume** | 8 GiB (gp2) | Balanced IOPS and throughput for the OS. |
 | **Deployment URL** | `http://18.236.124.24/projects.html` | Verified production path (Lab Environment). |
 
-> **Note on Connectivity:** The URL above reflects the specific path created via the CLI. While the Public IP is ephemeral and released upon lab termination, the screenshot below confirms successful content delivery at this address.
+> **Note on Connectivity:** The URL above reflects the specific path created via the CLI. While the Public IP is ephemeral and released upon lab termination, the screenshot above confirms successful content delivery at this address (visible as `18.236.124.24`).
 
 ---
 ## Final Project Outcome
