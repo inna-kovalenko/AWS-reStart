@@ -14,9 +14,11 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
 *   **Routing Logic:** Integrated an **Internet Gateway** and updated **Route Tables** to enable bidirectional traffic for public-facing resources.
 *   **Traffic Control:** Engineered a stateful Security Group implementing the principle of least privilege, specifically authorizing:
     *   **TCP 80:** Global ingress for web traffic.
-    *   **TCP 22:** Scoped ingress for administrative maintenance via **EC2 Instance Connect**.
+    *   **TCP 22:** Administrative ingress for maintenance via **EC2 Instance Connect**.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b19d9970-44eb-432d-b207-244f97d2462d" />
+
+> The instance is provisioned in a Public Subnet with a Public IPv4 address (18.236.124.24) and an attached Security Group configured to handle both web traffic and remote management.
 
 ### 2. Automated Provisioning (Bootstrap)
 To eliminate manual configuration drift, I utilized a bash-based **Bootstrap Script** within the EC2 metadata (User Data). This automated:
