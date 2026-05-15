@@ -19,15 +19,16 @@ This lab involved the deployment of a functional LAMP Stack (Linux, Apache, Mari
 * Initialized the AWS CLI environment using `aws configure` to define regional parameters and output formats.
 
 ### 2. Script Debugging and Logic Correction
-The deployment script `create-lamp-instance-v2.sh` was audited to resolve the following blockers:
+The deployment script `create-lamp-instance-v2.sh` was audited and modified to resolve the following blockers:
 
-* **Issue #1: Regional AMI Mismatch**
-  * **Diagnosis:** Identified a `InvalidAMIID.NotFound` error during the `RunInstances` operation.
-  * **Resolution:** Replaced the hardcoded AMI ID in the script with the verified Amazon Machine Image ID for the current deployment region.
-* **Issue #2: Connectivity and Port Validation**
-  * **Diagnosis:** The instance launched successfully, but the web application was unreachable via the browser.
-  * **Validation:** Executed a port scan using the `nmap` utility (`nmap -Pn <public-ip>`).
-  * **Resolution:** Discovered that TCP Port 80 was not exposed in the security group. Updated security group rules via CLI to permit inbound HTTP traffic.
+* **Issue #1: Dynamic AMI Retrieval Failure**
+  * **Diagnosis:** The script utilized an AWS Systems Manager (SSM) parameter to fetch the latest AMI, which returned an `InvalidAMIID.NotFound` error in the current region.
+  * **Resolution:** Modified the script using the `vi` editor to hardcode a verified Amazon Machine Image ID compatible with the local region, ensuring a successful `RunInstances` operation.
+
+* **Issue #2: Connectivity and Security Group Validation**
+  * **Diagnosis:** The EC2 instance reached a 'Running' state, but the web application remained unreachable (Timeout).
+  * **Validation:** Conducted a port scan via `nmap -Pn <public-ip>` which confirmed that TCP Port 80 was filtered/closed.
+  * **Resolution:** Executed the `authorize-security-group-ingress` CLI command to programmatically open Port 80, enabling public HTTP access to the Café application.
 
 ### 3. Log Verification
 * Performed real-time log analysis using `sudo tail -f /var/log/cloud-init-output.log`.
