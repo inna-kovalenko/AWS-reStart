@@ -29,6 +29,10 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 
   * **Resolution:** Modified the script using the `vi` editor to hardcode a verified Amazon Machine Image ID compatible with the local region, ensuring a successful `RunInstances` operation.
 
+Completion of the step above:
+<img width="1920" height="750" alt="image" src="https://github.com/user-attachments/assets/47c3e943-7af2-4d2d-b0b8-e77bae5f16bb" />
+
+
 * **Issue #2: Connectivity and Security Group Validation**
   * **Diagnosis:** The EC2 instance reached a 'Running' state, but the web application remained unreachable (Timeout).
   * **Validation:** Conducted a port scan via `nmap -Pn <public-ip>` which confirmed that TCP Port 80 was filtered/closed.
