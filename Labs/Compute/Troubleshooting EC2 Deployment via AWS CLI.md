@@ -19,18 +19,14 @@ This lab involved the deployment of a functional LAMP Stack (Linux, Apache, Mari
 * Initialized the AWS CLI environment using `aws configure` to define regional parameters and output formats.
 
 ### 2. Script Debugging and Logic Correction
-The deployment script `create-lamp-instance-v2.sh` was audited and modified to resolve the following blockers:
 
-* **Issue #1: Dynamic AMI Retrieval Failure**
-  * **Diagnosis:** The script utilized an AWS Systems Manager (SSM) parameter to fetch the latest AMI, which returned an `InvalidAMIID.NotFound` error in the current region.
+* **Issue #1: Invalid AMI ID Syntax**
+    * **Diagnosis:** The script failed with `InvalidAMIID.NotFound` because brackets `[]` were accidentally included in the `imageId` variable.
+    * **Resolution:** Used a `cat <<EOF` (Heredoc) to completely overwrite `create-lamp-instance-v2.sh` with clean variables, ensuring the `imageId` was assigned as a pure string.
+* **Current Status:** Security group `sg-027776299600c1a3a` successfully created; awaiting instance launch confirmation.
 
 This shows the **AWS CLI** environment with congigured parameters & the error message after running the above command:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac6737c8-f866-4108-90fd-4ce0cf4b007c" />
-
-  * **Resolution:** Modified the script using the `vi` editor to hardcode a verified Amazon Machine Image ID compatible with the local region, ensuring a successful `RunInstances` operation.
-
-Completion of the step above:
-<img width="1920" height="750" alt="image" src="https://github.com/user-attachments/assets/47c3e943-7af2-4d2d-b0b8-e77bae5f16bb" />
 
 ### Technical Evidence: CLI Troubleshooting Flow
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/04318ff6-2aa1-4590-b609-df0d40ebc8c3" />
