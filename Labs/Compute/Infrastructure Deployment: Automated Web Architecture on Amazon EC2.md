@@ -21,12 +21,9 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
 
 > The instance was provisioned in a Public Subnet with a Public IPv4 address (18.236.124.24) and an attached Security Group configured to handle both web traffic and remote management.
 
-### 2. Automated Provisioning (Bootstrap)
-To eliminate manual configuration drift, I utilized a bash-based **Bootstrap Script** within the EC2 metadata (User Data). This automated:
-*   Yum repository updates and **Apache (httpd)** binaries installation.
-*   Systemd service persistence across reboots.
-*   Recursive permission hardening (`chmod 2775`) and ownership assignment for the `/var/www` directory to facilitate secure content deployment.
+### 2. Post-Deployment Configuration & Content Delivery
 
+To finalize the web service, I accessed the instance via EC2 Instance Connect and utilized a Heredoc (EOF) to programmatically generate the projects.html file. This CLI-based approach ensured the landing page was deployed to the Apache root directory (/var/www/html/) with precision and speed, avoiding the overhead of manual text editors.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42d57820-3cc6-4a05-a98f-5ade9d065bc0" />
 
