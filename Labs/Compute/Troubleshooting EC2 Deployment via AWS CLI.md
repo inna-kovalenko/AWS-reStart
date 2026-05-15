@@ -40,9 +40,19 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
   * **Validation:** Conducted a port scan via `nmap -Pn <public-ip>` which confirmed that TCP Port 80 was filtered/closed.
   * **Resolution:** Executed the `authorize-security-group-ingress` CLI command to programmatically open Port 80, enabling public HTTP access to the Café application.
 
-### 3. Log Verification
-* Performed real-time log analysis using `sudo tail -f /var/log/cloud-init-output.log`.
-* Verified that the cloud-init service successfully initialized the MariaDB database and extracted application files without errors.
+### 3. Identity and Security Troubleshooting
+
+* **Issue #3: SSH Authentication Failure**
+    * **Diagnosis:** Terminal reported `Identity file vockey.pem not accessible`.
+    * **Resolution:** Initialized a 4096-bit RSA key pair via `ssh-keygen` to establish a valid local identity.
+* **Issue #4: CLI Parameter & Syntax Errors**
+    * **Diagnosis:** Command failed due to missing `--availability-zone` and shell quoting errors (`unexpected token '<'`).
+    * **Resolution:** Corrected script syntax and provided mandatory regional parameters for AWS CLI v2.
+* **Issue #5: IAM Permission Constraints**
+    * **Diagnosis:** Execution blocked by `AccessDeniedException` during `SendSSHPublicKey`.
+    * **Root Cause:** Intentional "Least Privilege" restrictions on the `awsstudent` role preventing remote instance modification.
+      
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc6e796a-ff06-4995-bd08-342d0cf6066f" />
 
 ---
 
@@ -50,13 +60,14 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 
 | Key Metric | Status | Verification Method |
 | :--- | :--- | :--- |
-| **Application Reachability** | Successful | Verified via `http://<public-ip>/cafe` |
-| **Database Connectivity** | Functional | Confirmed through Order History submission |
-| **Infrastructure Compliance** | Verified | Security Group rules validated for Port 22 and 80 |
+| **Instance Provisioning** | **Successful** | Verified via `aws ec2 describe-instances` |
+| **Network Security** | **Verified** | Security Group `sg-027776299600c1a3a` successfully active |
+| **IAM Integrity** | **Restricted** | Identified intentional "Least Privilege" blocks in lab environment |
 
 ---
 
 ## Core Competencies Demonstrated
-* **AWS CLI Proficiency:** Full lifecycle management of EC2 and VPC resources via terminal.
-* **Linux System Administration:** Proficient use of diagnostic tools including `vi`, `tail`, and `nmap`.
-* **Technical Troubleshooting:** Systematic isolation and resolution of deployment failures and networking misconfigurations.
+
+* **AWS CLI Orchestration:** Managed full EC2 and VPC lifecycles via terminal.
+* **Security Auditing:** Identified and documented IAM policy gaps and authentication blockers.
+* **Technical Resilience:** Systematic resolution of script logic and connectivity failures.
