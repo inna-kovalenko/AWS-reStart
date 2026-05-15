@@ -8,7 +8,8 @@ This lab demonstrates the implementation of a scalable web tier within a custom-
 ## Technical Architecture & Implementation
 
 ### 1. Networking & Security Perimeter
-*   **VPC Design:** Provisioned a dedicated VPC environment with a custom IPv4 CIDR block.
+*   **VPC Design:** Provisioned a dedicated VPC in us-west-2 (Oregon) with a custom IPv4 CIDR block and an Internet Gateway for external connectivity.
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d4d8c0d-ce09-4535-87e1-cc290244f4bf" />
 
 *   **Routing Logic:** Integrated an **Internet Gateway** and updated **Route Tables** to enable bidirectional traffic for public-facing resources.
@@ -36,8 +37,9 @@ To eliminate manual configuration drift, I utilized a bash-based **Bootstrap Scr
 *   **Storage:** Provisioned an **EBS Root Volume (gp2)**, balancing IOPS and throughput for consistent boot performance and application responsiveness.
 
 ---
+## Final Project Outcome
 
-## Key Achievements
-*   **Zero-Touch Deployment:** Verified successful service initialization via **CloudWatch/System Logs** analysis.
-*   **End-to-End Connectivity:** Validated the full stack by deploying a production-ready HTML landing page accessible via the instance’s Elastic/Public IP.
-*   **Cloud Governance:** Adhered to AWS best practices for AMI selection and instance rightsizing.
+* **Website URL:** `http://18.236.124.24/projects.html`
+* **Success:** Verified the web server is live and correctly displaying the custom HTML content.
+* **Automation:** The bootstrap process successfully reduced manual configuration time to zero.
+
