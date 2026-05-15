@@ -32,6 +32,10 @@ This shows the **AWS CLI** environment with congigured parameters & the error me
 Completion of the step above:
 <img width="1920" height="750" alt="image" src="https://github.com/user-attachments/assets/47c3e943-7af2-4d2d-b0b8-e77bae5f16bb" />
 
+### Technical Evidence: CLI Troubleshooting Flow
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/04318ff6-2aa1-4590-b609-df0d40ebc8c3" />
+*Caption: Terminal log demonstrating the identification of InvalidAMIID errors and the subsequent resource cleanup process.*
+
 
 * **Issue #2: Connectivity and Security Group Validation**
   * **Diagnosis:** The EC2 instance reached a 'Running' state, but the web application remained unreachable (Timeout).
