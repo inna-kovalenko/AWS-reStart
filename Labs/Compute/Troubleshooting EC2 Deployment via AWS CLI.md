@@ -37,6 +37,7 @@ Completion of the step above:
 
 > Terminal log demonstrating the identification of InvalidAMIID errors and the subsequent resource cleanup process.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/39b1748c-a5a5-4e5f-9378-159e993312ab" />
 
 * **Issue #2: Connectivity and Security Group Validation**
   * **Diagnosis:** The EC2 instance reached a 'Running' state, but the web application remained unreachable (Timeout).
