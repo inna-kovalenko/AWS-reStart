@@ -23,6 +23,10 @@ The deployment script `create-lamp-instance-v2.sh` was audited and modified to r
 
 * **Issue #1: Dynamic AMI Retrieval Failure**
   * **Diagnosis:** The script utilized an AWS Systems Manager (SSM) parameter to fetch the latest AMI, which returned an `InvalidAMIID.NotFound` error in the current region.
+
+This shows the **AWS CLI** environment with congigured parameters & the error message after running the above command:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac6737c8-f866-4108-90fd-4ce0cf4b007c" />
+
   * **Resolution:** Modified the script using the `vi` editor to hardcode a verified Amazon Machine Image ID compatible with the local region, ensuring a successful `RunInstances` operation.
 
 * **Issue #2: Connectivity and Security Group Validation**
